@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/section</content-type>
+	<display-template>/templates/web/components/section.ftl</display-template>
+	<no-template-required></no-template-required>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>f5c9</objectGroupId>
+	<objectId>f5c946b2-948a-5393-a946-6aab53a9619d</objectId>
+	<file-name>01-blog-hero.xml</file-name>
+	<folder-name></folder-name>
+	<internal-name><![CDATA[blog — Practical ideas for building and testing software with AI]]></internal-name>
+	<createdDate>2026-10-05T14:01:03.000Z</createdDate>
+	<createdDate_dt>2026-10-05T14:01:03.000Z</createdDate_dt>
+	<lastModifiedDate>2026-10-05T14:01:03.000Z</lastModifiedDate>
+	<lastModifiedDate_dt>2026-10-05T14:01:03.000Z</lastModifiedDate_dt>
+	<layout_s><![CDATA[html]]></layout_s>
+	<title_t><![CDATA[Practical ideas for building and testing software with AI]]></title_t>
+	<subtitle_t><![CDATA[]]></subtitle_t>
+	<linkLabel_t><![CDATA[]]></linkLabel_t>
+	<linkUrl_s><![CDATA[]]></linkUrl_s>
+	<markup_html><![CDATA[<section class="blog-hero">
+    <div class="blog-hero-inner">
+      <p class="blog-hero-eyebrow">Articles &amp; Insights</p>
+      <h1 class="blog-hero-title">Practical ideas for<br>building and testing software with AI</h1>
+      <p class="blog-hero-sub">No fluff, no jargon. We write about AI-enhanced development, AI agents, automated QA, and the engineering judgment required to ship reliable software.</p>
+    </div>
+  </section>]]></markup_html>
+</component>

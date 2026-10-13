@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page>
+	<content-type>/page/landing</content-type>
+	<display-template>/templates/web/pages/landing.ftl</display-template>
+	<no-template-required></no-template-required>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>d33f</objectGroupId>
+	<objectId>d33fb7c4-5809-5503-baa9-280e1e0c58a3</objectId>
+	<file-name>index.xml</file-name>
+	<folder-name>software</folder-name>
+	<internal-name><![CDATA[What Kind of Software We Build]]></internal-name>
+	<placeInNav>false</placeInNav>
+	<disabled>false</disabled>
+	<createdDate>2026-10-05T14:01:03.000Z</createdDate>
+	<createdDate_dt>2026-10-05T14:01:03.000Z</createdDate_dt>
+	<lastModifiedDate>2026-10-05T14:01:03.000Z</lastModifiedDate>
+	<lastModifiedDate_dt>2026-10-05T14:01:03.000Z</lastModifiedDate_dt>
+	<navLabel><![CDATA[Software]]></navLabel>
+	<title_t><![CDATA[What Kind of Software We Build | CloudZoom Solutions Inc.]]></title_t>
+	<seoDescription_t><![CDATA[CloudZoom builds custom software including IoT platforms, microservices, decision dashboards, ETL pipelines, portals, integrations, and QA automation systems.]]></seoDescription_t>
+	<navKey_s><![CDATA[software]]></navKey_s>
+	<stylesheet_s><![CDATA[/static-assets/app/css/software.css]]></stylesheet_s>
+	<headLinks_html><![CDATA[<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Manrope:wght@400;500;600;700&display=swap">
+  <link rel="stylesheet" href="https://unpkg.com/@phosphor-icons/web/src/regular/style.css">]]></headLinks_html>
+	<footerMode_s><![CDATA[marketing]]></footerMode_s>
+	<footerTagline_t><![CDATA[Boston-based. Senior-led. AI-enhanced software and QA.]]></footerTagline_t>
+	<footerLinkedIn_s><![CDATA[false]]></footerLinkedIn_s>
+	<footerLegal_s><![CDATA[false]]></footerLegal_s>
+	<sections_o item-list="true">
+		<item>
+			<key>/site/components/sections/software/01-hero.xml</key>
+			<value><![CDATA[software — The concrete systems behind custom software.]]></value>
+			<include>/site/components/sections/software/01-hero.xml</include>
+			<disableFlattening>false</disableFlattening>
+		</item>
+		<item>
+			<key>/site/components/sections/software/02-software-section.xml</key>
+			<value><![CDATA[software — Built around the work your team actually does.]]></value>
+			<include>/site/components/sections/software/02-software-section.xml</include>
+			<disableFlattening>false</disableFlattening>
+		</item>
+		<item>
+			<key>/site/components/sections/software/03-fit-section.xml</key>
+			<value><![CDATA[software — Good Fit]]></value>
+			<include>/site/components/sections/software/03-fit-section.xml</include>
+			<disableFlattening>false</disableFlattening>
+		</item>
+		<item>
+			<key>/site/components/sections/software/04-process-section.xml</key>
+			<value><![CDATA[software — We start with the workflow, not the buzzwords.]]></value>
+			<include>/site/components/sections/software/04-process-section.xml</include>
+			<disableFlattening>false</disableFlattening>
+		</item>
+		<item>
+			<key>/site/components/sections/software/05-cta-section.xml</key>
+			<value><![CDATA[software — Have a workflow that needs custom software?]]></value>
+			<include>/site/components/sections/software/05-cta-section.xml</include>
+			<disableFlattening>false</disableFlattening>
+		</item>
+	</sections_o>
+</page>

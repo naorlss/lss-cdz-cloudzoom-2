@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/section</content-type>
+	<display-template>/templates/web/components/section.ftl</display-template>
+	<no-template-required></no-template-required>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>0f94</objectGroupId>
+	<objectId>0f94facb-3d60-509d-ac63-c1b99d401073</objectId>
+	<file-name>07-final-cta.xml</file-name>
+	<folder-name></folder-name>
+	<internal-name><![CDATA[home — Ready to Build or Test Something Important?]]></internal-name>
+	<createdDate>2026-10-05T14:01:03.000Z</createdDate>
+	<createdDate_dt>2026-10-05T14:01:03.000Z</createdDate_dt>
+	<lastModifiedDate>2026-10-05T14:01:03.000Z</lastModifiedDate>
+	<lastModifiedDate_dt>2026-10-05T14:01:03.000Z</lastModifiedDate_dt>
+	<layout_s><![CDATA[html]]></layout_s>
+	<title_t><![CDATA[Ready to Build or Test Something Important?]]></title_t>
+	<subtitle_t><![CDATA[]]></subtitle_t>
+	<linkLabel_t><![CDATA[]]></linkLabel_t>
+	<linkUrl_s><![CDATA[]]></linkUrl_s>
+	<markup_html><![CDATA[<section class="final-cta">
+    <div class="final-cta-inner">
+      <h2 class="final-cta-heading">Ready to Build or Test Something Important?</h2>
+      <p class="final-cta-subtext">Book a free 30-minute strategy call. We can talk through a custom software idea, an AI QA pilot, or the release risks keeping you up at night.</p>
+      
+      <a href="/contact" class="cta-button" style="font-size: 1.125rem; padding: 1rem 2rem;">SCHEDULE YOUR STRATEGY CALL <i class="ph ph-arrow-right"></i></a>
+      
+      <div class="final-cta-contact">
+        <a href="tel:6179213657">617.921.3657</a> | <a href="mailto:bill@cloudzoom.dev">bill@cloudzoom.dev</a>
+      </div>
+    </div>
+  </section>]]></markup_html>
+</component>

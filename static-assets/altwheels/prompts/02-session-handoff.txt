@@ -1,0 +1,11 @@
+Create a DRAFT Session Handoff of no more than 400 words for this work. Do not silently save it to persistent memory or overwrite a file.
+Include:
+1. Topic, date and the task we are trying to complete.
+2. Supported facts with source document/record and as-of date. Separately label statements supplied by a person and assumptions that have not been checked.
+3. Decisions we actually made and their rationale; distinguish proposals from approvals.
+4. Important definitions and constraints, referring to the current Fleet Brief/Data Guide instead of duplicating them.
+5. Open questions, missing information and the next three actions. List owners only when known.
+6. Changes to previous decisions; mark what this draft would supersede.
+7. Facts that may be stale and the source that must be checked next time.
+8. Sensitive information that should not be retained, without repeating its contents.
+Finish with an approval checklist: verify facts, remove sensitive content, set a review date, approve a version, save it in the authorized workspace. Keep this a draft until a person approves it. If asked to save and no save tool exists, provide the text and state that it has not been saved.

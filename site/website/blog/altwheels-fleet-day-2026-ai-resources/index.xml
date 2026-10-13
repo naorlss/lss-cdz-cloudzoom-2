@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page>
+	<content-type>/page/article</content-type>
+	<display-template>/templates/web/pages/article.ftl</display-template>
+	<no-template-required></no-template-required>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>5df5</objectGroupId>
+	<objectId>5df573c5-938c-5c98-9dda-df94614daba7</objectId>
+	<file-name>index.xml</file-name>
+	<folder-name>altwheels-fleet-day-2026-ai-resources</folder-name>
+	<internal-name><![CDATA[CloudZoom at AltWheels Fleet Day 2026: Practical AI for Fleet Teams]]></internal-name>
+	<placeInNav>false</placeInNav>
+	<disabled>false</disabled>
+	<createdDate>2026-10-05T14:01:03.000Z</createdDate>
+	<createdDate_dt>2026-10-05T14:01:03.000Z</createdDate_dt>
+	<lastModifiedDate>2026-10-05T14:01:03.000Z</lastModifiedDate>
+	<lastModifiedDate_dt>2026-10-05T14:01:03.000Z</lastModifiedDate_dt>
+	<navLabel><![CDATA[CloudZoom at AltWheels Fleet Day 2026: Practical AI for Fleet Teams]]></navLabel>
+	<title_t><![CDATA[CloudZoom at AltWheels Fleet Day 2026: Practical AI for Fleet Teams | CloudZoom Solutions]]></title_t>
+	<headline_t><![CDATA[CloudZoom at AltWheels Fleet Day 2026: Practical AI for Fleet Teams]]></headline_t>
+	<seoDescription_t><![CDATA[Explore CloudZoom’s AltWheels Fleet Day talk and download the fleet AI action plan, reusable prompts, templates and fleet-tool directory.]]></seoDescription_t>
+	<navKey_s><![CDATA[blog]]></navKey_s>
+	<stylesheet_s><![CDATA[/static-assets/app/css/article-altwheels-fleet-day-2026-ai-resources.css]]></stylesheet_s>
+	<headLinks_html><![CDATA[<link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/regular/style.css">]]></headLinks_html>
+	<author_t><![CDATA[Bill Scott · CloudZoom Solutions]]></author_t>
+	<dateLabel_t><![CDATA[]]></dateLabel_t>
+	<readTime_t><![CDATA[4 min read]]></readTime_t>
+	<listRead_t><![CDATA[· 4 min read]]></listRead_t>
+	<wrap_s><![CDATA[main]]></wrap_s>
+	<sortOrder_s><![CDATA[01]]></sortOrder_s>
+	<featured_s><![CDATA[true]]></featured_s>
+	<showOnHome_s><![CDATA[true]]></showOnHome_s>
+	<homeOrder_s><![CDATA[01]]></homeOrder_s>
+	<visualLabel_t><![CDATA[AltWheels Fleet Day]]></visualLabel_t>
+	<icon_s><![CDATA[ph ph-truck]]></icon_s>
+	<listExcerpt_t><![CDATA[A practical starting point for fleet AI, with a printable action plan, reusable prompts, templates and a directory of fleet tools.]]></listExcerpt_t>
+	<homeTag_t><![CDATA[AltWheels · Fleet AI]]></homeTag_t>
+	<homeIcon_s><![CDATA[ph ph-truck]]></homeIcon_s>
+	<homeMeta_t><![CDATA[October 5, 2026 · 4 min read]]></homeMeta_t>
+	<homeExcerpt_t><![CDATA[Explore the event and get the action plan, reusable prompts, templates and fleet-tool directory.]]></homeExcerpt_t>
+	<homeCta_t><![CDATA[Read article & get resources]]></homeCta_t>
+	<tags_o item-list="true">
+		<item>
+			<label_t><![CDATA[AltWheels]]></label_t>
+		</item>
+		<item>
+			<label_t><![CDATA[Fleet AI]]></label_t>
+		</item>
+	</tags_o>
+	<listTags_o item-list="true">
+		<item>
+			<label_t><![CDATA[Fleet AI]]></label_t>
+		</item>
+	</listTags_o>
+	<listDate_t><![CDATA[October 5, 2026]]></listDate_t>
+	<body_html><![CDATA[<article class="article-body">
+    <p><a href="https://www.altwheels.org/2026fleetday">AltWheels Fleet Day 2026</a> brings fleet managers, transportation leaders and technology providers together on Monday, October 5, at the Four Points by Sheraton in Norwood, Massachusetts. The event combines expert discussions, vehicle displays and Ride &amp; Drive opportunities around cleaner, more efficient transportation.</p>
+    <p>Visit <a href="https://www.altwheels.org/">www.altwheels.org</a> for the event’s agenda, organizers and other clean transportation resources.</p>
+    <p>For the event’s Lunch With Experts program, CloudZoom’s <strong>“What can AI do for your fleet?”</strong> resources focus on a practical question: how can a fleet team use AI to make everyday work more useful, repeatable and easier to check?</p>
+    <div class="callout"><p><strong>Get the materials:</strong> The <a href="/altwheels">AltWheels resource library</a> includes the printable action plan, nine reusable prompts, three working templates, an example skill and a fleet-tool directory. The QR code on the handout leads to that same page.</p></div>
+
+    <h2>Four ways to put AI to work</h2>
+    <p>The talk uses four patterns to help teams choose the right kind of assistance. They are different uses, rather than stages every organization must pass through.</p>
+    <ul>
+      <li><strong>Explore:</strong> ask questions of approved reports, compare cost or utilization patterns, and identify what needs a closer look.</li>
+      <li><strong>Build:</strong> define a narrow, repeatable tool such as an importer, an exception form or a calculator based on approved rules. The finished tool may not need AI at runtime.</li>
+      <li><strong>Automate:</strong> draft a recurring briefing or follow-up, with defined permissions and review before consequential actions.</li>
+      <li><strong>Guide:</strong> help a person follow the current approved procedure, collect the required information and escalate exceptions.</li>
+    </ul>
+
+    <p>These are starting points for pilots. They are not claims of proven savings or substitutes for the people responsible for fleet operations.</p>
+
+    <h2>Better context makes a better starting point</h2>
+    <p>A useful fleet question depends on definitions. Does utilization mean miles, engine hours or days available? Should emergency reserves be compared with vehicles in daily service? Which reporting period and cost categories belong in the calculation?</p>
+    <p>The resource pack includes a Fleet Brief for stable context, a Fleet Data Guide for definitions and a Session Handoff for decisions and next actions. The working cycle is simple: summarize, review, save and reload. Changing operational facts still need a fresh check at their source.</p>
+
+    <h2>Evaluate a workflow before adding another tool</h2>
+    <p>One prompt examines software subscriptions: licenses, actual usage, features, overlapping capabilities, integrations and renewal dates. It asks teams to compare retaining, downgrading, consolidating or building a narrow replacement.</p>
+    <p>That comparison needs the whole cost picture, including migration, training, hosting, security, maintenance and support. Low login counts alone do not prove a service is unused, and avoided subscription fees are not the same as net savings.</p>
+
+    <h2>Start small and verify the result</h2>
+    <p>Choose one approved service, one bounded task and a small set of authorized information. Ask for source records, reporting dates, missing inputs and explicit calculations. Test known answers and exceptions, then measure the effort needed to review the result.</p>
+    <p>Keep vehicle-release decisions, safety-critical maintenance and compliance judgments with qualified people and approved procedures. A prompt does not create an access control or make an answer reliable.</p>
+
+    <h2>Take the resources back to your team</h2>
+    <ul>
+      <li><a href="/static-assets/altwheels/downloads/Fleet_AI_Action_Plan.pdf">Printable two-page action plan with QR codes</a></li>
+      <li><a href="/altwheels#prompts">Nine copy-ready prompts</a>, including SaaS assessment and answer verification</li>
+      <li><a href="/altwheels#templates">Fleet Brief, Session Handoff and Fleet Data Guide templates</a></li>
+      <li><a href="/altwheels/fleet-tools">Fleet-tool directory</a> with official sources and questions to assess fit</li>
+      <li><a href="/altwheels/references">References and further reading</a></li>
+    </ul>
+    <p>Bring one useful question, a source you can check and a clear definition of a good result. That is enough to begin a practical experiment.</p>
+    <div class="article-cta"><h3>Explore the AltWheels resource library</h3><p>AI, Data, Software, IoT<br>Smarter systems. Brighter possibilities.</p><a href="/altwheels">GET THE ACTION PLAN AND RESOURCES →</a></div>
+  </article>]]></body_html>
+	<footer_o item-list="true">
+		<item>
+			<key>/site/components/footers/article-footer.xml</key>
+			<value><![CDATA[Article Footer]]></value>
+			<include>/site/components/footers/article-footer.xml</include>
+			<disableFlattening>false</disableFlattening>
+		</item>
+	</footer_o>
+</page>

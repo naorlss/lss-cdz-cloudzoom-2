@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page>
+	<content-type>/page/landing</content-type>
+	<display-template>/templates/web/pages/landing.ftl</display-template>
+	<no-template-required></no-template-required>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>52e2</objectGroupId>
+	<objectId>52e2521b-47bf-5305-9d4c-a6eeca2199d3</objectId>
+	<file-name>index.xml</file-name>
+	<folder-name>services</folder-name>
+	<internal-name><![CDATA[Services]]></internal-name>
+	<placeInNav>false</placeInNav>
+	<disabled>false</disabled>
+	<createdDate>2026-10-05T14:01:03.000Z</createdDate>
+	<createdDate_dt>2026-10-05T14:01:03.000Z</createdDate_dt>
+	<lastModifiedDate>2026-10-05T14:01:03.000Z</lastModifiedDate>
+	<lastModifiedDate_dt>2026-10-05T14:01:03.000Z</lastModifiedDate_dt>
+	<navLabel><![CDATA[Services]]></navLabel>
+	<title_t><![CDATA[Services | AI-Enhanced Software Development & Automated QA]]></title_t>
+	<seoDescription_t><![CDATA[CloudZoom offers two focused services: AI-enhanced custom software development and automated QA with AI agents for web apps and business workflows.]]></seoDescription_t>
+	<navKey_s><![CDATA[services]]></navKey_s>
+	<stylesheet_s><![CDATA[/static-assets/app/css/services.css]]></stylesheet_s>
+	<headLinks_html><![CDATA[<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Manrope:wght@400;500;600;700&display=swap">
+  <link rel="stylesheet" href="https://unpkg.com/@phosphor-icons/web/src/regular/style.css">]]></headLinks_html>
+	<footerMode_s><![CDATA[marketing]]></footerMode_s>
+	<footerTagline_t><![CDATA[Boston-based. Senior-led. AI-accelerated.]]></footerTagline_t>
+	<footerLinkedIn_s><![CDATA[true]]></footerLinkedIn_s>
+	<footerLegal_s><![CDATA[true]]></footerLegal_s>
+	<sections_o item-list="true">
+		<item>
+			<key>/site/components/sections/services/01-hero.xml</key>
+			<value><![CDATA[services — Two practical ways to use AI in your software.]]></value>
+			<include>/site/components/sections/services/01-hero.xml</include>
+			<disableFlattening>false</disableFlattening>
+		</item>
+		<item>
+			<key>/site/components/sections/services/02-services-section.xml</key>
+			<value><![CDATA[services — How we help]]></value>
+			<include>/site/components/sections/services/02-services-section.xml</include>
+			<disableFlattening>false</disableFlattening>
+		</item>
+		<item>
+			<key>/site/components/sections/services/03-ai-banner.xml</key>
+			<value><![CDATA[services — Why this is the practical AI play for software teams.]]></value>
+			<include>/site/components/sections/services/03-ai-banner.xml</include>
+			<disableFlattening>false</disableFlattening>
+		</item>
+		<item>
+			<key>/site/components/sections/services/04-cta-section.xml</key>
+			<value><![CDATA[services — Need to build, test, or de-risk a release?]]></value>
+			<include>/site/components/sections/services/04-cta-section.xml</include>
+			<disableFlattening>false</disableFlattening>
+		</item>
+	</sections_o>
+</page>

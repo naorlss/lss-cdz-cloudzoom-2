@@ -1,0 +1,17 @@
+<svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">CloudZoom logo mark</title>
+  <desc id="desc">Gradient blue square with a white cloud upload icon, based on the CloudZoom website logo.</desc>
+  <defs>
+    <linearGradient id="cloudzoom-gradient" x1="32" y1="24" x2="224" y2="232" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0EA5E9"/>
+      <stop offset="1" stop-color="#06B6D4"/>
+    </linearGradient>
+    <filter id="soft-shadow" x="0" y="0" width="256" height="256" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="12" stdDeviation="14" flood-color="#0D2545" flood-opacity="0.18"/>
+    </filter>
+  </defs>
+  <rect x="24" y="24" width="208" height="208" rx="28" fill="url(#cloudzoom-gradient)" filter="url(#soft-shadow)"/>
+  <path d="M82 158.5C65.7 158.5 52.5 145.3 52.5 129C52.5 113.3 64.8 100.5 80.2 99.6C86 80.4 103.8 66.5 124.8 66.5C148.8 66.5 168.6 84.5 171.5 107.7H174C190.3 107.7 203.5 120.9 203.5 137.2C203.5 153.4 190.3 166.7 174 166.7H155.8" stroke="white" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M128 181.5V119.5" stroke="white" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M103.5 144L128 119.5L152.5 144" stroke="white" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

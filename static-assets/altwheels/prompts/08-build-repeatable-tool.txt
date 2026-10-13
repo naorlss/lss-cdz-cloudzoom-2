@@ -1,0 +1,6 @@
+Help define a small, repeatable fleet software tool for this problem: [describe the task].
+Start with the actual users, current workflow, approved sample inputs, expected outputs and business rules. Identify essential missing information. Separate must-have behavior from optional ideas.
+Prefer ordinary tested code for formulas, validation and fixed rules. Identify whether any runtime model call is genuinely necessary; using AI to write the code does not require adding AI to the finished tool.
+Produce a brief specification and acceptance tests covering valid cases, missing data, duplicates, unmatched IDs, invalid dates/units, permissions and failure recovery. Include import/export format, deployment environment, support owner and rollback.
+For a SaaS replacement, preserve the necessary workflow, integration and reliability requirements. Include migration and support costs rather than comparing only subscription fees.
+Do not touch production, install dependencies or spend money without authorization. Label generated code and unrun tests accurately. A developer and process owner must review the implementation and test evidence before release.

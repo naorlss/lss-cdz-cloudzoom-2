@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/section</content-type>
+	<display-template>/templates/web/components/section.ftl</display-template>
+	<no-template-required></no-template-required>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>3965</objectGroupId>
+	<objectId>39658c7b-ab6e-5383-a0d1-d83d008f9e3d</objectId>
+	<file-name>02-story-section.xml</file-name>
+	<folder-name></folder-name>
+	<internal-name><![CDATA[about — OUR MISSION]]></internal-name>
+	<createdDate>2026-10-05T14:01:03.000Z</createdDate>
+	<createdDate_dt>2026-10-05T14:01:03.000Z</createdDate_dt>
+	<lastModifiedDate>2026-10-05T14:01:03.000Z</lastModifiedDate>
+	<lastModifiedDate_dt>2026-10-05T14:01:03.000Z</lastModifiedDate_dt>
+	<layout_s><![CDATA[html]]></layout_s>
+	<title_t><![CDATA[OUR MISSION]]></title_t>
+	<subtitle_t><![CDATA[]]></subtitle_t>
+	<linkLabel_t><![CDATA[]]></linkLabel_t>
+	<linkUrl_s><![CDATA[]]></linkUrl_s>
+	<markup_html><![CDATA[<section class="story-section">
+    <div class="story-section-inner">
+      <h2 class="story-heading">OUR MISSION</h2>
+      <div class="story-content">
+        <p>AI is changing how software gets built, but it does not remove the need for careful architecture, clear scope, readable code, and disciplined testing. CloudZoom exists to make that combination practical for real businesses.</p>
+        <p>We focus on two services: custom software development enhanced by AI tools, and automated QA using AI agents that test applications like real users. One helps you ship useful software faster. The other helps you catch problems before customers do.</p>
+        <p>Based in Boston and working with clients across New England, we combine 20+ years of technical experience with a simple belief: AI should support good engineering judgment, not replace it.</p>
+      </div>
+      <div class="stats-block">
+        <div class="stat-item">
+          <div class="stat-value">20+ YEARS</div>
+          <div class="stat-label">BUILDING SOFTWARE</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-value">AI-ASSISTED</div>
+          <div class="stat-label">DELIVERY</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-value">AGENT QA</div>
+          <div class="stat-label">RELEASE CONFIDENCE</div>
+        </div>
+      </div>
+    </div>
+  </section>]]></markup_html>
+</component>

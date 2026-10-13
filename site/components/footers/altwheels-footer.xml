@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/footer</content-type>
+	<display-template>/templates/web/components/footer.ftl</display-template>
+	<no-template-required></no-template-required>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>f6b0</objectGroupId>
+	<objectId>f6b0325b-b054-5a7a-88f6-fa2428c5eb0a</objectId>
+	<file-name>altwheels-footer.xml</file-name>
+	<folder-name></folder-name>
+	<internal-name><![CDATA[AltWheels Footer]]></internal-name>
+	<createdDate>2026-10-05T14:01:03.000Z</createdDate>
+	<createdDate_dt>2026-10-05T14:01:03.000Z</createdDate_dt>
+	<lastModifiedDate>2026-10-05T14:01:03.000Z</lastModifiedDate>
+	<lastModifiedDate_dt>2026-10-05T14:01:03.000Z</lastModifiedDate_dt>
+	<variant_s><![CDATA[altwheels]]></variant_s>
+	<brand_t><![CDATA[CloudZoom Solutions]]></brand_t>
+	<tagline_t><![CDATA[Smarter systems. Brighter possibilities.]]></tagline_t>
+	<phone_t><![CDATA[617.921.3657]]></phone_t>
+	<phoneUrl_s><![CDATA[tel:6179213657]]></phoneUrl_s>
+	<email_t><![CDATA[bill@cloudzoom.dev]]></email_t>
+	<linkedinLabel_t><![CDATA[]]></linkedinLabel_t>
+	<linkedinUrl_s><![CDATA[]]></linkedinUrl_s>
+	<copyright_t><![CDATA[© 2026 CloudZoom Solutions Inc.]]></copyright_t>
+	<showLinkedIn_s><![CDATA[false]]></showLinkedIn_s>
+	<showLegal_s><![CDATA[true]]></showLegal_s>
+	<nav_o item-list="true">
+	</nav_o>
+	<connect_o item-list="true">
+	</connect_o>
+</component>

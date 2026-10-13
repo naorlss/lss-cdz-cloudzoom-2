@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page>
+	<content-type>/page/article</content-type>
+	<display-template>/templates/web/pages/article.ftl</display-template>
+	<no-template-required></no-template-required>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>750c</objectGroupId>
+	<objectId>750c0f6a-81ce-5cb1-a9f5-77b2b69cddf1</objectId>
+	<file-name>index.xml</file-name>
+	<folder-name>iot-for-small-business-costs-and-roi</folder-name>
+	<internal-name><![CDATA[IoT for Small Business: What It Actually Costs and What You Get Back]]></internal-name>
+	<placeInNav>false</placeInNav>
+	<disabled>false</disabled>
+	<createdDate>2026-10-05T14:01:03.000Z</createdDate>
+	<createdDate_dt>2026-10-05T14:01:03.000Z</createdDate_dt>
+	<lastModifiedDate>2026-10-05T14:01:03.000Z</lastModifiedDate>
+	<lastModifiedDate_dt>2026-10-05T14:01:03.000Z</lastModifiedDate_dt>
+	<navLabel><![CDATA[IoT for Small Business: What It Actually Costs and What You Get Back]]></navLabel>
+	<title_t><![CDATA[IoT for Small Business: What It Actually Costs and What You Get Back | CloudZoom Solutions]]></title_t>
+	<headline_t><![CDATA[IoT for Small Business: What It Actually Costs and What You Get Back]]></headline_t>
+	<seoDescription_t><![CDATA[Real project numbers: what it costs to connect a small fleet, warehouse, or school bus route with IoT sensors — and what the ROI looks like 12 months in.]]></seoDescription_t>
+	<navKey_s><![CDATA[blog]]></navKey_s>
+	<stylesheet_s><![CDATA[/static-assets/app/css/article-iot-for-small-business-costs-and-roi.css]]></stylesheet_s>
+	<headLinks_html><![CDATA[<link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/regular/style.css">]]></headLinks_html>
+	<author_t><![CDATA[Bill Scott]]></author_t>
+	<dateLabel_t><![CDATA[February 2026]]></dateLabel_t>
+	<readTime_t><![CDATA[· 6 min read]]></readTime_t>
+	<listRead_t><![CDATA[· 6 min read]]></listRead_t>
+	<wrap_s><![CDATA[]]></wrap_s>
+	<sortOrder_s><![CDATA[05]]></sortOrder_s>
+	<featured_s><![CDATA[false]]></featured_s>
+	<showOnHome_s><![CDATA[false]]></showOnHome_s>
+	<homeOrder_s><![CDATA[]]></homeOrder_s>
+	<visualLabel_t><![CDATA[IoT]]></visualLabel_t>
+	<icon_s><![CDATA[ph ph-broadcast]]></icon_s>
+	<listExcerpt_t><![CDATA[A practical breakdown of project cost, integration complexity, and ROI — the same questions every custom software project should answer before anyone starts writing code.]]></listExcerpt_t>
+	<homeTag_t><![CDATA[]]></homeTag_t>
+	<homeIcon_s><![CDATA[]]></homeIcon_s>
+	<homeMeta_t><![CDATA[]]></homeMeta_t>
+	<homeExcerpt_t><![CDATA[]]></homeExcerpt_t>
+	<homeCta_t><![CDATA[]]></homeCta_t>
+	<tags_o item-list="true">
+		<item>
+			<label_t><![CDATA[IoT]]></label_t>
+		</item>
+		<item>
+			<label_t><![CDATA[Operations]]></label_t>
+		</item>
+	</tags_o>
+	<listTags_o item-list="true">
+		<item>
+			<label_t><![CDATA[IoT]]></label_t>
+		</item>
+	</listTags_o>
+	<listDate_t><![CDATA[February 2026]]></listDate_t>
+	<body_html><![CDATA[<article class="article-body">
+
+    <p>Connected sensors, real-time dashboards, automated alerts &mdash; IoT sounds like an enterprise technology that requires an enterprise budget. Five years ago, that was mostly true. Today, the cost of hardware, connectivity, and cloud pipelines has dropped to a point where a 10-person operation can realistically deploy a production IoT system for what they used to spend on a part-time admin.</p>
+
+    <p>This article breaks down real numbers from projects we&rsquo;ve built, and a practical framework for deciding whether IoT is the right investment for your situation.</p>
+
+    <h2>Three scenarios worth looking at</h2>
+
+    <h3>Scenario 1: Fleet tracking for a small delivery or service operation</h3>
+    <p>A landscaping company, HVAC service provider, or small delivery operation with 5&ndash;15 vehicles. The problem: dispatch doesn&rsquo;t know where anyone is, routing is done by phone call, and fuel costs are a black box.</p>
+
+    <p>A basic GPS tracking system uses cellular-connected trackers (about $30&ndash;60 per unit), a cloud data pipeline to aggregate location, and a simple dashboard showing current positions and trip history. An alert fires if a vehicle sits idle for more than 20 minutes or leaves a geofenced area.</p>
+
+    <table class="cost-table">
+      <thead>
+        <tr><th>Item</th><th>One-time</th><th>Monthly</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Hardware (10 trackers)</td><td>$450</td><td>&mdash;</td></tr>
+        <tr><td>Cellular data per device</td><td>&mdash;</td><td>$5&ndash;8</td></tr>
+        <tr><td>Cloud pipeline + dashboard build</td><td>$4,500&ndash;7,000</td><td>&mdash;</td></tr>
+        <tr><td>Cloud hosting (Azure/AWS)</td><td>&mdash;</td><td>$40&ndash;80</td></tr>
+        <tr class="total"><td>Typical total (year 1)</td><td colspan="2">$8,000&ndash;12,000</td></tr>
+      </tbody>
+    </table>
+
+    <p>On the return side: a 10-vehicle fleet typically sees 8&ndash;12% fuel savings from improved routing and reduced idle time. At current diesel prices, that&rsquo;s $600&ndash;900/month for a mid-size operation &mdash; payback in under a year.</p>
+
+    <h3>Scenario 2: Equipment monitoring in a small manufacturing or warehouse setting</h3>
+    <p>A machine that fails unexpectedly costs far more than planned maintenance. Vibration sensors, temperature probes, and current monitors can detect the early signs of failure &mdash; a bearing starting to wear, a motor running hot, a conveyor belt slipping &mdash; before they become an emergency.</p>
+
+    <div class="callout">
+      <p><strong>From a recent project:</strong> A manufacturer was losing $8,000+ per unplanned downtime event, 3&ndash;4 times per year. We installed sensors on 4 critical machines and built an alert pipeline. Zero unplanned downtime in the 14 months since deployment. Maintenance costs down 40%.</p>
+    </div>
+
+    <p>Industrial-grade vibration and temperature sensors run $60&ndash;200 per unit depending on required precision. The cloud pipeline to ingest and analyze the data, plus an alerting layer that texts the floor manager when readings approach a threshold, typically adds $6,000&ndash;10,000 in build cost for a 4&ndash;8 machine setup.</p>
+
+    <h3>Scenario 3: Location &amp; notification systems for public-facing operations</h3>
+    <p>School bus routes, utility field crews, delivery windows, event staff &mdash; any operation where people are waiting on information they currently get by calling someone. The IoT layer tracks real-time location; the software layer translates that into timely, relevant notifications for the people who need them.</p>
+
+    <p>The hardware cost here is similar to fleet tracking. The value is in the notification logic: figuring out who to notify, when, with what message, through what channel. That&rsquo;s where the build investment goes, and it&rsquo;s where the operational ROI lives &mdash; in staff time saved answering inbound inquiries that the system now handles automatically.</p>
+
+    <hr class="article-divider">
+
+    <h2>The two questions that determine whether IoT is right for you</h2>
+
+    <p><strong>1. Is there a real cost attached to not having the information?</strong> Unplanned downtime, wasted fuel, staff time answering phone calls, a missed SLA that costs you a client &mdash; these are quantifiable. If you can put a number on the problem the sensor data solves, you can evaluate the investment rationally. If you&rsquo;re just interested in having a dashboard, the ROI math usually doesn&rsquo;t work.</p>
+
+    <p><strong>2. Can you act on the data?</strong> A sensor that tells you a machine is about to fail is only valuable if your team can respond to that alert faster than the failure happens. Data without a defined response process is just noise. The best IoT projects start with the action &mdash; what do we do differently when we have this information &mdash; and work backward to the hardware.</p>
+
+    <h2>What it takes to build it</h2>
+
+    <p>A production IoT system has four layers: hardware (sensors, connectivity), data ingestion (getting readings into the cloud reliably), processing and storage (cleaning, structuring, persisting the data), and application (dashboards, alerts, integrations with your other systems). Each layer is straightforward on its own; the complexity is in making them work together reliably over months and years, not just in a demo.</p>
+
+    <p>Total build costs for a small-to-mid IoT project typically range from $8,000 to $25,000 depending on hardware quantity, data complexity, and the sophistication of the application layer. Ongoing cloud infrastructure for a small system runs $50&ndash;200/month.</p>
+
+    <p>The projects that work well have a specific problem to solve, a defined measure of success, and an operator who&rsquo;s willing to spend two or three hours at the start making sure the sensor placement and alert thresholds are calibrated to reality. The projects that don&rsquo;t work well are the ones that start with &ldquo;we want to be data-driven.&rdquo;</p>
+
+    <div class="article-cta">
+      <h3>Have a specific operation in mind?</h3>
+      <p>We&rsquo;ll walk through your setup, identify the right sensors, and give you a realistic cost and ROI estimate &mdash; no commitment required.</p>
+      <a href="/contact">TALK THROUGH YOUR PROJECT <i class="ph ph-arrow-right"></i></a>
+    </div>
+
+  </article>]]></body_html>
+	<footer_o item-list="true">
+		<item>
+			<key>/site/components/footers/article-footer.xml</key>
+			<value><![CDATA[Article Footer]]></value>
+			<include>/site/components/footers/article-footer.xml</include>
+			<disableFlattening>false</disableFlattening>
+		</item>
+	</footer_o>
+</page>

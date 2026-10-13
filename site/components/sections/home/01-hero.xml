@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/section</content-type>
+	<display-template>/templates/web/components/section.ftl</display-template>
+	<no-template-required></no-template-required>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>c214</objectGroupId>
+	<objectId>c214faca-69d8-57aa-bc9d-1256d27070ff</objectId>
+	<file-name>01-hero.xml</file-name>
+	<folder-name></folder-name>
+	<internal-name><![CDATA[home — Custom software, built faster and tested smarter with AI.]]></internal-name>
+	<createdDate>2026-10-05T14:01:03.000Z</createdDate>
+	<createdDate_dt>2026-10-05T14:01:03.000Z</createdDate_dt>
+	<lastModifiedDate>2026-10-05T14:01:03.000Z</lastModifiedDate>
+	<lastModifiedDate_dt>2026-10-05T14:01:03.000Z</lastModifiedDate_dt>
+	<layout_s><![CDATA[html]]></layout_s>
+	<title_t><![CDATA[Custom software, built faster and tested smarter with AI.]]></title_t>
+	<subtitle_t><![CDATA[]]></subtitle_t>
+	<linkLabel_t><![CDATA[]]></linkLabel_t>
+	<linkUrl_s><![CDATA[]]></linkUrl_s>
+	<markup_html><![CDATA[<section class="hero">
+    <div class="hero-inner">
+      <div class="hero-content">
+        <h1>Custom software, built faster and tested smarter with AI.</h1>
+        <div class="accent-underline"></div>
+        <p class="hero-subtitle">CloudZoom helps businesses ship practical software without the drag of traditional development cycles. We use modern AI tools to accelerate design, coding, review, and documentation &mdash; then use AI QA agents to exercise the product the way real users do.</p>
+        
+        <div class="hero-cta-row">
+          <a href="/contact" class="cta-button">BOOK YOUR FREE 30-MIN STRATEGY CALL <i class="ph ph-arrow-right"></i></a>
+          <a href="/work" class="ghost-button">VIEW OUR WORK</a>
+        </div>
+
+        <div class="trust-chips">
+          <div class="trust-chip">
+            <i class="ph ph-check-circle"></i>
+            <span>Custom software</span>
+          </div>
+          <div class="trust-chip">
+            <i class="ph ph-check-circle"></i>
+            <span>AI-assisted delivery</span>
+          </div>
+          <div class="trust-chip">
+            <i class="ph ph-check-circle"></i>
+            <span>AI agent QA</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-image">
+        <svg class="hero-systems-diagram" viewBox="0 0 600 400" xmlns="http://www.w3.org/2000/svg">
+          <defs>
+            <radialGradient id="sysGlow" cx="50%" cy="50%" r="50%">
+              <stop offset="0%" style="stop-color:#06B6D4;stop-opacity:0.25"/>
+              <stop offset="100%" style="stop-color:#06B6D4;stop-opacity:0"/>
+            </radialGradient>
+          </defs>
+
+          <!-- Connection Lines (drawn first, behind nodes) -->
+          <!-- Product to Hub edge -->
+          <line x1="100" y1="70" x2="258" y2="168" stroke="#1E293B" stroke-width="2"/>
+          <!-- AI to Hub edge -->
+          <line x1="200" y1="55" x2="270" y2="155" stroke="#1E293B" stroke-width="2"/>
+          <!-- QA to Hub edge -->
+          <line x1="400" y1="55" x2="330" y2="155" stroke="#1E293B" stroke-width="2"/>
+          <!-- Test Plans to Hub edge -->
+          <line x1="500" y1="70" x2="342" y2="168" stroke="#1E293B" stroke-width="2"/>
+          <!-- Workflows to Hub edge -->
+          <line x1="100" y1="330" x2="258" y2="232" stroke="#1E293B" stroke-width="2"/>
+          <!-- Reports to Hub edge -->
+          <line x1="300" y1="345" x2="300" y2="250" stroke="#1E293B" stroke-width="2"/>
+          <!-- Releases to Hub edge -->
+          <line x1="500" y1="330" x2="342" y2="232" stroke="#1E293B" stroke-width="2"/>
+
+          <!-- Central Cloud Hub -->
+          <circle cx="300" cy="200" r="60" fill="url(#sysGlow)">
+            <animate attributeName="r" values="55;70;55" dur="4s" repeatCount="indefinite"/>
+          </circle>
+          <circle cx="300" cy="200" r="50" fill="#0A1628" stroke="#06B6D4" stroke-width="2"/>
+          <text x="300" y="195" text-anchor="middle" fill="#06B6D4" font-size="14" font-weight="700" font-family="Space Grotesk, sans-serif">PRODUCT</text>
+          <text x="300" y="212" text-anchor="middle" fill="rgba(255,255,255,0.7)" font-size="10" font-weight="600" font-family="Space Grotesk, sans-serif">HUB</text>
+
+          <!-- Product Node (top left) -->
+          <circle cx="100" cy="70" r="36" fill="#0D2545" stroke="#06B6D4" stroke-width="2">
+            <animate attributeName="stroke-opacity" values="1;0.5;1" dur="3s" repeatCount="indefinite"/>
+          </circle>
+          <text x="100" y="65" text-anchor="middle" fill="#06B6D4" font-size="8" font-weight="700" font-family="Space Grotesk, sans-serif">Custom App</text>
+          <text x="100" y="78" text-anchor="middle" fill="rgba(255,255,255,0.6)" font-size="7" font-family="Space Grotesk, sans-serif">Product</text>
+
+          <!-- AI Node (top center-left) -->
+          <circle cx="200" cy="55" r="32" fill="#0D2545" stroke="#0EA5E9" stroke-width="2">
+            <animate attributeName="stroke-opacity" values="1;0.6;1" dur="2.5s" repeatCount="indefinite"/>
+          </circle>
+          <text x="200" y="52" text-anchor="middle" fill="#0EA5E9" font-size="11" font-weight="700" font-family="Space Grotesk, sans-serif">AI</text>
+          <text x="200" y="65" text-anchor="middle" fill="rgba(255,255,255,0.6)" font-size="7" font-family="Space Grotesk, sans-serif">Dev Tools</text>
+
+          <!-- QA Node (top center-right) -->
+          <circle cx="400" cy="55" r="32" fill="#0D2545" stroke="#0EA5E9" stroke-width="2">
+            <animate attributeName="stroke-opacity" values="0.6;1;0.6" dur="2.5s" repeatCount="indefinite"/>
+          </circle>
+          <text x="400" y="52" text-anchor="middle" fill="#0EA5E9" font-size="11" font-weight="700" font-family="Space Grotesk, sans-serif">QA</text>
+          <text x="400" y="65" text-anchor="middle" fill="rgba(255,255,255,0.6)" font-size="7" font-family="Space Grotesk, sans-serif">Agents</text>
+
+          <!-- Test Plan Node (top right) -->
+          <circle cx="500" cy="70" r="36" fill="#0D2545" stroke="#06B6D4" stroke-width="2">
+            <animate attributeName="stroke-opacity" values="0.5;1;0.5" dur="3s" repeatCount="indefinite"/>
+          </circle>
+          <text x="500" y="65" text-anchor="middle" fill="#06B6D4" font-size="7" font-weight="700" font-family="Space Grotesk, sans-serif">Test Plans</text>
+          <text x="500" y="78" text-anchor="middle" fill="rgba(255,255,255,0.6)" font-size="7" font-family="Space Grotesk, sans-serif">Coverage</text>
+
+          <!-- Workflow Node (bottom left) -->
+          <circle cx="100" cy="330" r="36" fill="#0D2545" stroke="#06B6D4" stroke-width="2">
+            <animate attributeName="stroke-opacity" values="1;0.5;1" dur="3s" repeatCount="indefinite" begin="1.5s"/>
+          </circle>
+          <text x="100" y="325" text-anchor="middle" fill="#06B6D4" font-size="8" font-weight="700" font-family="Space Grotesk, sans-serif">Workflows</text>
+          <text x="100" y="338" text-anchor="middle" fill="rgba(255,255,255,0.6)" font-size="7" font-family="Space Grotesk, sans-serif">Users</text>
+
+          <!-- Analytics Node (bottom center) -->
+          <circle cx="300" cy="345" r="36" fill="#0D2545" stroke="#10B981" stroke-width="2">
+            <animate attributeName="stroke-opacity" values="1;0.6;1" dur="3s" repeatCount="indefinite" begin="0.5s"/>
+          </circle>
+          <!-- Mini bar chart icon -->
+          <rect x="282" y="335" width="6" height="18" fill="#10B981" opacity="0.8"/>
+          <rect x="292" y="340" width="6" height="13" fill="#10B981" opacity="0.6"/>
+          <rect x="302" y="332" width="6" height="21" fill="#10B981" opacity="0.9"/>
+          <rect x="312" y="338" width="6" height="15" fill="#10B981" opacity="0.7"/>
+          <text x="300" y="365" text-anchor="middle" fill="rgba(255,255,255,0.6)" font-size="7" font-family="Space Grotesk, sans-serif">Reports</text>
+
+          <!-- Release Node (bottom right) -->
+          <circle cx="500" cy="330" r="36" fill="#0D2545" stroke="#06B6D4" stroke-width="2">
+            <animate attributeName="stroke-opacity" values="0.5;1;0.5" dur="3s" repeatCount="indefinite" begin="1.5s"/>
+          </circle>
+          <text x="500" y="325" text-anchor="middle" fill="#06B6D4" font-size="8" font-weight="700" font-family="Space Grotesk, sans-serif">Releases</text>
+          <text x="500" y="338" text-anchor="middle" fill="rgba(255,255,255,0.6)" font-size="7" font-family="Space Grotesk, sans-serif">Ship</text>
+
+          <!-- Animated data flow dots -->
+          <circle r="4" fill="#06B6D4">
+            <animate attributeName="cx" values="100;258" dur="2s" repeatCount="indefinite"/>
+            <animate attributeName="cy" values="70;168" dur="2s" repeatCount="indefinite"/>
+          </circle>
+          <circle r="4" fill="#0EA5E9">
+            <animate attributeName="cx" values="200;270" dur="2.5s" repeatCount="indefinite" begin="0.5s"/>
+            <animate attributeName="cy" values="55;155" dur="2.5s" repeatCount="indefinite" begin="0.5s"/>
+          </circle>
+          <circle r="4" fill="#0EA5E9">
+            <animate attributeName="cx" values="400;330" dur="2.5s" repeatCount="indefinite" begin="1s"/>
+            <animate attributeName="cy" values="55;155" dur="2.5s" repeatCount="indefinite" begin="1s"/>
+          </circle>
+          <circle r="4" fill="#06B6D4">
+            <animate attributeName="cx" values="500;342" dur="2s" repeatCount="indefinite" begin="1.5s"/>
+            <animate attributeName="cy" values="70;168" dur="2s" repeatCount="indefinite" begin="1.5s"/>
+          </circle>
+          <circle r="4" fill="#10B981">
+            <animate attributeName="cx" values="300;300" dur="2s" repeatCount="indefinite" begin="2s"/>
+            <animate attributeName="cy" values="250;345" dur="2s" repeatCount="indefinite" begin="2s"/>
+          </circle>
+        </svg>
+      </div>
+    </div>
+  </section>]]></markup_html>
+</component>

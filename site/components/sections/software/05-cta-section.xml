@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/section</content-type>
+	<display-template>/templates/web/components/section.ftl</display-template>
+	<no-template-required></no-template-required>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>6f23</objectGroupId>
+	<objectId>6f23c30e-801f-5de1-9ab2-2fa6454aeb5d</objectId>
+	<file-name>05-cta-section.xml</file-name>
+	<folder-name></folder-name>
+	<internal-name><![CDATA[software — Have a workflow that needs custom software?]]></internal-name>
+	<createdDate>2026-10-05T14:01:03.000Z</createdDate>
+	<createdDate_dt>2026-10-05T14:01:03.000Z</createdDate_dt>
+	<lastModifiedDate>2026-10-05T14:01:03.000Z</lastModifiedDate>
+	<lastModifiedDate_dt>2026-10-05T14:01:03.000Z</lastModifiedDate_dt>
+	<layout_s><![CDATA[html]]></layout_s>
+	<title_t><![CDATA[Have a workflow that needs custom software?]]></title_t>
+	<subtitle_t><![CDATA[]]></subtitle_t>
+	<linkLabel_t><![CDATA[]]></linkLabel_t>
+	<linkUrl_s><![CDATA[]]></linkUrl_s>
+	<markup_html><![CDATA[<section class="cta-section">
+    <div class="cta-inner">
+      <h2 class="cta-heading">Have a workflow that needs custom software?</h2>
+      <p class="cta-subtext">Bring the messy version: spreadsheets, screenshots, tools that do not connect, and the process your team actually follows. We will help translate it into a practical software plan.</p>
+      <a href="/contact" class="secondary-button">BOOK YOUR FREE 30 MIN STRATEGY CALL <i class="ph ph-arrow-right"></i></a>
+    </div>
+  </section>]]></markup_html>
+</component>

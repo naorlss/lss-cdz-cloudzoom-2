@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/section</content-type>
+	<display-template>/templates/web/components/section.ftl</display-template>
+	<no-template-required></no-template-required>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>9c6a</objectGroupId>
+	<objectId>9c6abd2e-0878-5f9d-910c-c10f22666a0b</objectId>
+	<file-name>02-software-section.xml</file-name>
+	<folder-name></folder-name>
+	<internal-name><![CDATA[software — Built around the work your team actually does.]]></internal-name>
+	<createdDate>2026-10-05T14:01:03.000Z</createdDate>
+	<createdDate_dt>2026-10-05T14:01:03.000Z</createdDate_dt>
+	<lastModifiedDate>2026-10-05T14:01:03.000Z</lastModifiedDate>
+	<lastModifiedDate_dt>2026-10-05T14:01:03.000Z</lastModifiedDate_dt>
+	<layout_s><![CDATA[html]]></layout_s>
+	<title_t><![CDATA[Built around the work your team actually does.]]></title_t>
+	<subtitle_t><![CDATA[]]></subtitle_t>
+	<linkLabel_t><![CDATA[]]></linkLabel_t>
+	<linkUrl_s><![CDATA[]]></linkUrl_s>
+	<markup_html><![CDATA[<section class="software-section">
+    <div class="software-inner">
+      <div class="section-header">
+        <div class="section-kicker">Software Categories</div>
+        <h2 class="section-heading">Built around the work your team actually does.</h2>
+        <p class="section-subtitle">Some projects are brand-new products. Others are internal systems that quietly remove hours of manual work. Most sit between existing tools and make the business run with fewer gaps.</p>
+      </div>
+
+      <div class="software-grid">
+        <article class="software-card">
+          <div class="software-icon"><i class="ph ph-cpu"></i></div>
+          <h3 class="software-title">IoT &amp; Connected Operations</h3>
+          <p class="software-description">Platforms that collect data from devices, equipment, vehicles, facilities, or field operations and turn it into alerts, dashboards, and automated workflows.</p>
+          <div class="software-tags">
+            <span class="software-tag">Sensors</span>
+            <span class="software-tag">Telemetry</span>
+            <span class="software-tag">Edge Devices</span>
+            <span class="software-tag">Alerts</span>
+          </div>
+        </article>
+
+        <article class="software-card">
+          <div class="software-icon"><i class="ph ph-circles-three"></i></div>
+          <h3 class="software-title">Microservices &amp; APIs</h3>
+          <p class="software-description">Backend services that expose clean APIs, coordinate business logic, connect third-party systems, and create stable foundations for future product work.</p>
+          <div class="software-tags">
+            <span class="software-tag">REST APIs</span>
+            <span class="software-tag">Event Flows</span>
+            <span class="software-tag">Cloud Services</span>
+            <span class="software-tag">Integration</span>
+          </div>
+        </article>
+
+        <article class="software-card">
+          <div class="software-icon"><i class="ph ph-chart-line-up"></i></div>
+          <h3 class="software-title">Decision Dashboards</h3>
+          <p class="software-description">Dashboards that show what is happening now, what needs attention, and which decisions matter next. Built for operators, owners, and managers who need signal fast.</p>
+          <div class="software-tags">
+            <span class="software-tag">KPIs</span>
+            <span class="software-tag">Operations</span>
+            <span class="software-tag">Forecasts</span>
+            <span class="software-tag">Reporting</span>
+          </div>
+        </article>
+
+        <article class="software-card">
+          <div class="software-icon"><i class="ph ph-database"></i></div>
+          <h3 class="software-title">ETL &amp; Data Pipelines</h3>
+          <p class="software-description">Data movement and transformation systems that pull from messy sources, clean the data, enrich it, and deliver it where reporting, operations, or AI tools can use it.</p>
+          <div class="software-tags">
+            <span class="software-tag">ETL</span>
+            <span class="software-tag">Data Sync</span>
+            <span class="software-tag">Warehousing</span>
+            <span class="software-tag">Validation</span>
+          </div>
+        </article>
+
+        <article class="software-card">
+          <div class="software-icon"><i class="ph ph-users"></i></div>
+          <h3 class="software-title">Customer &amp; Partner Portals</h3>
+          <p class="software-description">Secure portals where customers, vendors, franchisees, or partners can submit requests, review status, upload files, approve work, and interact with your business.</p>
+          <div class="software-tags">
+            <span class="software-tag">Self-Service</span>
+            <span class="software-tag">Approvals</span>
+            <span class="software-tag">Documents</span>
+            <span class="software-tag">Status</span>
+          </div>
+        </article>
+
+        <article class="software-card">
+          <div class="software-icon"><i class="ph ph-wrench"></i></div>
+          <h3 class="software-title">Internal Tools &amp; Admin Systems</h3>
+          <p class="software-description">Operational tools for scheduling, quoting, dispatch, inventory, approvals, intake, review queues, support workflows, and the work that usually ends up in spreadsheets.</p>
+          <div class="software-tags">
+            <span class="software-tag">Admin UI</span>
+            <span class="software-tag">Workflow</span>
+            <span class="software-tag">Scheduling</span>
+            <span class="software-tag">Queues</span>
+          </div>
+        </article>
+
+        <article class="software-card">
+          <div class="software-icon"><i class="ph ph-arrows-merge"></i></div>
+          <h3 class="software-title">System Integrations</h3>
+          <p class="software-description">Connectors that move data between CRMs, accounting systems, payment platforms, ERPs, websites, spreadsheets, email tools, and industry-specific software.</p>
+          <div class="software-tags">
+            <span class="software-tag">CRM</span>
+            <span class="software-tag">Accounting</span>
+            <span class="software-tag">Payments</span>
+            <span class="software-tag">ERP</span>
+          </div>
+        </article>
+
+        <article class="software-card">
+          <div class="software-icon"><i class="ph ph-robot"></i></div>
+          <h3 class="software-title">AI-Enabled Workflow Software</h3>
+          <p class="software-description">Software that uses AI carefully inside a larger workflow: summarization, classification, routing, document review, content drafting, exception detection, and support triage.</p>
+          <div class="software-tags">
+            <span class="software-tag">Classification</span>
+            <span class="software-tag">Summaries</span>
+            <span class="software-tag">Routing</span>
+            <span class="software-tag">Review</span>
+          </div>
+        </article>
+
+        <article class="software-card">
+          <div class="software-icon"><i class="ph ph-shield-check"></i></div>
+          <h3 class="software-title">QA Automation Systems</h3>
+          <p class="software-description">AI-agent QA setups, smoke tests, regression checks, release-readiness reports, screenshot capture, and testing workflows for products that cannot afford quiet breakage.</p>
+          <div class="software-tags">
+            <span class="software-tag">AI Agents</span>
+            <span class="software-tag">Regression</span>
+            <span class="software-tag">Screenshots</span>
+            <span class="software-tag">Reports</span>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>]]></markup_html>
+</component>

@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/section</content-type>
+	<display-template>/templates/web/components/section.ftl</display-template>
+	<no-template-required></no-template-required>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>dd0b</objectGroupId>
+	<objectId>dd0b0693-34b9-5921-bb85-ffef3204ae76</objectId>
+	<file-name>02-services-section.xml</file-name>
+	<folder-name></folder-name>
+	<internal-name><![CDATA[services — How we help]]></internal-name>
+	<createdDate>2026-10-05T14:01:03.000Z</createdDate>
+	<createdDate_dt>2026-10-05T14:01:03.000Z</createdDate_dt>
+	<lastModifiedDate>2026-10-05T14:01:03.000Z</lastModifiedDate>
+	<lastModifiedDate_dt>2026-10-05T14:01:03.000Z</lastModifiedDate_dt>
+	<layout_s><![CDATA[html]]></layout_s>
+	<title_t><![CDATA[How we help]]></title_t>
+	<subtitle_t><![CDATA[]]></subtitle_t>
+	<linkLabel_t><![CDATA[]]></linkLabel_t>
+	<linkUrl_s><![CDATA[]]></linkUrl_s>
+	<markup_html><![CDATA[<section class="services-section">
+    <div class="services-container">
+      <h2 class="section-heading">How we help</h2>
+      <div class="services-grid">
+        <!-- Service 1 -->
+        <div class="service-card">
+          <div class="service-icon">
+            <i class="ph ph-code"></i>
+          </div>
+          <h3 class="service-title">AI-Enhanced Custom Software Development</h3>
+          <p class="service-description">We build custom web apps, internal tools, portals, integrations, and workflow systems with an AI-assisted delivery process. AI helps us move faster through discovery, implementation, refactoring, test generation, and documentation while senior engineering keeps the architecture clean and maintainable.</p>
+          <div class="service-tags">
+            <span class="service-tag">Custom Web Apps</span>
+            <span class="service-tag">Internal Tools</span>
+            <span class="service-tag">Customer Portals</span>
+            <span class="service-tag">Integrations</span>
+            <span class="service-tag">Cloud Architecture</span>
+          </div>
+        </div>
+
+        <!-- Service 2 -->
+        <div class="service-card">
+          <div class="service-icon">
+            <i class="ph ph-robot"></i>
+          </div>
+          <h3 class="service-title">Automated QA with AI Agents</h3>
+          <p class="service-description">We deploy AI agents that run through your web app like a careful human tester: navigating pages, submitting forms, checking critical workflows, capturing screenshots, and reporting what failed. It is built for teams that need more release confidence without hiring a full QA department.</p>
+          <div class="service-tags">
+            <span class="service-tag">Smoke Tests</span>
+            <span class="service-tag">Regression Runs</span>
+            <span class="service-tag">User Journey Testing</span>
+            <span class="service-tag">Screenshots &amp; Reports</span>
+          </div>
+        </div>
+
+        <!-- Service 3 -->
+        <div class="service-card">
+          <div class="service-icon">
+            <i class="ph ph-arrows-merge"></i>
+          </div>
+          <h3 class="service-title">Business System Integrations</h3>
+          <p class="service-description">Many custom software projects start because the tools you already use do not connect cleanly. We build APIs, sync jobs, admin screens, and dashboards that move data between systems without manual copy-paste or fragile spreadsheet workarounds.</p>
+          <div class="service-tags">
+            <span class="service-tag">API Development</span>
+            <span class="service-tag">Data Sync</span>
+            <span class="service-tag">Workflow Tools</span>
+            <span class="service-tag">Dashboards</span>
+          </div>
+        </div>
+
+        <!-- Service 4 -->
+        <div class="service-card">
+          <div class="service-icon">
+            <i class="ph ph-list-checks"></i>
+          </div>
+          <h3 class="service-title">Critical Flow Test Coverage</h3>
+          <p class="service-description">We identify the flows that would hurt most if they broke: login, checkout, quote acceptance, booking, payment, admin updates, notifications, file uploads, and reporting. Then we build agent runs that validate those paths before important releases.</p>
+          <div class="service-tags">
+            <span class="service-tag">Checkout</span>
+            <span class="service-tag">Forms</span>
+            <span class="service-tag">Admin Workflows</span>
+            <span class="service-tag">Notifications</span>
+          </div>
+        </div>
+
+        <!-- Service 5 -->
+        <div class="service-card">
+          <div class="service-icon">
+            <i class="ph ph-arrows-clockwise"></i>
+          </div>
+          <h3 class="service-title">Modernization Without a Rewrite</h3>
+          <p class="service-description">If your existing app is valuable but hard to change, we can improve it incrementally: clean up fragile code, add missing features, introduce automated tests, and create a safer release process without pausing the business for a full rebuild.</p>
+          <div class="service-tags">
+            <span class="service-tag">Refactoring</span>
+            <span class="service-tag">Feature Delivery</span>
+            <span class="service-tag">Test Coverage</span>
+            <span class="service-tag">Release Process</span>
+          </div>
+        </div>
+
+        <!-- Service 6 -->
+        <div class="service-card">
+          <div class="service-icon">
+            <i class="ph ph-chart-bar"></i>
+          </div>
+          <h3 class="service-title">Plain-English QA Reporting</h3>
+          <p class="service-description">Automated QA is only useful when the output is understandable. We configure reports with screenshots, reproduction steps, likely causes, severity notes, and recommendations so owners, developers, and operators can all see what happened.</p>
+          <div class="service-tags">
+            <span class="service-tag">Screenshots</span>
+            <span class="service-tag">Bug Summaries</span>
+            <span class="service-tag">Release Notes</span>
+            <span class="service-tag">Risk Signals</span>
+          </div>
+        </div>
+
+        <!-- Service 7 -->
+        <div class="service-card">
+          <div class="service-icon">
+            <i class="ph ph-shield-check"></i>
+          </div>
+          <h3 class="service-title">Release Readiness Checks</h3>
+          <p class="service-description">Before a launch or deployment, we can run a focused QA pass against the release candidate and give you a practical go/no-go view: what is safe, what is risky, and what should be fixed first.</p>
+          <div class="service-tags">
+            <span class="service-tag">Pre-Launch QA</span>
+            <span class="service-tag">Regression Checks</span>
+            <span class="service-tag">Risk Review</span>
+          </div>
+        </div>
+
+        <!-- Service 8 -->
+        <div class="service-card">
+          <div class="service-icon">
+            <i class="ph ph-users-three"></i>
+          </div>
+          <h3 class="service-title">Ongoing Technical Partnership</h3>
+          <p class="service-description">After launch, we can stay involved as a senior technical partner: reviewing architecture, improving code quality, expanding QA coverage, resolving production issues, and helping your team make better software decisions.</p>
+          <div class="service-tags">
+            <span class="service-tag">Code Review</span>
+            <span class="service-tag">Architecture</span>
+            <span class="service-tag">QA Strategy</span>
+            <span class="service-tag">Support</span>
+          </div>
+        </div>
+
+        <!-- Service 9 -->
+        <div class="service-card">
+          <div class="service-icon">
+            <i class="ph ph-sparkle"></i>
+          </div>
+          <h3 class="service-title">AI Tooling for Your Team</h3>
+          <p class="service-description">We can also help your internal team adopt AI development and QA tools responsibly: prompt workflows, code review habits, test generation patterns, and guardrails that increase output without creating unreviewed mess.</p>
+          <div class="service-tags">
+            <span class="service-tag">AI Dev Workflow</span>
+            <span class="service-tag">Prompt Patterns</span>
+            <span class="service-tag">Review Practices</span>
+            <span class="service-tag">Team Enablement</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>]]></markup_html>
+</component>

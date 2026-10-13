@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/section</content-type>
+	<display-template>/templates/web/components/section.ftl</display-template>
+	<no-template-required></no-template-required>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>f53d</objectGroupId>
+	<objectId>f53dbce8-3034-5348-86d8-71037c4211b9</objectId>
+	<file-name>02-value-props.xml</file-name>
+	<folder-name></folder-name>
+	<internal-name><![CDATA[home — value-props]]></internal-name>
+	<createdDate>2026-10-05T14:01:03.000Z</createdDate>
+	<createdDate_dt>2026-10-05T14:01:03.000Z</createdDate_dt>
+	<lastModifiedDate>2026-10-05T14:01:03.000Z</lastModifiedDate>
+	<lastModifiedDate_dt>2026-10-05T14:01:03.000Z</lastModifiedDate_dt>
+	<layout_s><![CDATA[html]]></layout_s>
+	<title_t><![CDATA[]]></title_t>
+	<subtitle_t><![CDATA[]]></subtitle_t>
+	<linkLabel_t><![CDATA[]]></linkLabel_t>
+	<linkUrl_s><![CDATA[]]></linkUrl_s>
+	<markup_html><![CDATA[<section class="value-props">
+    <div class="value-props-inner">
+      <div class="stat-card">
+        <div class="stat-icon"><i class="ph ph-code"></i></div>
+        <div class="stat-number">Custom Software</div>
+        <div class="stat-label">Apps, portals &amp; integrations</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-icon"><i class="ph ph-sparkle"></i></div>
+        <div class="stat-number">AI-Enhanced</div>
+        <div class="stat-label">Faster planning, coding &amp; review</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-icon"><i class="ph ph-robot"></i></div>
+        <div class="stat-number">AI QA Agents</div>
+        <div class="stat-label">Automated browser testing</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-icon"><i class="ph ph-shield-check"></i></div>
+        <div class="stat-number">Release Confidence</div>
+        <div class="stat-label">Issues caught before customers</div>
+      </div>
+    </div>
+  </section>]]></markup_html>
+</component>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/section</content-type>
+	<display-template>/templates/web/components/section.ftl</display-template>
+	<no-template-required></no-template-required>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>3762</objectGroupId>
+	<objectId>3762dddf-891f-5896-baca-88d0fd70520d</objectId>
+	<file-name>06-blog-preview.xml</file-name>
+	<folder-name></folder-name>
+	<internal-name><![CDATA[home — FROM THE BLOG]]></internal-name>
+	<createdDate>2026-10-05T14:01:03.000Z</createdDate>
+	<createdDate_dt>2026-10-05T14:01:03.000Z</createdDate_dt>
+	<lastModifiedDate>2026-10-05T14:01:03.000Z</lastModifiedDate>
+	<lastModifiedDate_dt>2026-10-05T14:01:03.000Z</lastModifiedDate_dt>
+	<layout_s><![CDATA[blog-preview]]></layout_s>
+	<title_t><![CDATA[FROM THE BLOG]]></title_t>
+	<subtitle_t><![CDATA[Practical articles on AI-assisted software delivery, QA automation, and building systems that hold up in production.]]></subtitle_t>
+	<linkLabel_t><![CDATA[View all articles]]></linkLabel_t>
+	<linkUrl_s><![CDATA[/blog]]></linkUrl_s>
+	<markup_html><![CDATA[]]></markup_html>
+</component>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/section</content-type>
+	<display-template>/templates/web/components/section.ftl</display-template>
+	<no-template-required></no-template-required>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>29aa</objectGroupId>
+	<objectId>29aafb9e-5cb7-5fd0-a150-394f5067ef98</objectId>
+	<file-name>05-social-proof.xml</file-name>
+	<folder-name></folder-name>
+	<internal-name><![CDATA[home — social-proof]]></internal-name>
+	<createdDate>2026-10-05T14:01:03.000Z</createdDate>
+	<createdDate_dt>2026-10-05T14:01:03.000Z</createdDate_dt>
+	<lastModifiedDate>2026-10-05T14:01:03.000Z</lastModifiedDate>
+	<lastModifiedDate_dt>2026-10-05T14:01:03.000Z</lastModifiedDate_dt>
+	<layout_s><![CDATA[html]]></layout_s>
+	<title_t><![CDATA[]]></title_t>
+	<subtitle_t><![CDATA[]]></subtitle_t>
+	<linkLabel_t><![CDATA[]]></linkLabel_t>
+	<linkUrl_s><![CDATA[]]></linkUrl_s>
+	<markup_html><![CDATA[<section class="social-proof">
+    <div class="social-proof-inner">
+      <div class="founder-info">
+        <div class="founder-avatar">CZ</div>
+        <div class="founder-details">
+          <div class="founder-name">CloudZoom Solutions</div>
+          <div class="founder-title">Senior-led Architecture Team</div>
+        </div>
+      </div>
+
+      <div class="quote-text">
+        "We use AI where it helps most &mdash; accelerating software delivery and expanding QA coverage &mdash; while keeping architecture, judgment, and accountability senior-led."
+      </div>
+
+      <div class="logos-strip">
+        <div class="logo-item">Automotive Services</div>
+        <div class="logo-item">Insurance Operations</div>
+        <div class="logo-item">Manufacturing</div>
+        <div class="logo-item">Fintech</div>
+      </div>
+    </div>
+  </section>]]></markup_html>
+</component>

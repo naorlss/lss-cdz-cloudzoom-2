@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/section</content-type>
+	<display-template>/templates/web/components/section.ftl</display-template>
+	<no-template-required></no-template-required>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>8954</objectGroupId>
+	<objectId>8954dbb6-3cf4-5c15-a786-19b63497d3af</objectId>
+	<file-name>04-contact-section.xml</file-name>
+	<folder-name></folder-name>
+	<internal-name><![CDATA[about — GET IN TOUCH DIRECTLY]]></internal-name>
+	<createdDate>2026-10-05T14:01:03.000Z</createdDate>
+	<createdDate_dt>2026-10-05T14:01:03.000Z</createdDate_dt>
+	<lastModifiedDate>2026-10-05T14:01:03.000Z</lastModifiedDate>
+	<lastModifiedDate_dt>2026-10-05T14:01:03.000Z</lastModifiedDate_dt>
+	<layout_s><![CDATA[html]]></layout_s>
+	<title_t><![CDATA[GET IN TOUCH DIRECTLY]]></title_t>
+	<subtitle_t><![CDATA[]]></subtitle_t>
+	<linkLabel_t><![CDATA[]]></linkLabel_t>
+	<linkUrl_s><![CDATA[]]></linkUrl_s>
+	<markup_html><![CDATA[<section class="contact-section">
+    <div class="contact-section-inner">
+      <h2 class="contact-heading">GET IN TOUCH DIRECTLY</h2>
+      <div class="contact-details">
+        <div class="contact-item">
+          <i class="ph ph-phone"></i>
+          <div class="contact-label">PHONE</div>
+          <div class="contact-value"><a href="tel:6179213657">617.921.3657</a></div>
+        </div>
+        <div class="contact-item">
+          <i class="ph ph-envelope"></i>
+          <div class="contact-label">EMAIL</div>
+          <div class="contact-value"><a href="mailto:bill@cloudzoom.dev">bill@cloudzoom.dev</a></div>
+        </div>
+      </div>
+      <div class="contact-linkedin">
+        <a href="#" class="secondary-button">
+          <i class="ph ph-linkedin-logo"></i>
+          CONNECT ON LINKEDIN
+        </a>
+      </div>
+      <p class="contact-subtext">Or book a free 30-minute strategy call below.</p>
+    </div>
+  </section>]]></markup_html>
+</component>

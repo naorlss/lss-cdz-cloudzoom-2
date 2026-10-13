@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/section</content-type>
+	<display-template>/templates/web/components/section.ftl</display-template>
+	<no-template-required></no-template-required>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>fb81</objectGroupId>
+	<objectId>fb812b3f-de74-53b0-8f23-f07064d75d4e</objectId>
+	<file-name>02-contact-section.xml</file-name>
+	<folder-name></folder-name>
+	<internal-name><![CDATA[contact — Contact Us Directly]]></internal-name>
+	<createdDate>2026-10-05T14:01:03.000Z</createdDate>
+	<createdDate_dt>2026-10-05T14:01:03.000Z</createdDate_dt>
+	<lastModifiedDate>2026-10-05T14:01:03.000Z</lastModifiedDate>
+	<lastModifiedDate_dt>2026-10-05T14:01:03.000Z</lastModifiedDate_dt>
+	<layout_s><![CDATA[html]]></layout_s>
+	<title_t><![CDATA[Contact Us Directly]]></title_t>
+	<subtitle_t><![CDATA[]]></subtitle_t>
+	<linkLabel_t><![CDATA[]]></linkLabel_t>
+	<linkUrl_s><![CDATA[]]></linkUrl_s>
+	<markup_html><![CDATA[<section class="contact-section">
+    <div class="contact-section-inner">
+      <div class="contact-grid">
+        <div class="contact-info">
+          <h2 class="contact-heading">Contact Us Directly</h2>
+          <p class="contact-intro">Prefer to reach out directly? Send a note about your software project or QA challenge and we will take it from there.</p>
+          
+          <div class="contact-methods">
+            <div class="contact-method">
+              <div class="contact-method-icon">
+                <i class="ph ph-phone"></i>
+              </div>
+              <div class="contact-method-details">
+                <span class="contact-method-label">Phone</span>
+                <span class="contact-method-value"><a href="tel:6179213657">617.921.3657</a></span>
+              </div>
+            </div>
+
+            <div class="contact-method">
+              <div class="contact-method-icon">
+                <i class="ph ph-envelope"></i>
+              </div>
+              <div class="contact-method-details">
+                <span class="contact-method-label">Email</span>
+                <span class="contact-method-value"><a href="mailto:bill@cloudzoom.dev">bill@cloudzoom.dev</a></span>
+              </div>
+            </div>
+
+            <div class="contact-method">
+              <div class="contact-method-icon">
+                <i class="ph ph-map-pin"></i>
+              </div>
+              <div class="contact-method-details">
+                <span class="contact-method-label">Location</span>
+                <span class="contact-method-value">Boston, Massachusetts</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="linkedin-section">
+            <a href="#" class="linkedin-button">
+              <i class="ph ph-linkedin-logo"></i>
+              Connect on LinkedIn
+            </a>
+          </div>
+
+          <div class="cta-box">
+            <h3 class="cta-box-title">Prefer a quick call?</h3>
+            <p class="cta-box-text">No pressure, no pitch &mdash; just a real conversation about the product, workflow, or release risk in front of you.</p>
+          </div>
+        </div>
+
+        <div class="form-section-inner">
+          <h2 class="form-heading">Send Us a Message</h2>
+          <p class="form-subtitle">Tell us whether you need custom software, AI-agent QA, or help deciding where to start. We'll get back to you within 24 hours.</p>
+          
+          <form class="contact-form" action="mailto:bill@cloudzoom.dev" method="post" enctype="text/plain">
+            <div class="form-group">
+              <label class="form-label" for="name">Name</label>
+              <input type="text" id="name" name="name" class="form-input" placeholder="Your name" required>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="email">Email</label>
+              <input type="email" id="email" name="email" class="form-input" placeholder="your.email@example.com" required>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="company">Company (Optional)</label>
+              <input type="text" id="company" name="company" class="form-input" placeholder="Your company name">
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="message">Message</label>
+              <textarea id="message" name="message" class="form-textarea" placeholder="Tell us what you want to build, test, or improve..." required></textarea>
+            </div>
+
+            <button type="submit" class="submit-button">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>]]></markup_html>
+</component>

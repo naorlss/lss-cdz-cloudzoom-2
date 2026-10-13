@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page>
+	<content-type>/page/landing</content-type>
+	<display-template>/templates/web/pages/landing.ftl</display-template>
+	<no-template-required></no-template-required>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>2fc1</objectGroupId>
+	<objectId>2fc132d8-5e71-57ea-8685-2b1d8557f420</objectId>
+	<file-name>index.xml</file-name>
+	<folder-name>contact</folder-name>
+	<internal-name><![CDATA[Contact]]></internal-name>
+	<placeInNav>false</placeInNav>
+	<disabled>false</disabled>
+	<createdDate>2026-10-05T14:01:03.000Z</createdDate>
+	<createdDate_dt>2026-10-05T14:01:03.000Z</createdDate_dt>
+	<lastModifiedDate>2026-10-05T14:01:03.000Z</lastModifiedDate>
+	<lastModifiedDate_dt>2026-10-05T14:01:03.000Z</lastModifiedDate_dt>
+	<navLabel><![CDATA[Contact]]></navLabel>
+	<title_t><![CDATA[Contact | CloudZoom Solutions Inc.]]></title_t>
+	<seoDescription_t><![CDATA[Contact CloudZoom to discuss an AI-enhanced custom software project or an automated QA pilot using AI agents.]]></seoDescription_t>
+	<navKey_s><![CDATA[contact]]></navKey_s>
+	<stylesheet_s><![CDATA[/static-assets/app/css/contact.css]]></stylesheet_s>
+	<headLinks_html><![CDATA[<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Manrope:wght@400;500;600;700&display=swap">
+  <link rel="stylesheet" href="https://unpkg.com/@phosphor-icons/web/src/regular/style.css">]]></headLinks_html>
+	<footerMode_s><![CDATA[marketing]]></footerMode_s>
+	<footerTagline_t><![CDATA[Boston-based. Senior-led. AI-accelerated.]]></footerTagline_t>
+	<footerLinkedIn_s><![CDATA[true]]></footerLinkedIn_s>
+	<footerLegal_s><![CDATA[true]]></footerLegal_s>
+	<sections_o item-list="true">
+		<item>
+			<key>/site/components/sections/contact/01-hero.xml</key>
+			<value><![CDATA[contact — Let's Build or Test Something Important.]]></value>
+			<include>/site/components/sections/contact/01-hero.xml</include>
+			<disableFlattening>false</disableFlattening>
+		</item>
+		<item>
+			<key>/site/components/sections/contact/02-contact-section.xml</key>
+			<value><![CDATA[contact — Contact Us Directly]]></value>
+			<include>/site/components/sections/contact/02-contact-section.xml</include>
+			<disableFlattening>false</disableFlattening>
+		</item>
+	</sections_o>
+</page>

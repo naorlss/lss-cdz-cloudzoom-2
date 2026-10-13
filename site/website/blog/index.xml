@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page>
+	<content-type>/page/landing</content-type>
+	<display-template>/templates/web/pages/landing.ftl</display-template>
+	<no-template-required></no-template-required>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>555e</objectGroupId>
+	<objectId>555e1126-fa8d-52a1-ae1a-c395b81d5aa6</objectId>
+	<file-name>index.xml</file-name>
+	<folder-name>blog</folder-name>
+	<internal-name><![CDATA[Blog &amp; Articles]]></internal-name>
+	<placeInNav>false</placeInNav>
+	<disabled>false</disabled>
+	<createdDate>2026-10-05T14:01:03.000Z</createdDate>
+	<createdDate_dt>2026-10-05T14:01:03.000Z</createdDate_dt>
+	<lastModifiedDate>2026-10-05T14:01:03.000Z</lastModifiedDate>
+	<lastModifiedDate_dt>2026-10-05T14:01:03.000Z</lastModifiedDate_dt>
+	<navLabel><![CDATA[Blog]]></navLabel>
+	<title_t><![CDATA[Blog &amp; Articles | AI Software Delivery &amp; QA | CloudZoom Solutions]]></title_t>
+	<seoDescription_t><![CDATA[Practical articles on AI-enhanced software development, AI agents, automated QA, and building reliable custom software.]]></seoDescription_t>
+	<navKey_s><![CDATA[blog]]></navKey_s>
+	<stylesheet_s><![CDATA[/static-assets/app/css/blog.css]]></stylesheet_s>
+	<headLinks_html><![CDATA[<link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/regular/style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/bold/style.css">]]></headLinks_html>
+	<footerMode_s><![CDATA[blog]]></footerMode_s>
+	<footerTagline_t><![CDATA[]]></footerTagline_t>
+	<footerLinkedIn_s><![CDATA[]]></footerLinkedIn_s>
+	<footerLegal_s><![CDATA[]]></footerLegal_s>
+	<sections_o item-list="true">
+		<item>
+			<key>/site/components/sections/blog/01-blog-hero.xml</key>
+			<value><![CDATA[blog — Practical ideas for building and testing software with AI]]></value>
+			<include>/site/components/sections/blog/01-blog-hero.xml</include>
+			<disableFlattening>false</disableFlattening>
+		</item>
+		<item>
+			<key>/site/components/sections/blog/02-article-index.xml</key>
+			<value><![CDATA[blog — Articles]]></value>
+			<include>/site/components/sections/blog/02-article-index.xml</include>
+			<disableFlattening>false</disableFlattening>
+		</item>
+		<item>
+			<key>/site/components/sections/blog/03-newsletter-section.xml</key>
+			<value><![CDATA[blog — New articles every few weeks]]></value>
+			<include>/site/components/sections/blog/03-newsletter-section.xml</include>
+			<disableFlattening>false</disableFlattening>
+		</item>
+	</sections_o>
+	<footer_o item-list="true">
+		<item>
+			<key>/site/components/footers/blog-footer.xml</key>
+			<value><![CDATA[Blog Footer]]></value>
+			<include>/site/components/footers/blog-footer.xml</include>
+			<disableFlattening>false</disableFlattening>
+		</item>
+	</footer_o>
+</page>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlrewrite>
+    <rule>
+        <from>^/sitemap.xml$</from>
+        <to last="true">/plugins/org/craftercms/plugin/sitemap/sitemap</to>
+    </rule>
+    <rule>
+        <from>^/index\.html$</from>
+        <to type="permanent-redirect" last="true">/</to>
+    </rule>
+    <rule>
+        <from>^/blog/([a-z0-9-]+)\.html$</from>
+        <to type="permanent-redirect" last="true">/blog/$1</to>
+    </rule>
+    <rule>
+        <from>^/altwheels/fleet-tools\.html$</from>
+        <to type="permanent-redirect" last="true">/altwheels/fleet-tools</to>
+    </rule>
+    <rule>
+        <from>^/altwheels/references\.html$</from>
+        <to type="permanent-redirect" last="true">/altwheels/references</to>
+    </rule>
+    <rule>
+        <from>^/([a-z0-9-]+)\.html$</from>
+        <to type="permanent-redirect" last="true">/$1</to>
+    </rule>
+</urlrewrite>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/header</content-type>
+	<display-template>/templates/web/components/header.ftl</display-template>
+	<no-template-required></no-template-required>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>9e11</objectGroupId>
+	<objectId>9e113312-2d9c-5a47-9e6b-6127cbeeb339</objectId>
+	<file-name>main-header.xml</file-name>
+	<folder-name></folder-name>
+	<internal-name><![CDATA[Main Header]]></internal-name>
+	<createdDate>2026-10-05T14:01:03.000Z</createdDate>
+	<createdDate_dt>2026-10-05T14:01:03.000Z</createdDate_dt>
+	<lastModifiedDate>2026-10-05T14:01:03.000Z</lastModifiedDate>
+	<lastModifiedDate_dt>2026-10-05T14:01:03.000Z</lastModifiedDate_dt>
+	<variant_s><![CDATA[marketing]]></variant_s>
+	<brand_t><![CDATA[CloudZoom Solutions]]></brand_t>
+	<ctaLabel_t><![CDATA[STRATEGY CALL]]></ctaLabel_t>
+	<ctaUrl_s><![CDATA[/contact]]></ctaUrl_s>
+	<tagline_t><![CDATA[]]></tagline_t>
+	<nav_o item-list="true">
+		<item>
+			<label_t><![CDATA[Home]]></label_t>
+			<url_s><![CDATA[/]]></url_s>
+			<key_s><![CDATA[home]]></key_s>
+		</item>
+		<item>
+			<label_t><![CDATA[Services]]></label_t>
+			<url_s><![CDATA[/services]]></url_s>
+			<key_s><![CDATA[services]]></key_s>
+		</item>
+		<item>
+			<label_t><![CDATA[Software]]></label_t>
+			<url_s><![CDATA[/software]]></url_s>
+			<key_s><![CDATA[software]]></key_s>
+		</item>
+		<item>
+			<label_t><![CDATA[Work]]></label_t>
+			<url_s><![CDATA[/work]]></url_s>
+			<key_s><![CDATA[work]]></key_s>
+		</item>
+		<item>
+			<label_t><![CDATA[Blog]]></label_t>
+			<url_s><![CDATA[/blog]]></url_s>
+			<key_s><![CDATA[blog]]></key_s>
+		</item>
+		<item>
+			<label_t><![CDATA[About]]></label_t>
+			<url_s><![CDATA[/about]]></url_s>
+			<key_s><![CDATA[about]]></key_s>
+		</item>
+		<item>
+			<label_t><![CDATA[Contact]]></label_t>
+			<url_s><![CDATA[/contact]]></url_s>
+			<key_s><![CDATA[contact]]></key_s>
+		</item>
+	</nav_o>
+</component>

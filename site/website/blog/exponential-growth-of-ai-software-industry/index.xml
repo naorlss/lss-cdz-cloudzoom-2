@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page>
+	<content-type>/page/article</content-type>
+	<display-template>/templates/web/pages/article.ftl</display-template>
+	<no-template-required></no-template-required>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>5e57</objectGroupId>
+	<objectId>5e57ae2b-cdab-5f23-b99c-26e397e9a49b</objectId>
+	<file-name>index.xml</file-name>
+	<folder-name>exponential-growth-of-ai-software-industry</folder-name>
+	<internal-name><![CDATA[The Exponential Growth of AI and What It Actually Means for Software]]></internal-name>
+	<placeInNav>false</placeInNav>
+	<disabled>false</disabled>
+	<createdDate>2026-10-05T14:01:03.000Z</createdDate>
+	<createdDate_dt>2026-10-05T14:01:03.000Z</createdDate_dt>
+	<lastModifiedDate>2026-10-05T14:01:03.000Z</lastModifiedDate>
+	<lastModifiedDate_dt>2026-10-05T14:01:03.000Z</lastModifiedDate_dt>
+	<navLabel><![CDATA[The Exponential Growth of AI and What It Actually Means for Software]]></navLabel>
+	<title_t><![CDATA[The Exponential Growth of AI and What It Means for Software | CloudZoom Solutions]]></title_t>
+	<headline_t><![CDATA[The Exponential Growth of AI and What It Actually Means for Software]]></headline_t>
+	<seoDescription_t><![CDATA[AI capabilities are not growing linearly — they're compounding. Here's what that trajectory actually means for software development, business operations, and the companies that build technology for a living.]]></seoDescription_t>
+	<navKey_s><![CDATA[blog]]></navKey_s>
+	<stylesheet_s><![CDATA[/static-assets/app/css/article-exponential-growth-of-ai-software-industry.css]]></stylesheet_s>
+	<headLinks_html><![CDATA[<link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/regular/style.css">]]></headLinks_html>
+	<author_t><![CDATA[Bill Scott]]></author_t>
+	<dateLabel_t><![CDATA[April 2026]]></dateLabel_t>
+	<readTime_t><![CDATA[· 9 min read]]></readTime_t>
+	<listRead_t><![CDATA[· 9 min read]]></listRead_t>
+	<wrap_s><![CDATA[]]></wrap_s>
+	<sortOrder_s><![CDATA[03]]></sortOrder_s>
+	<featured_s><![CDATA[false]]></featured_s>
+	<showOnHome_s><![CDATA[false]]></showOnHome_s>
+	<homeOrder_s><![CDATA[]]></homeOrder_s>
+	<visualLabel_t><![CDATA[Strategy]]></visualLabel_t>
+	<icon_s><![CDATA[ph ph-trend-up]]></icon_s>
+	<listExcerpt_t><![CDATA[AI capabilities are compounding, not growing linearly. That trajectory changes how software gets planned, built, reviewed, tested, and maintained while making engineering judgment more important.]]></listExcerpt_t>
+	<homeTag_t><![CDATA[]]></homeTag_t>
+	<homeIcon_s><![CDATA[]]></homeIcon_s>
+	<homeMeta_t><![CDATA[]]></homeMeta_t>
+	<homeExcerpt_t><![CDATA[]]></homeExcerpt_t>
+	<homeCta_t><![CDATA[]]></homeCta_t>
+	<tags_o item-list="true">
+		<item>
+			<label_t><![CDATA[AI & Automation]]></label_t>
+		</item>
+		<item>
+			<label_t><![CDATA[Industry]]></label_t>
+		</item>
+		<item>
+			<label_t><![CDATA[Strategy]]></label_t>
+		</item>
+	</tags_o>
+	<listTags_o item-list="true">
+		<item>
+			<label_t><![CDATA[AI & Automation]]></label_t>
+		</item>
+		<item>
+			<label_t><![CDATA[Strategy]]></label_t>
+		</item>
+	</listTags_o>
+	<listDate_t><![CDATA[April 2026]]></listDate_t>
+	<body_html><![CDATA[<article class="article-body">
+
+    <p>In 2020, the most capable AI models could write a coherent paragraph, summarize a document, and answer basic factual questions. By 2022, they could pass the bar exam. By 2024, they were writing production-grade code, catching security vulnerabilities, and reasoning through multi-step engineering problems that stumped junior developers. By 2026, AI systems are autonomously completing software projects from spec to deployment &mdash; with a human reviewing the output, not writing it.</p>
+
+    <p>That is not a linear progression. That is compounding. And it has implications for every business that builds, buys, or depends on software &mdash; which in 2026 means every business.</p>
+
+    <p>This article is an attempt to think clearly about what&rsquo;s actually happening, what the trajectory suggests, and what it means practically for how software gets built and how businesses should think about their technology investments right now.</p>
+
+    <h2>Why &ldquo;exponential&rdquo; is the right word, not a clich&eacute;</h2>
+
+    <p>The word exponential gets misused constantly in technology marketing to mean &ldquo;fast&rdquo; or &ldquo;impressive.&rdquo; In the case of AI capability growth, it&rsquo;s technically accurate &mdash; and that distinction matters enormously for how you plan.</p>
+
+    <p>Exponential growth means the rate of improvement compounds on itself. Each advance makes the next advance easier to achieve. Better AI models help researchers build better AI models. More computing power enables larger training runs that produce more capable systems. More capable systems generate better synthetic training data. Each generation builds on the last, faster.</p>
+
+    <div class="pull-stat">
+      <span class="pull-stat-number">~18 mo.</span>
+      <span class="pull-stat-text"><strong>Approximate interval at which AI benchmark performance has doubled</strong> across coding, reasoning, and math evaluations since 2020 &mdash; roughly matching or exceeding Moore&rsquo;s Law in capability terms, not just compute.</span>
+    </div>
+
+    <p>Compare this to how most people intuitively experience technology change: linearly. We expect next year&rsquo;s software to be somewhat better than this year&rsquo;s. That mental model produces reasonable predictions when change is gradual. It produces catastrophically wrong predictions when change is exponential. A system that doubles capability every 18 months is 16 times more capable after 6 years than it was at the start. Most people&rsquo;s intuition drastically underestimates where that curve goes.</p>
+
+    <h2>What has actually changed in software development</h2>
+
+    <p>The most immediate and measurable impact has been on how software gets written. The developer&rsquo;s job description has shifted faster in the past three years than in the previous fifteen.</p>
+
+    <h3>Code generation is no longer a novelty</h3>
+    <p>AI-assisted coding tools &mdash; GitHub Copilot, Cursor, Windsurf, and the underlying models that power them &mdash; have moved from autocomplete-style suggestions to generating entire functions, modules, and test suites from natural language descriptions. An experienced developer using these tools today writes roughly 2&ndash;4 times as much working code per hour as they did without them. The output still requires review, testing, and architectural judgment. But the mechanical act of translating a requirement into code has been substantially automated.</p>
+
+    <h3>The review and reasoning layer is maturing</h3>
+    <p>What&rsquo;s newer, and less widely appreciated, is that AI is increasingly capable of reviewing and critiquing its own output. Modern development workflows involve AI generating code, AI reviewing that code for bugs and security issues, AI writing tests to verify the code behaves as specified, and a human making architectural decisions and checking the result. This is not science fiction &mdash; this is the actual workflow at firms like ours today, and it is producing measurably faster, cheaper, more consistent software.</p>
+
+    <h3>The bottleneck has moved upstream</h3>
+    <p>The constraint in software development used to be writing code. Good developers were valuable primarily because they could translate complex requirements into correct, performant implementations quickly. That skill is still valuable, but the rate-limiter has shifted. Today, the expensive, hard-to-automate parts are: understanding what the business actually needs, making architectural decisions that age well, and knowing when an AI-generated solution is subtly wrong in a way that will only surface in production six months from now.</p>
+
+    <div class="callout">
+      <p><strong>The implication for hiring:</strong> A 10-year developer with strong architectural judgment and business intuition is worth more now than they were in 2020 &mdash; not because code-writing became harder, but because the work that remains after AI handles the mechanical parts requires exactly those skills. A 2-year developer whose primary skill is writing syntactically correct code has been significantly commoditized.</p>
+    </div>
+
+    <h2>A rough timeline of the shift</h2>
+
+    <table class="timeline-table">
+      <thead>
+        <tr>
+          <th>Period</th>
+          <th>AI role in software</th>
+          <th>Human role</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>Pre-2021</strong></td>
+          <td>Autocomplete, linting, basic code search</td>
+          <td>Write essentially all code; AI assists at margins</td>
+        </tr>
+        <tr>
+          <td><strong>2021&ndash;2022</strong></td>
+          <td>Function-level generation from comments (Copilot v1)</td>
+          <td>Review AI suggestions; write complex logic manually</td>
+        </tr>
+        <tr>
+          <td><strong>2023&ndash;2024</strong></td>
+          <td>File and module generation; test writing; PR review assistance</td>
+          <td>Architecture, context-setting, acceptance testing</td>
+        </tr>
+        <tr class="highlight">
+          <td><strong>2025&ndash;2026</strong></td>
+          <td>End-to-end feature development; agentic workflows; self-testing and debugging loops</td>
+          <td>Specification, architectural decisions, final review</td>
+        </tr>
+        <tr>
+          <td><strong>2027+ (projected)</strong></td>
+          <td>Autonomous system design and implementation from high-level requirements</td>
+          <td>Strategic direction, domain expertise, quality assurance</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h2>What this means for the cost of software</h2>
+
+    <p>The practical consequence of faster AI-assisted development is that the cost of building software is falling &mdash; and it will continue to fall. A project that required a 4-person team and 9 months in 2021 can now be built by a 2-person team in 4 months at equivalent quality. That&rsquo;s not an estimate: it&rsquo;s what we&rsquo;re seeing in practice.</p>
+
+    <p>For businesses buying software, this is straightforwardly good news if you&rsquo;re working with a firm that has adapted. You get more capability for less money, faster. The risk is that many firms haven&rsquo;t restructured their pricing or processes to reflect the new reality &mdash; they&rsquo;re billing at 2021 rates while delivering 2021-speed work, and pocketing the efficiency gain rather than passing it to clients.</p>
+
+    <div class="callout-warning">
+      <p><strong>A question worth asking any software firm:</strong> &ldquo;How has your development process changed in the last two years, and how is that reflected in your project timelines and pricing?&rdquo; If the answer is vague, that&rsquo;s a signal. If they can&rsquo;t describe exactly which AI tools they use and how, they&rsquo;re probably not using them.</p>
+    </div>
+
+    <p>The longer-term implication is more structural. As AI development costs fall, the competitive advantage shifts from &ldquo;can you build it?&rdquo; to &ldquo;do you understand the problem well enough to build the right thing?&rdquo; Technical execution is becoming a commodity. Domain expertise, business judgment, and the ability to translate messy real-world requirements into a system that actually solves them &mdash; those aren&rsquo;t going anywhere.</p>
+
+    <h2>The second-order effect: software is eating more of everything, faster</h2>
+
+    <p>When the cost of building custom software drops significantly, the economic calculus for building it changes. Processes that didn&rsquo;t justify a custom system at $150,000 might justify one at $40,000. Operations that couldn&rsquo;t afford an AI layer on top of their workflow can now afford it. IoT instrumentation that required an enterprise budget is now SMB-accessible.</p>
+
+    <p>This is already happening. The businesses we talk to today &mdash; 10, 20, 50-person operations &mdash; are asking for, and getting, software that would have been out of reach three years ago. A $30,000 AI intake and scheduling system. A $12,000 IoT pipeline for a 5-vehicle fleet. A $15,000 automated reporting layer that used to require a full-time analyst.</p>
+
+    <div class="pull-stat">
+      <span class="pull-stat-number">10&times;</span>
+      <span class="pull-stat-text"><strong>Rough multiplier on addressable software use cases for SMBs</strong> when average project cost drops by 60&ndash;70%. Processes that couldn&rsquo;t justify a custom system in 2021 can justify one today.</span>
+    </div>
+
+    <h2>What you should actually do with this information</h2>
+
+    <p>The instinct when reading about exponential technological change is either to panic or to wait and see. Neither is useful. Here&rsquo;s a more productive frame:</p>
+
+    <h3>Identify what&rsquo;s becoming cheap</h3>
+    <p>Software that automates repetitive internal processes. AI layers on top of existing data. Integration between systems that currently require manual data transfer. These categories are all seeing dramatic cost reductions. If you&rsquo;ve been putting off building something in these areas because it seemed too expensive, it&rsquo;s worth revisiting that assumption.</p>
+
+    <h3>Don&rsquo;t overbuild for the current moment</h3>
+    <p>A system that costs $200,000 to build today might be achievable for $50,000 in two years &mdash; with better capabilities. For non-urgent infrastructure, the calculus of &ldquo;build now vs. build later&rdquo; has shifted. The exception is anything where the competitive advantage of having it early outweighs the cost savings of waiting. For operational systems with clear ROI, build now and capture that ROI. For aspirational projects without a clear use case, the cost of waiting has gone down.</p>
+
+    <h3>Invest in the parts that don&rsquo;t commoditize</h3>
+    <p>The value of clean, well-documented internal data is increasing, not decreasing. AI systems are only as good as the data and specifications they work with. Businesses that have organized their operational data, documented their processes clearly, and maintained clean integrations between their systems will be dramatically better positioned to take advantage of AI capabilities as they continue to improve. This is unglamorous work. It is also increasingly valuable.</p>
+
+    <hr class="article-divider">
+
+    <h2>A note on what we do with all of this</h2>
+
+    <p>We are a small firm that builds custom software, AI systems, and IoT pipelines for small and mid-size businesses. We think about this trajectory constantly, because it directly determines what we can deliver, at what cost, and what advice we can honestly give clients about where to invest.</p>
+
+    <p>Our position is that the exponential curve in AI capability is an opportunity for the businesses we work with &mdash; not a threat &mdash; if they approach it pragmatically. The technology is genuinely powerful. It is also genuinely overhyped in certain quarters, and genuinely underestimated in others. Our job is to separate those, find the cases where the economics actually work, and build systems that deliver measurable value. The curve helps us do that faster and cheaper than we could two years ago. It will help us do it faster and cheaper two years from now than we can today.</p>
+
+    <p>That&rsquo;s what exponential growth looks like from the inside of a firm that&rsquo;s trying to use it honestly.</p>
+
+    <div class="article-cta">
+      <h3>Curious how this applies to your business?</h3>
+      <p>We&rsquo;re happy to have a direct conversation about what&rsquo;s realistic for your size and situation &mdash; what&rsquo;s worth building now, what to wait on, and where the genuine opportunities are.</p>
+      <a href="/contact">BOOK A FREE 30-MIN CONVERSATION <i class="ph ph-arrow-right"></i></a>
+    </div>
+
+  </article>]]></body_html>
+	<footer_o item-list="true">
+		<item>
+			<key>/site/components/footers/article-footer.xml</key>
+			<value><![CDATA[Article Footer]]></value>
+			<include>/site/components/footers/article-footer.xml</include>
+			<disableFlattening>false</disableFlattening>
+		</item>
+	</footer_o>
+</page>

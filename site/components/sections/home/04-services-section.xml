@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/section</content-type>
+	<display-template>/templates/web/components/section.ftl</display-template>
+	<no-template-required></no-template-required>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>9242</objectGroupId>
+	<objectId>924263e2-de5f-5eb5-9384-0073a4a00580</objectId>
+	<file-name>04-services-section.xml</file-name>
+	<folder-name></folder-name>
+	<internal-name><![CDATA[home — WHAT WE BUILD]]></internal-name>
+	<createdDate>2026-10-05T14:01:03.000Z</createdDate>
+	<createdDate_dt>2026-10-05T14:01:03.000Z</createdDate_dt>
+	<lastModifiedDate>2026-10-05T14:01:03.000Z</lastModifiedDate>
+	<lastModifiedDate_dt>2026-10-05T14:01:03.000Z</lastModifiedDate_dt>
+	<layout_s><![CDATA[html]]></layout_s>
+	<title_t><![CDATA[WHAT WE BUILD]]></title_t>
+	<subtitle_t><![CDATA[]]></subtitle_t>
+	<linkLabel_t><![CDATA[]]></linkLabel_t>
+	<linkUrl_s><![CDATA[]]></linkUrl_s>
+	<markup_html><![CDATA[<section class="services-section">
+    <div class="services-inner">
+      <div class="section-header">
+        <h2 class="section-title">WHAT WE BUILD</h2>
+        <p class="section-subtitle">Two focused services: build the custom software your business needs, then keep it healthy with automated QA agents that test like real users.</p>
+      </div>
+
+      <div class="services-grid">
+        <div class="service-card">
+          <div class="service-header">
+            <i class="service-icon ph ph-code"></i>
+            <span class="service-name">AI-Enhanced Custom Software Development</span>
+          </div>
+          <p class="service-description">We design and build custom web apps, internal tools, customer portals, integrations, and workflow systems using senior engineering plus AI-assisted development. The result is faster delivery without handing quality over to automation.</p>
+        </div>
+
+        <div class="service-card">
+          <div class="service-header">
+            <i class="service-icon ph ph-robot"></i>
+            <span class="service-name">Automated QA with AI Agents</span>
+          </div>
+          <p class="service-description">We deploy AI agents that explore your web app, run critical user journeys, check forms and workflows, capture screenshots, and summarize failures in plain English. Use it before launches, after deployments, or as continuous regression coverage.</p>
+          <a href="/blog/role-based-ai-qa-agents-cleaning-platform" class="service-card-link">Read the OAQA article <i class="ph ph-arrow-right"></i></a>
+        </div>
+
+        <div class="service-card">
+          <div class="service-header">
+            <i class="service-icon ph ph-arrows-merge"></i>
+            <span class="service-name">Integrations &amp; Workflow Systems</span>
+          </div>
+          <p class="service-description">When your CRM, billing system, website, spreadsheets, and operations tools do not talk to each other, we build the connective tissue: APIs, sync jobs, admin screens, and dashboards that match how your team works.</p>
+        </div>
+
+        <div class="service-card">
+          <div class="service-header">
+            <i class="service-icon ph ph-list-checks"></i>
+            <span class="service-name">Regression Test Suites</span>
+          </div>
+          <p class="service-description">We turn your most important workflows into repeatable AI-assisted test runs: login, checkout, booking, quote acceptance, admin updates, email triggers, and other paths that cannot break quietly.</p>
+        </div>
+
+        <div class="service-card">
+          <div class="service-header">
+            <i class="service-icon ph ph-git-branch"></i>
+            <span class="service-name">Modernization &amp; Feature Delivery</span>
+          </div>
+          <p class="service-description">If your existing system is slow to change, we can add features, refactor fragile areas, improve developer velocity, and introduce AI-supported testing without forcing a risky rewrite.</p>
+        </div>
+
+        <div class="service-card">
+          <div class="service-header">
+            <i class="service-icon ph ph-chart-bar"></i>
+            <span class="service-name">Quality Reports &amp; Release Checks</span>
+          </div>
+          <p class="service-description">QA agents produce practical output: what passed, what failed, where it failed, screenshots, reproduction notes, and recommended fixes. Your team gets signal instead of a pile of brittle test logs.</p>
+        </div>
+      </div>
+
+      <div class="services-link">
+        <a href="/services" class="ghost-link">
+          See All Services
+          <i class="ph ph-arrow-right"></i>
+        </a>
+        <a href="/software" class="ghost-link">
+          What Kind of Software?
+          <i class="ph ph-arrow-right"></i>
+        </a>
+      </div>
+    </div>
+  </section>]]></markup_html>
+</component>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/section</content-type>
+	<display-template>/templates/web/components/section.ftl</display-template>
+	<no-template-required></no-template-required>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>cd32</objectGroupId>
+	<objectId>cd32a111-0425-5591-bfa4-249c8bcb8266</objectId>
+	<file-name>03-expertise-section.xml</file-name>
+	<folder-name></folder-name>
+	<internal-name><![CDATA[about — WHAT WE BRING TO THE TABLE]]></internal-name>
+	<createdDate>2026-10-05T14:01:03.000Z</createdDate>
+	<createdDate_dt>2026-10-05T14:01:03.000Z</createdDate_dt>
+	<lastModifiedDate>2026-10-05T14:01:03.000Z</lastModifiedDate>
+	<lastModifiedDate_dt>2026-10-05T14:01:03.000Z</lastModifiedDate_dt>
+	<layout_s><![CDATA[html]]></layout_s>
+	<title_t><![CDATA[WHAT WE BRING TO THE TABLE]]></title_t>
+	<subtitle_t><![CDATA[]]></subtitle_t>
+	<linkLabel_t><![CDATA[]]></linkLabel_t>
+	<linkUrl_s><![CDATA[]]></linkUrl_s>
+	<markup_html><![CDATA[<section class="expertise-section">
+    <div class="expertise-section-inner">
+      <h2 class="expertise-heading">WHAT WE BRING TO THE TABLE</h2>
+      <div class="expertise-grid">
+        <div class="expertise-chip">
+          <i class="ph ph-cloud"></i>
+          <span>Custom Software Architecture</span>
+        </div>
+        <div class="expertise-chip">
+          <i class="ph ph-circles-three"></i>
+          <span>AI-Assisted Development</span>
+        </div>
+        <div class="expertise-chip">
+          <i class="ph ph-lightning"></i>
+          <span>Automated QA Strategy</span>
+        </div>
+        <div class="expertise-chip">
+          <i class="ph ph-cpu"></i>
+          <span>AI Agent Test Runs</span>
+        </div>
+        <div class="expertise-chip">
+          <i class="ph ph-database"></i>
+          <span>System Integrations</span>
+        </div>
+        <div class="expertise-chip">
+          <i class="ph ph-robot"></i>
+          <span>Release Readiness Reviews</span>
+        </div>
+        <div class="expertise-chip">
+          <i class="ph ph-check-circle"></i>
+          <span>TDD &amp; Clean Architecture</span>
+        </div>
+        <div class="expertise-chip">
+          <i class="ph ph-shield-check"></i>
+          <span>DevOps &amp; Security</span>
+        </div>
+        <div class="expertise-chip">
+          <i class="ph ph-chalkboard-teacher"></i>
+          <span>Team AI Enablement</span>
+        </div>
+      </div>
+    </div>
+  </section>]]></markup_html>
+</component>

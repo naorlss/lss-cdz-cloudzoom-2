@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/footer</content-type>
+	<display-template>/templates/web/components/footer.ftl</display-template>
+	<no-template-required></no-template-required>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>e4ca</objectGroupId>
+	<objectId>e4ca3d83-1258-53b0-9801-5f908a148217</objectId>
+	<file-name>article-footer.xml</file-name>
+	<folder-name></folder-name>
+	<internal-name><![CDATA[Article Footer]]></internal-name>
+	<createdDate>2026-10-05T14:01:03.000Z</createdDate>
+	<createdDate_dt>2026-10-05T14:01:03.000Z</createdDate_dt>
+	<lastModifiedDate>2026-10-05T14:01:03.000Z</lastModifiedDate>
+	<lastModifiedDate_dt>2026-10-05T14:01:03.000Z</lastModifiedDate_dt>
+	<variant_s><![CDATA[article]]></variant_s>
+	<brand_t><![CDATA[CloudZoom Solutions]]></brand_t>
+	<tagline_t><![CDATA[]]></tagline_t>
+	<phone_t><![CDATA[]]></phone_t>
+	<phoneUrl_s><![CDATA[]]></phoneUrl_s>
+	<email_t><![CDATA[bill@cloudzoom.dev]]></email_t>
+	<linkedinLabel_t><![CDATA[]]></linkedinLabel_t>
+	<linkedinUrl_s><![CDATA[]]></linkedinUrl_s>
+	<copyright_t><![CDATA[© 2026 CloudZoom Solutions Inc. All rights reserved.]]></copyright_t>
+	<showLinkedIn_s><![CDATA[false]]></showLinkedIn_s>
+	<showLegal_s><![CDATA[true]]></showLegal_s>
+	<nav_o item-list="true">
+	</nav_o>
+	<connect_o item-list="true">
+	</connect_o>
+</component>

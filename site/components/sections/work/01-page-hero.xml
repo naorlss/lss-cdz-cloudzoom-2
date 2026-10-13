@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/section</content-type>
+	<display-template>/templates/web/components/section.ftl</display-template>
+	<no-template-required></no-template-required>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>1039</objectGroupId>
+	<objectId>10399c76-5dd0-581e-8306-8f55181ad015</objectId>
+	<file-name>01-page-hero.xml</file-name>
+	<folder-name></folder-name>
+	<internal-name><![CDATA[work — Software Work Built for Real Operations]]></internal-name>
+	<createdDate>2026-10-05T14:01:03.000Z</createdDate>
+	<createdDate_dt>2026-10-05T14:01:03.000Z</createdDate_dt>
+	<lastModifiedDate>2026-10-05T14:01:03.000Z</lastModifiedDate>
+	<lastModifiedDate_dt>2026-10-05T14:01:03.000Z</lastModifiedDate_dt>
+	<layout_s><![CDATA[html]]></layout_s>
+	<title_t><![CDATA[Software Work Built for Real Operations]]></title_t>
+	<subtitle_t><![CDATA[]]></subtitle_t>
+	<linkLabel_t><![CDATA[]]></linkLabel_t>
+	<linkUrl_s><![CDATA[]]></linkUrl_s>
+	<markup_html><![CDATA[<section class="page-hero">
+    <div class="page-hero-inner">
+      <div class="eyebrow-pill">CLIENT WORK</div>
+      <h1>Software Work Built for Real Operations</h1>
+      <div class="accent-underline"></div>
+      <p class="page-hero-subtitle">Examples of custom systems, automation, and production software experience behind our AI-enhanced development and QA services.</p>
+      
+      
+    </div>
+  </section>]]></markup_html>
+</component>

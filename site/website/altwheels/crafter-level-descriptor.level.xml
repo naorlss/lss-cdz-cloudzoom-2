@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/level-descriptor</content-type>
+	<display-template></display-template>
+	<no-template-required></no-template-required>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>dbd7</objectGroupId>
+	<objectId>dbd70e42-c667-5b8d-8087-a252ce3f33d8</objectId>
+	<file-name>crafter-level-descriptor.level.xml</file-name>
+	<folder-name></folder-name>
+	<internal-name>Section Defaults</internal-name>
+	<createdDate>2026-10-05T14:01:03.000Z</createdDate>
+	<createdDate_dt>2026-10-05T14:01:03.000Z</createdDate_dt>
+	<lastModifiedDate>2026-10-05T14:01:03.000Z</lastModifiedDate>
+	<lastModifiedDate_dt>2026-10-05T14:01:03.000Z</lastModifiedDate_dt>
+	<header_o item-list="true">
+		<item>
+			<key>/site/components/headers/altwheels-header.xml</key>
+			<value><![CDATA[AltWheels Header]]></value>
+			<include>/site/components/headers/altwheels-header.xml</include>
+			<disableFlattening>false</disableFlattening>
+		</item>
+	</header_o>
+	<footer_o item-list="true">
+		<item>
+			<key>/site/components/footers/altwheels-footer.xml</key>
+			<value><![CDATA[AltWheels Footer]]></value>
+			<include>/site/components/footers/altwheels-footer.xml</include>
+			<disableFlattening>false</disableFlattening>
+		</item>
+	</footer_o>
+</component>

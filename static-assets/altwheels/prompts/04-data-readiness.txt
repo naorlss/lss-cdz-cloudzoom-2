@@ -1,0 +1,6 @@
+Help us prepare the approved materials supplied here for fleet AI use. Do not assume that you have access to our other systems.
+Produce a source inventory: source/system, business purpose, owner if known, reporting period, refresh frequency, authority, allowed audience and quality gaps.
+Then draft a data guide covering vehicle identifiers and join rules; field definitions; units; codes; dates and time zones; approved metric formulas; comparison groups; exceptions; missing values; duplicate handling; and conflicts between sources.
+Separate confirmed definitions from proposed interpretations. Do not infer a code's meaning or invent a formula. Ask the responsible data owner to resolve unknowns.
+Use the question "Which vehicles warrant a utilization review?" to expose missing definitions, including reserve and seasonal vehicles. Explain what data would be needed to answer without assuming low mileage means a vehicle is unnecessary.
+Recommend the smallest useful approved dataset for one pilot. Identify what can start with uploads, what might need document retrieval, and what would need current read-only database/API access later. Do not propose broad access merely because it is possible.

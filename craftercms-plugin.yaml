@@ -1,0 +1,36 @@
+descriptorVersion: 2
+
+plugin:
+  type: blueprint
+  id: org.cloudzoom.blueprint.site
+  name: CloudZoom Solutions
+  tags:
+    - blueprint
+    - website
+  version:
+    major: 1
+    minor: 0
+    patch: 0
+  description: |
+    CloudZoom Solutions marketing site and AltWheels resource library.
+  website:
+    name: CloudZoom Solutions
+    url: https://www.cloudzoom.dev
+  developer:
+    company:
+      name: CloudZoom Solutions
+  license:
+    name: MIT
+    url: https://opensource.org/licenses/MIT
+  crafterCmsVersions:
+    - major: 4
+      minor: 0
+    - major: 4
+      minor: 1
+    - major: 4
+      minor: 2
+    - major: 4
+      minor: 3
+  crafterCmsEditions:
+    - community
+    - enterprise

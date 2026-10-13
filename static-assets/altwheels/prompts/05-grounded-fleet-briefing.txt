@@ -1,0 +1,6 @@
+Using only the supplied approved fleet reports and Data Guide, prepare a draft exception briefing for the stated reporting period.
+Before analysis, confirm the actual coverage, identifiers, units and definitions. Report missing files, stale dates, duplicate records and unmatched vehicle IDs. Ask for essential definitions rather than guessing.
+Apply approved exception rules using a calculation tool or tested code when available. Show formulas, filters and comparison groups; reconcile record counts and totals to the source. Do not silently drop missing data.
+For each finding give: vehicle/asset ID, observation, reporting period, supporting source/record, possible explanation clearly labeled as a hypothesis, missing evidence, and a recommended human follow-up.
+Do not infer a cause from a correlation, diagnose mechanical safety, rank drivers for discipline or authorize vehicle release. Keep reserve and seasonal vehicles separate where our rules require it.
+End with limitations and a list of claims a reviewer should verify. If no finding is supported, say so. Do not invent exceptions to fill a report.

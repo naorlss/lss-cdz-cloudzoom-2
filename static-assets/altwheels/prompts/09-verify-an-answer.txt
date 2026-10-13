@@ -1,0 +1,5 @@
+Audit the draft answer against the supplied original sources. Do not treat the draft's own citations, confidence or another model's agreement as evidence.
+Make a claims table with: claim, actual supporting record/document and date, status (supported/contradicted/not enough information), and correction or missing evidence.
+Open or inspect each cited source you can access. Mark inaccessible sources as unverified; never fabricate citations. Recalculate quantitative claims using available calculation tools and explicit formulas, inputs and units. Report coverage gaps, duplicates and conflicting definitions.
+Distinguish observations from hypotheses and recommendations. Flag outdated operational facts, unsupported causal explanations and any unauthorized action or safety conclusion.
+Return the corrected draft plus unresolved issues requiring a human decision. If independent verification is not possible, state that limitation rather than declaring the answer correct.

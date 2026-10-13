@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page>
+	<content-type>/page/landing</content-type>
+	<display-template>/templates/web/pages/landing.ftl</display-template>
+	<no-template-required></no-template-required>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>dfaf</objectGroupId>
+	<objectId>dfafffc4-a350-5ec2-82a4-81faee27680f</objectId>
+	<file-name>index.xml</file-name>
+	<folder-name>work</folder-name>
+	<internal-name><![CDATA[Work]]></internal-name>
+	<placeInNav>false</placeInNav>
+	<disabled>false</disabled>
+	<createdDate>2026-10-05T14:01:03.000Z</createdDate>
+	<createdDate_dt>2026-10-05T14:01:03.000Z</createdDate_dt>
+	<lastModifiedDate>2026-10-05T14:01:03.000Z</lastModifiedDate>
+	<lastModifiedDate_dt>2026-10-05T14:01:03.000Z</lastModifiedDate_dt>
+	<navLabel><![CDATA[Work]]></navLabel>
+	<title_t><![CDATA[Work | CloudZoom Solutions Inc.]]></title_t>
+	<seoDescription_t><![CDATA[Examples of CloudZoom software projects, automation systems, and AI-assisted delivery work that inform our custom development and automated QA services.]]></seoDescription_t>
+	<navKey_s><![CDATA[work]]></navKey_s>
+	<stylesheet_s><![CDATA[/static-assets/app/css/work.css]]></stylesheet_s>
+	<headLinks_html><![CDATA[<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Manrope:wght@400;500;600;700&display=swap">
+  <link rel="stylesheet" href="https://unpkg.com/@phosphor-icons/web/src/regular/style.css">]]></headLinks_html>
+	<footerMode_s><![CDATA[marketing]]></footerMode_s>
+	<footerTagline_t><![CDATA[Boston-based. Senior-led. AI-accelerated.]]></footerTagline_t>
+	<footerLinkedIn_s><![CDATA[true]]></footerLinkedIn_s>
+	<footerLegal_s><![CDATA[true]]></footerLegal_s>
+	<sections_o item-list="true">
+		<item>
+			<key>/site/components/sections/work/01-page-hero.xml</key>
+			<value><![CDATA[work — Software Work Built for Real Operations]]></value>
+			<include>/site/components/sections/work/01-page-hero.xml</include>
+			<disableFlattening>false</disableFlattening>
+		</item>
+		<item>
+			<key>/site/components/sections/work/02-case-studies-content.xml</key>
+			<value><![CDATA[work — Constellation Hail Scan System]]></value>
+			<include>/site/components/sections/work/02-case-studies-content.xml</include>
+			<disableFlattening>false</disableFlattening>
+		</item>
+		<item>
+			<key>/site/components/sections/work/03-final-cta.xml</key>
+			<value><![CDATA[work — Have a Product to Build or a Release to Validate?]]></value>
+			<include>/site/components/sections/work/03-final-cta.xml</include>
+			<disableFlattening>false</disableFlattening>
+		</item>
+	</sections_o>
+</page>

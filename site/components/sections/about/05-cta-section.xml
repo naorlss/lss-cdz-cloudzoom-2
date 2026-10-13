@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/section</content-type>
+	<display-template>/templates/web/components/section.ftl</display-template>
+	<no-template-required></no-template-required>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>a2c3</objectGroupId>
+	<objectId>a2c3958b-3a86-590f-8068-6d180faa279a</objectId>
+	<file-name>05-cta-section.xml</file-name>
+	<folder-name></folder-name>
+	<internal-name><![CDATA[about — Ready to build or test something important?]]></internal-name>
+	<createdDate>2026-10-05T14:01:03.000Z</createdDate>
+	<createdDate_dt>2026-10-05T14:01:03.000Z</createdDate_dt>
+	<lastModifiedDate>2026-10-05T14:01:03.000Z</lastModifiedDate>
+	<lastModifiedDate_dt>2026-10-05T14:01:03.000Z</lastModifiedDate_dt>
+	<layout_s><![CDATA[html]]></layout_s>
+	<title_t><![CDATA[Ready to build or test something important?]]></title_t>
+	<subtitle_t><![CDATA[]]></subtitle_t>
+	<linkLabel_t><![CDATA[]]></linkLabel_t>
+	<linkUrl_s><![CDATA[]]></linkUrl_s>
+	<markup_html><![CDATA[<section class="cta-section">
+    <div class="cta-inner">
+      <h2 class="cta-heading">Ready to build or test something important?</h2>
+      <a href="/contact" class="secondary-button" style="font-size: 1.125rem; padding: 1rem 2rem;">BOOK YOUR FREE 30 MIN STRATEGY CALL <i class="ph ph-arrow-right"></i></a>
+    </div>
+  </section>]]></markup_html>
+</component>

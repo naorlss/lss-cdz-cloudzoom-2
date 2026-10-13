@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/level-descriptor</content-type>
+	<display-template></display-template>
+	<no-template-required></no-template-required>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>8317</objectGroupId>
+	<objectId>83178705-2b29-5bb1-92c8-24f9533ec4c1</objectId>
+	<file-name>crafter-level-descriptor.level.xml</file-name>
+	<folder-name></folder-name>
+	<internal-name>Section Defaults</internal-name>
+	<createdDate>2026-10-05T14:01:03.000Z</createdDate>
+	<createdDate_dt>2026-10-05T14:01:03.000Z</createdDate_dt>
+	<lastModifiedDate>2026-10-05T14:01:03.000Z</lastModifiedDate>
+	<lastModifiedDate_dt>2026-10-05T14:01:03.000Z</lastModifiedDate_dt>
+	<header_o item-list="true">
+		<item>
+			<key>/site/components/headers/main-header.xml</key>
+			<value><![CDATA[Main Header]]></value>
+			<include>/site/components/headers/main-header.xml</include>
+			<disableFlattening>false</disableFlattening>
+		</item>
+	</header_o>
+	<footer_o item-list="true">
+		<item>
+			<key>/site/components/footers/main-footer.xml</key>
+			<value><![CDATA[Main Footer]]></value>
+			<include>/site/components/footers/main-footer.xml</include>
+			<disableFlattening>false</disableFlattening>
+		</item>
+	</footer_o>
+</component>

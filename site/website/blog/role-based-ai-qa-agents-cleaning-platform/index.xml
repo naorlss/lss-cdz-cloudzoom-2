@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page>
+	<content-type>/page/article</content-type>
+	<display-template>/templates/web/pages/article.ftl</display-template>
+	<no-template-required></no-template-required>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>246d</objectGroupId>
+	<objectId>246d718c-cde5-557f-9329-bc593fb3b48e</objectId>
+	<file-name>index.xml</file-name>
+	<folder-name>role-based-ai-qa-agents-cleaning-platform</folder-name>
+	<internal-name><![CDATA[OAQA for MyTidyBiz: Testing a Cleaning Platform Like a Real Operations Team]]></internal-name>
+	<placeInNav>false</placeInNav>
+	<disabled>false</disabled>
+	<createdDate>2026-10-05T14:01:03.000Z</createdDate>
+	<createdDate_dt>2026-10-05T14:01:03.000Z</createdDate_dt>
+	<lastModifiedDate>2026-10-05T14:01:03.000Z</lastModifiedDate>
+	<lastModifiedDate_dt>2026-10-05T14:01:03.000Z</lastModifiedDate_dt>
+	<navLabel><![CDATA[OAQA for MyTidyBiz: Testing a Cleaning Platform Like a Real Operations Team]]></navLabel>
+	<title_t><![CDATA[OAQA for MyTidyBiz: Role-Based AI QA Agents | CloudZoom Solutions]]></title_t>
+	<headline_t><![CDATA[OAQA for MyTidyBiz: Testing a Cleaning Platform Like a Real Operations Team]]></headline_t>
+	<seoDescription_t><![CDATA[How CloudZoom uses OAQA, Orchestrated Agentic Quality Assurance, to test MyTidyBiz with context continuity, role-based personas, evidence reports, and practical SDLC guardrails.]]></seoDescription_t>
+	<navKey_s><![CDATA[blog]]></navKey_s>
+	<stylesheet_s><![CDATA[/static-assets/app/css/article-role-based-ai-qa-agents-cleaning-platform.css]]></stylesheet_s>
+	<headLinks_html><![CDATA[<link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/regular/style.css">]]></headLinks_html>
+	<author_t><![CDATA[Bill Scott]]></author_t>
+	<dateLabel_t><![CDATA[June 2026]]></dateLabel_t>
+	<readTime_t><![CDATA[· 10 min read]]></readTime_t>
+	<listRead_t><![CDATA[· 10 min read]]></listRead_t>
+	<wrap_s><![CDATA[]]></wrap_s>
+	<sortOrder_s><![CDATA[02]]></sortOrder_s>
+	<featured_s><![CDATA[false]]></featured_s>
+	<showOnHome_s><![CDATA[true]]></showOnHome_s>
+	<homeOrder_s><![CDATA[02]]></homeOrder_s>
+	<visualLabel_t><![CDATA[AI QA]]></visualLabel_t>
+	<icon_s><![CDATA[ph ph-users-three]]></icon_s>
+	<listExcerpt_t><![CDATA[A look at CloudZoom's Orchestrated Agentic Quality Assurance model: sales manager, operations manager, customer, and cleaner personas that test MyTidyBiz workflows and preserve context.]]></listExcerpt_t>
+	<homeTag_t><![CDATA[AI QA]]></homeTag_t>
+	<homeIcon_s><![CDATA[ph ph-users-three]]></homeIcon_s>
+	<homeMeta_t><![CDATA[June 2026 · 10 min read]]></homeMeta_t>
+	<homeExcerpt_t><![CDATA[How CloudZoom uses orchestrated AI QA personas to test MyTidyBiz workflows across sales managers, operations managers, customers, cleaners, and backend state.]]></homeExcerpt_t>
+	<homeCta_t><![CDATA[Read article]]></homeCta_t>
+	<tags_o item-list="true">
+		<item>
+			<label_t><![CDATA[AI QA]]></label_t>
+		</item>
+		<item>
+			<label_t><![CDATA[Software Delivery]]></label_t>
+		</item>
+	</tags_o>
+	<listTags_o item-list="true">
+		<item>
+			<label_t><![CDATA[AI QA]]></label_t>
+		</item>
+		<item>
+			<label_t><![CDATA[Software Delivery]]></label_t>
+		</item>
+	</listTags_o>
+	<listDate_t><![CDATA[June 2026]]></listDate_t>
+	<body_html><![CDATA[<article class="article-body">
+
+    <p>Most QA automation is built around scripts.</p>
+
+    <p>A script logs in, clicks a button, checks for expected text, and reports pass or fail. That is useful. It also misses a lot of the reality inside modern software.</p>
+
+    <p>MyTidyBiz is a SaaS-based operating system for cleaning companies that supports the full quote-to-cash workflow: quote requests, sales follow-up by SMS or email, customer acceptance, manager review, cleaner scheduling, schedule changes, property details, completed work reports, invoices, tips, and cleaner payments.</p>
+
+    <figure class="article-figure">
+      <img src="/static-assets/images/oaqa-mytidybiz-workflow-dance.png" alt="MyTidyBiz role handoffs across customer, sales, manager, and cleaner workflows">
+      <figcaption>MyTidyBiz handoffs across customers, sales managers, operations managers, cleaners, messages, scheduling, payment, and backend state.</figcaption>
+    </figure>
+
+    <p>The platform manages a complex dance between customers, sales managers, operations managers, and cleaners communicating through email, SMS, and internal messages. What matters for QA is that every arrow is a handoff: messages, schedules, permissions, job status, customer expectations, payments, and backend records all have to stay consistent. Many of the important defects do not live on one screen. They happen between roles.</p>
+
+    <p>So we created OAQA, pronounced "Oak-A": Orchestrated Agentic Quality Assurance. It is our internal role-based autonomous AI QA system: a coordinated QA platform that behaves more like a disciplined test team.</p>
+
+    <h2>The Problem With Fragmented QA</h2>
+
+    <p>Take the MyTidyBiz booking process. Broken into pieces, each step looks straightforward:</p>
+
+    <ul>
+      <li>a customer requests a quote and describes the property</li>
+      <li>a sales manager or the system creates the quote and sends it by SMS or email</li>
+      <li>the customer accepts the quote and requests a cleaning date</li>
+      <li>an operations manager verifies the booking and schedules cleaners</li>
+      <li>the cleaning team cleans the property, updates booking status, and the system creates a report</li>
+      <li>the customer receives the invoice, adds a tip, and pays</li>
+    </ul>
+
+    <p>A traditional automated test can validate each bullet in isolation. The hard part is maintaining context between them: the same customer, quote, property description, accepted booking, assigned cleaners, schedule changes, invoice, tip, and cleaner payout all have to stay connected.</p>
+
+    <p>In many QA processes, a human tester is the thing holding that context together. They remember what the customer requested, what sales promised, what the manager scheduled, and what the cleaner actually saw. That works, but it is expensive, slow to repeat, and hard to turn into durable release evidence.</p>
+
+    <p>The hardest defects usually sit in those context gaps.</p>
+
+    <p>The UI may look correct while the database state is wrong. An invitation may send successfully but create the wrong permissions. A cleaner may see the right page but the wrong booking. A manager action may appear to save while a background process fails quietly.</p>
+
+    <p>When that happens, a pass/fail result is not enough. The engineering team needs evidence. What role was acting? What step failed? What changed in the database? What do the logs say? Which boundary is probably broken?</p>
+
+    <p>That is the gap we are trying to close.</p>
+
+    <h2>The OAQA (OakA) Model</h2>
+
+    <p>We use multiple AI agents operating as defined personas:</p>
+
+    <ul>
+      <li>a QA orchestrator</li>
+      <li>a sales manager persona</li>
+      <li>an operations manager persona</li>
+      <li>a customer persona</li>
+      <li>a cleaner persona</li>
+    </ul>
+
+    <figure class="article-figure">
+      <img src="/static-assets/images/oaqa-model-simple.png" alt="OAQA model showing a central orchestrator connecting sales manager, operations manager, customer, and cleaner personas">
+      <figcaption>OAQA keeps workflow context in the orchestrator while each role persona stays bounded.</figcaption>
+    </figure>
+
+    <p>The orchestrator owns the test run. It defines the workflow, validates environment readiness, assigns bounded work to each persona, checks the evidence that comes back, and produces the final report.</p>
+
+    <p>The role personas stay in their lanes. Each role uses isolated browser/session context and controlled test identities so actions do not bleed across personas. They know how to do their things and what to expect: if a button does not exist to let them submit a form, they will report that and move on.</p>
+
+    <p>The key advantage is context continuity. Each persona only needs to understand its own role, but the orchestrator maintains the larger workflow context across all of them. It knows what the customer requested, what the sales manager quoted, what the operations manager scheduled, what the cleaner accepted, what changed later, and what the system recorded underneath.</p>
+
+    <p>The design goal is simple: make the system act less like one giant script and more like a small QA team that knows who is responsible for what.</p>
+
+    <h2>What A Test Run Looks Like</h2>
+
+    <p>The process can be managed by communicating with the orchestrator persona through whatever surface has been implemented for the team: a user interface, email, Slack, Microsoft Teams, Telegram, an API call, a DevOps message, or another workflow trigger. The interface matters less than the operating model. The orchestrator receives the request, understands the target workflow or release context, and starts coordinating the run.</p>
+
+    <p>OAQA follows this general execution pattern:</p>
+
+    <figure class="article-figure">
+      <img src="/static-assets/images/oaqa-execution-workflow.svg?v=2" alt="OAQA execution workflow showing bootstrap, role call, repeated test runs and reports, and a final wrap-up">
+      <figcaption>OAQA starts with setup and role readiness, loops through bounded test runs and reports, then produces the final overall wrap-up.</figcaption>
+    </figure>
+
+    <ul>
+      <li><strong>Bootstrap:</strong> the orchestrator checks the environment and dependencies</li>
+      <li><strong>Role call:</strong> the orchestrator checks all personas and their status</li>
+      <li><strong>Test suite run:</strong> the orchestrator runs the defined workflow, including branches and edge cases, while creating correlated context artifacts for the involved personas</li>
+      <li><strong>Test suite wrap-up:</strong> the orchestrator creates test result reports</li>
+      <li><strong>Wrap-up:</strong> the orchestrator creates the final overall report</li>
+    </ul>
+
+    <p>During the test runs, the orchestrator assigns one bounded action at a time. For example:</p>
+
+    <ul>
+      <li>sales manager: create or verify a customer-facing quote step</li>
+      <li>operations manager: verify booking details and schedule cleaners</li>
+      <li>customer: follow the email-driven path and complete the requested action</li>
+      <li>cleaner: accept access, verify permissions, and confirm the correct work is visible</li>
+      <li>orchestrator: compare role evidence against logs and database state</li>
+    </ul>
+
+    <p>The worker agents do not just report "done." They return evidence: screenshots, observed state, URLs, relevant messages, and notes about anything unexpected. The orchestrator uses that evidence to decide the next step or to stop the run and produce a useful failure report.</p>
+
+    <p>That distinction matters. The system is not trying to maximize clicks. It is trying to maximize reliable signal.</p>
+
+    <h2>Output For Humans And AI Teams</h2>
+
+    <p>The output of an OAQA run is designed for two audiences.</p>
+
+    <figure class="article-figure">
+      <img src="/static-assets/images/oaqa-output-human-ai.png" alt="A human and a computer both reading QA reports from the same evidence-rich OAQA output">
+      <figcaption>OAQA reports are designed for human review and AI-assisted development handoff.</figcaption>
+    </figure>
+
+    <p>The first audience is the human team. Product managers, QA leads, and developers need a clear report they can trust: what workflow was tested, which personas participated, what passed, what failed, what evidence was collected, and where the likely failure boundary is. That report supports release decisions, triage, and stakeholder communication.</p>
+
+    <p>The second audience is the AI-assisted development team. If AI tools are going to help fix the problem, they need more than a failing test name. They need the complete workflow context and observations from the run:</p>
+
+    <ul>
+      <li>the customer, booking, property, schedule, invoice, and payment context</li>
+      <li>the persona that performed each step</li>
+      <li>expected behavior versus observed behavior</li>
+      <li>screenshots, URLs, messages, and UI state</li>
+      <li>relevant log entries and database observations</li>
+      <li>the orchestrator's diagnosis of the likely failure boundary</li>
+    </ul>
+
+    <p>That makes the OAQA report useful as both a human QA artifact and an AI development handoff. A person can review it, challenge it, and prioritize it. An AI development agent can consume it as context for debugging, code review, or repair work. This added context saves time and tokens.</p>
+
+    <h2>How This Benefits The SDLC</h2>
+
+    <p>This changes QA from a late-stage bottleneck into a repeatable delivery capability.</p>
+
+    <p>For product and engineering teams, the benefits show up in a few practical ways.</p>
+
+    <p><strong>Better cross-role coverage.</strong> The system exercises workflows the way real users experience them: across roles, emails, permissions, and state transitions.</p>
+
+    <p><strong>Lower manual QA load.</strong> Repetitive smoke and regression checks can run without requiring a person to manually replay the same workflow every release.</p>
+
+    <p><strong>Clearer defect evidence.</strong> Failures come with context: role, step, expected state, observed state, screenshots, logs, and database clues where available.</p>
+
+    <p><strong>Faster diagnosis.</strong> Engineers get a narrower failure boundary instead of a vague "the test failed" message.</p>
+
+    <p><strong>Reusable regression capability.</strong> Once a workflow is modeled, it can become part of a release smoke pack or scheduled regression run.</p>
+
+    <p>The point is not to remove human judgment from QA. The point is to stop spending human judgment on repetitive replay when it can be spent on risk, edge cases, product quality, and release decisions.</p>
+
+    <h2>Self-Evolving QA Workflows</h2>
+
+    <p>Another advantage is that OAQA can support self-evolving QA workflows.</p>
+
+    <figure class="article-figure">
+      <img src="/static-assets/images/oaqa-self-evolving-workflows.png" alt="QA workflows evolving from checklists to scripts to connected workflow tests to self-updating release-aware QA packs">
+      <figcaption>OAQA workflows can evolve from static checks into release-aware QA packs that adapt as the product changes.</figcaption>
+    </figure>
+
+    <p>After each pull request, the orchestrator can use user story acceptance criteria, PR comments, commit notes, and code changes as inputs. A specialized product owner persona reviews those inputs from the feature perspective. That persona is aware of the product goals and objectives, so it can reason about what changed, which roles are affected, what customer or business outcome matters, what workflow context is at risk, and what evidence should be collected.</p>
+
+    <p>The orchestrator can then use the product owner persona's findings to propose test scenarios and workflow updates: new checks for new features, revised steps for changed behavior, retired checks for removed functionality, and targeted regression runs for the personas most likely to be affected.</p>
+
+    <p>That keeps the QA model connected to the product as it evolves. Instead of a regression suite slowly drifting away from the real application, the test workflows can be updated alongside the code changes that created the need for them. The OAQA workflow pack can also be versioned with the software release, so teams know which personas, checks, and evidence requirements belong to each product version. For sensitive areas, those updates can still go through human review before becoming part of the durable QA pack.</p>
+
+    <h2>Implementation Details That Matter</h2>
+
+    <p>The useful part of this model is not just the prompts. It is the operating structure around the agents.</p>
+
+    <p>We keep a shared QA workspace separate from the application repo. That keeps test plans, role instructions, evidence requirements, and run reports organized without turning the product codebase into an experimental scratchpad.</p>
+
+    <p>Each persona gets isolated runtime context. Separate browser profiles and controlled identities make it possible to test realistic cross-role behavior without contaminating sessions.</p>
+
+    <p>The orchestrator publishes role context before execution. Each worker knows its identity, its permitted surface area, and the exact workflow it is responsible for. The system is intentionally role-bound.</p>
+
+    <p>We also separate reasoning from execution. The orchestrator uses the stronger reasoning model because it is responsible for sequencing, validation, and diagnosis. The worker agents can use lower-cost models because their work is bounded and repetitive. That keeps the cost profile practical.</p>
+
+    <p>Finally, the system is evidence-driven. A role agent is not allowed to claim success without returning observable proof. The orchestrator is responsible for validating that proof against the larger run.</p>
+
+    <h2>What We Still Keep Guarded</h2>
+
+    <p>Agent-based QA is powerful, but it needs boundaries.</p>
+
+    <figure class="article-figure">
+      <img src="/static-assets/images/oaqa-guardrails-simple.png" alt="Simple road guardrails representing disciplined boundaries for OAQA">
+      <figcaption>OAQA is designed around broad context and narrow authority.</figcaption>
+    </figure>
+
+    <p>One reasonable concern is that the orchestrator knows a lot. That is intentional, but it does not mean the orchestrator should have unlimited authority. OAQA is designed around a simple principle: broad context, narrow authority.</p>
+
+    <p>The orchestrator can coordinate personas, compare evidence, read approved logs or state, and produce reports. It should not mutate infrastructure, override business rules, access production data casually, or act outside the boundaries defined for the run. The orchestrator is only an observer and reporter, not an operator.</p>
+
+    <p>We do not want agents mutating infrastructure. We do not want them improvising outside their assigned role. We do not want them handling production data casually. We do not want a confident narrative in place of evidence.</p>
+
+    <p>So the system is designed with guardrails:</p>
+
+    <ul>
+      <li>explicit role boundaries</li>
+      <li>controlled test identities</li>
+      <li>isolated browser sessions</li>
+      <li>read-only access to environment evidence where possible</li>
+      <li>human review for sensitive workflows</li>
+      <li>durable reporting after each run</li>
+    </ul>
+
+    <p>The best use of autonomous QA agents is not unchecked autonomy. It is disciplined autonomy inside a well-designed process.</p>
+
+    <h2>Why This Is Commercially Interesting</h2>
+
+    <p>AI development tools generate more code, faster. The bottleneck is shifting. Teams can now produce features, fixes, and refactors at a pace that traditional QA processes were not designed to absorb. There is simply more code moving through the system, and every extra change creates more places where workflow context can break.</p>
+
+    <p>That is why the output layer matters commercially. OAQA does not just say that a test failed. It creates the evidence package needed for both human review and AI-assisted repair, which makes QA a faster feedback loop instead of a slower gate at the end of development.</p>
+
+    <p>This model is a strong fit for platforms with:</p>
+
+    <ul>
+      <li>multiple user roles</li>
+      <li>multi-step workflows that require approvals, audits, or review gates</li>
+      <li>multi-surface workflows such as email, SMS, invitation links, or external notifications</li>
+      <li>fast-moving products where QA workflows need to stay current with frequent pull requests</li>
+      <li>AI-assisted development teams that need high-context QA reports, not just failing test names</li>
+    </ul>
+
+    <p>If your team is dealing with regression bottlenecks, multi-role workflow complexity, or too much time lost reproducing defects, this is exactly the kind of problem this model is designed to solve.</p>
+
+    <p>Reach out if your team needs assistance. We can help you stand up your own OAQA system, or we can host a virtual QA team that you can interact with through Slack, Microsoft Teams, or your preferred workflow surface.</p>
+
+    <div class="article-cta">
+      <h3>Want to test your workflows this way?</h3>
+      <p>CloudZoom can help map your critical product workflows, design role-based QA personas, and build a practical OAQA system around your real environment.</p>
+      <a href="/contact">TALK THROUGH YOUR QA WORKFLOWS <i class="ph ph-arrow-right"></i></a>
+    </div>
+
+  </article>]]></body_html>
+	<footer_o item-list="true">
+		<item>
+			<key>/site/components/footers/article-footer.xml</key>
+			<value><![CDATA[Article Footer]]></value>
+			<include>/site/components/footers/article-footer.xml</include>
+			<disableFlattening>false</disableFlattening>
+		</item>
+	</footer_o>
+</page>

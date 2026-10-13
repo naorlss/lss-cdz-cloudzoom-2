@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page>
+	<content-type>/page/landing</content-type>
+	<display-template>/templates/web/pages/landing.ftl</display-template>
+	<no-template-required></no-template-required>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>7a92</objectGroupId>
+	<objectId>7a920855-d3cd-57e7-839a-32e532f0146f</objectId>
+	<file-name>index.xml</file-name>
+	<folder-name>about</folder-name>
+	<internal-name><![CDATA[About]]></internal-name>
+	<placeInNav>false</placeInNav>
+	<disabled>false</disabled>
+	<createdDate>2026-10-05T14:01:03.000Z</createdDate>
+	<createdDate_dt>2026-10-05T14:01:03.000Z</createdDate_dt>
+	<lastModifiedDate>2026-10-05T14:01:03.000Z</lastModifiedDate>
+	<lastModifiedDate_dt>2026-10-05T14:01:03.000Z</lastModifiedDate_dt>
+	<navLabel><![CDATA[About]]></navLabel>
+	<title_t><![CDATA[About | CloudZoom Solutions Inc.]]></title_t>
+	<seoDescription_t><![CDATA[CloudZoom is a Boston-based software partner focused on AI-enhanced custom software development and automated QA with AI agents.]]></seoDescription_t>
+	<navKey_s><![CDATA[about]]></navKey_s>
+	<stylesheet_s><![CDATA[/static-assets/app/css/about.css]]></stylesheet_s>
+	<headLinks_html><![CDATA[<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Manrope:wght@400;500;600;700&display=swap">
+  <link rel="stylesheet" href="https://unpkg.com/@phosphor-icons/web/src/regular/style.css">]]></headLinks_html>
+	<footerMode_s><![CDATA[marketing]]></footerMode_s>
+	<footerTagline_t><![CDATA[Technology that works for your people.]]></footerTagline_t>
+	<footerLinkedIn_s><![CDATA[true]]></footerLinkedIn_s>
+	<footerLegal_s><![CDATA[true]]></footerLegal_s>
+	<sections_o item-list="true">
+		<item>
+			<key>/site/components/sections/about/01-hero.xml</key>
+			<value><![CDATA[about — Senior software judgment, amplified by practical AI.]]></value>
+			<include>/site/components/sections/about/01-hero.xml</include>
+			<disableFlattening>false</disableFlattening>
+		</item>
+		<item>
+			<key>/site/components/sections/about/02-story-section.xml</key>
+			<value><![CDATA[about — OUR MISSION]]></value>
+			<include>/site/components/sections/about/02-story-section.xml</include>
+			<disableFlattening>false</disableFlattening>
+		</item>
+		<item>
+			<key>/site/components/sections/about/03-expertise-section.xml</key>
+			<value><![CDATA[about — WHAT WE BRING TO THE TABLE]]></value>
+			<include>/site/components/sections/about/03-expertise-section.xml</include>
+			<disableFlattening>false</disableFlattening>
+		</item>
+		<item>
+			<key>/site/components/sections/about/04-contact-section.xml</key>
+			<value><![CDATA[about — GET IN TOUCH DIRECTLY]]></value>
+			<include>/site/components/sections/about/04-contact-section.xml</include>
+			<disableFlattening>false</disableFlattening>
+		</item>
+		<item>
+			<key>/site/components/sections/about/05-cta-section.xml</key>
+			<value><![CDATA[about — Ready to build or test something important?]]></value>
+			<include>/site/components/sections/about/05-cta-section.xml</include>
+			<disableFlattening>false</disableFlattening>
+		</item>
+	</sections_o>
+</page>
