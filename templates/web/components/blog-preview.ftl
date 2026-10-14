@@ -21,7 +21,7 @@
               <@crafter.span class="blog-card-meta" $model=post $field="homeMeta_t">${post.homeMeta_t!""?html}</@crafter.span>
               <@crafter.h3 class="blog-card-title" $model=post $field="headline_t">${post.headline_t!""?html}</@crafter.h3>
               <@crafter.p class="blog-card-excerpt" $model=post $field="homeExcerpt_t">${post.homeExcerpt_t!""?html}</@crafter.p>
-              <span class="blog-card-link">${(post.homeCta_t!'Read article')?html} <i class="ph ph-arrow-right"></i></span>
+              <@crafter.span class="blog-card-link" $model=post $field="homeCta_t">${(post.homeCta_t!'Read article')?html} <i class="ph ph-arrow-right"></i></@crafter.span>
             </div>
           </a>
         </#if>

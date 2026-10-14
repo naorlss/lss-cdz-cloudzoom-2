@@ -24,15 +24,15 @@
     <#if contentModel.tags_o?? && contentModel.tags_o.item??>
       <div class="article-tags">
         <#list contentModel.tags_o.item as tag>
-          <span class="article-tag">${tag.label_t!""?html}</span>
+          <@crafter.span class="article-tag" $field="tags_o.label_t" $index=tag?index>${(tag.label_t!"")?html}</@crafter.span>
         </#list>
       </div>
     </#if>
-    <h1 class="article-title">${contentModel.headline_t!""?html}</h1>
+    <@crafter.h1 class="article-title" $field="headline_t">${(contentModel.headline_t!"")?html}</@crafter.h1>
     <div class="article-meta">
-      <span class="article-author">${contentModel.author_t!""?html}</span>
-      <span class="article-date">${contentModel.dateLabel_t!""?html}</span>
-      <span class="article-read">${contentModel.readTime_t!""?html}</span>
+      <@crafter.span class="article-author" $field="author_t">${(contentModel.author_t!"")?html}</@crafter.span>
+      <@crafter.span class="article-date" $field="dateLabel_t">${(contentModel.dateLabel_t!"")?html}</@crafter.span>
+      <@crafter.span class="article-read" $field="readTime_t">${(contentModel.readTime_t!"")?html}</@crafter.span>
     </div>
   </div>
 </header>

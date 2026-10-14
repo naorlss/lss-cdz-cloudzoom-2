@@ -13,11 +13,15 @@
             <div class="article-meta">
               <#if post.listTags_o?? && post.listTags_o.item??>
                 <#list post.listTags_o.item as tag>
-                  <span class="article-tag">${tag.label_t?html}</span>
+                  <@crafter.span class="article-tag" $model=post $field="listTags_o.label_t" $index=tag?index>${(tag.label_t!"")?html}</@crafter.span>
                 </#list>
               </#if>
-              <span class="article-date">${post.listDate_t!post.dateLabel_t!""?html}</span>
-              <span class="article-read-time">${post.listRead_t!""?html}</span>
+              <#if post.listDate_t?has_content>
+                <@crafter.span class="article-date" $model=post $field="listDate_t">${post.listDate_t?html}</@crafter.span>
+              <#else>
+                <@crafter.span class="article-date" $model=post $field="dateLabel_t">${(post.dateLabel_t!"")?html}</@crafter.span>
+              </#if>
+              <@crafter.span class="article-read-time" $model=post $field="listRead_t">${(post.listRead_t!"")?html}</@crafter.span>
             </div>
             <@crafter.h2 class="article-title" $model=post $field="headline_t">${post.headline_t!""?html}</@crafter.h2>
             <@crafter.p class="article-excerpt" $model=post $field="listExcerpt_t">${post.listExcerpt_t!""?html}</@crafter.p>
