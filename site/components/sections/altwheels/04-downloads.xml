@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/aw-downloads</content-type>
+	<display-template>/templates/web/components/aw-downloads.ftl</display-template>
+	<no-template-required></no-template-required>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>b41e</objectGroupId>
+	<objectId>b41e69ef-86a2-5dcd-804c-5479cc816cb9</objectId>
+	<file-name>altwheels/04-downloads.xml</file-name>
+	<folder-name></folder-name>
+	<internal-name><![CDATA[Your fleet AI toolkit]]></internal-name>
+	<createdDate>2026-10-14T17:00:00.000Z</createdDate>
+	<createdDate_dt>2026-10-14T17:00:00.000Z</createdDate_dt>
+	<lastModifiedDate>2026-10-14T17:00:00.000Z</lastModifiedDate>
+	<lastModifiedDate_dt>2026-10-14T17:00:00.000Z</lastModifiedDate_dt>
+	<eyebrow_t><![CDATA[Take it back to work]]></eyebrow_t>
+	<heading_t><![CDATA[Your fleet AI toolkit]]></heading_t>
+	<intro_t><![CDATA[The action plan, copy-ready prompts and working templates from the talk, together with a directory of fleet tools to explore.]]></intro_t>
+	<cards_o item-list="true">
+		<item>
+			<format_t><![CDATA[PRINTABLE PDF · 2 PAGES]]></format_t>
+			<title_t><![CDATA[Fleet AI Action Plan]]></title_t>
+			<text_t><![CDATA[A practical guide to choosing a first task, preparing context, using tools and verifying results.]]></text_t>
+			<buttonLabel_t><![CDATA[Download PDF ↓]]></buttonLabel_t>
+			<buttonUrl_s><![CDATA[/static-assets/altwheels/downloads/Fleet_AI_Action_Plan.pdf]]></buttonUrl_s>
+			<buttonStyle_s><![CDATA[default]]></buttonStyle_s>
+			<download_s><![CDATA[true]]></download_s>
+			<note_t><![CDATA[Includes the resource-library QR code on both pages.]]></note_t>
+			<noteSmall_s><![CDATA[true]]></noteSmall_s>
+			<noteLabel_t><![CDATA[]]></noteLabel_t>
+			<noteUrl_s><![CDATA[]]></noteUrl_s>
+		</item>
+		<item>
+			<format_t><![CDATA[9 PROMPTS · MARKDOWN + TEXT]]></format_t>
+			<title_t><![CDATA[Fleet AI Prompt Pack]]></title_t>
+			<text_t><![CDATA[Start a workspace, analyze an approved report, assess SaaS usage and keep a useful session handoff.]]></text_t>
+			<buttonLabel_t><![CDATA[Download prompt pack ↓]]></buttonLabel_t>
+			<buttonUrl_s><![CDATA[/static-assets/altwheels/downloads/Fleet_AI_Prompt_Pack.md]]></buttonUrl_s>
+			<buttonStyle_s><![CDATA[light]]></buttonStyle_s>
+			<download_s><![CDATA[true]]></download_s>
+			<note_t><![CDATA[]]></note_t>
+			<noteSmall_s><![CDATA[]]></noteSmall_s>
+			<noteLabel_t><![CDATA[Browse and copy individual prompts]]></noteLabel_t>
+			<noteUrl_s><![CDATA[#prompts]]></noteUrl_s>
+		</item>
+		<item>
+			<format_t><![CDATA[COMPLETE RESOURCE PACK · ZIP]]></format_t>
+			<title_t><![CDATA[Everything in one place]]></title_t>
+			<text_t><![CDATA[The printable handout, all prompts, three templates, the example skill, tool directory and reference guide.]]></text_t>
+			<buttonLabel_t><![CDATA[Download everything ↓]]></buttonLabel_t>
+			<buttonUrl_s><![CDATA[/static-assets/altwheels/downloads/AltWheels_CloudZoom_Resource_Pack.zip]]></buttonUrl_s>
+			<buttonStyle_s><![CDATA[light]]></buttonStyle_s>
+			<download_s><![CDATA[true]]></download_s>
+			<note_t><![CDATA[Includes an offline copy of this resource library.]]></note_t>
+			<noteSmall_s><![CDATA[true]]></noteSmall_s>
+			<noteLabel_t><![CDATA[]]></noteLabel_t>
+			<noteUrl_s><![CDATA[]]></noteUrl_s>
+		</item>
+	</cards_o>
+	<footnote_t><![CDATA[Talk content and prompts: September 30, 2026. Handout QR codes and directory updated October 5, 2026. Print the PDF on US Letter, actual size, double-sided, flip on the long edge.]]></footnote_t>
+</component>

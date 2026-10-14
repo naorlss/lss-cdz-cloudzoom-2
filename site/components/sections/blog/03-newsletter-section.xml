@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component>
-	<content-type>/component/section</content-type>
-	<display-template>/templates/web/components/section.ftl</display-template>
+	<content-type>/component/newsletter</content-type>
+	<display-template>/templates/web/components/newsletter.ftl</display-template>
 	<no-template-required></no-template-required>
 	<merge-strategy>inherit-levels</merge-strategy>
 	<objectGroupId>374c</objectGroupId>
@@ -13,17 +13,9 @@
 	<createdDate_dt>2026-10-05T14:01:03.000Z</createdDate_dt>
 	<lastModifiedDate>2026-10-05T14:01:03.000Z</lastModifiedDate>
 	<lastModifiedDate_dt>2026-10-05T14:01:03.000Z</lastModifiedDate_dt>
-	<layout_s><![CDATA[html]]></layout_s>
-	<title_t><![CDATA[New articles every few weeks]]></title_t>
-	<subtitle_t><![CDATA[]]></subtitle_t>
-	<linkLabel_t><![CDATA[]]></linkLabel_t>
-	<linkUrl_s><![CDATA[]]></linkUrl_s>
-	<markup_html><![CDATA[<section class="newsletter-section">
-    <div class="newsletter-inner">
-      <h2 class="newsletter-title">New articles every few weeks</h2>
-      <p class="newsletter-sub">Practical, no-hype writing on AI-assisted development, automated QA, and software delivery for business owners who want to understand the technology &mdash; not just buy it.</p>
-      <a href="/contact" class="cta-button" style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:linear-gradient(135deg,#06B6D4,#0EA5E9);color:white;text-decoration:none;border-radius:8px;font-weight:700;font-size:14px;">GET IN TOUCH <i class="ph ph-arrow-right"></i></a>
-      <p class="newsletter-note">No spam. Just the occasional article worth reading.</p>
-    </div>
-  </section>]]></markup_html>
+	<heading_t><![CDATA[New articles every few weeks]]></heading_t>
+	<subtext_t><![CDATA[Practical, no-hype writing on AI-assisted development, automated QA, and software delivery for business owners who want to understand the technology — not just buy it.]]></subtext_t>
+	<ctaLabel_t><![CDATA[GET IN TOUCH]]></ctaLabel_t>
+	<ctaUrl_s><![CDATA[/contact]]></ctaUrl_s>
+	<note_t><![CDATA[No spam. Just the occasional article worth reading.]]></note_t>
 </component>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component>
-	<content-type>/component/section</content-type>
-	<display-template>/templates/web/components/section.ftl</display-template>
+	<content-type>/component/contact-card</content-type>
+	<display-template>/templates/web/components/contact-card.ftl</display-template>
 	<no-template-required></no-template-required>
 	<merge-strategy>inherit-levels</merge-strategy>
 	<objectGroupId>8954</objectGroupId>
@@ -13,33 +13,22 @@
 	<createdDate_dt>2026-10-05T14:01:03.000Z</createdDate_dt>
 	<lastModifiedDate>2026-10-05T14:01:03.000Z</lastModifiedDate>
 	<lastModifiedDate_dt>2026-10-05T14:01:03.000Z</lastModifiedDate_dt>
-	<layout_s><![CDATA[html]]></layout_s>
-	<title_t><![CDATA[GET IN TOUCH DIRECTLY]]></title_t>
-	<subtitle_t><![CDATA[]]></subtitle_t>
-	<linkLabel_t><![CDATA[]]></linkLabel_t>
-	<linkUrl_s><![CDATA[]]></linkUrl_s>
-	<markup_html><![CDATA[<section class="contact-section">
-    <div class="contact-section-inner">
-      <h2 class="contact-heading">GET IN TOUCH DIRECTLY</h2>
-      <div class="contact-details">
-        <div class="contact-item">
-          <i class="ph ph-phone"></i>
-          <div class="contact-label">PHONE</div>
-          <div class="contact-value"><a href="tel:6179213657">617.921.3657</a></div>
-        </div>
-        <div class="contact-item">
-          <i class="ph ph-envelope"></i>
-          <div class="contact-label">EMAIL</div>
-          <div class="contact-value"><a href="mailto:bill@cloudzoom.dev">bill@cloudzoom.dev</a></div>
-        </div>
-      </div>
-      <div class="contact-linkedin">
-        <a href="#" class="secondary-button">
-          <i class="ph ph-linkedin-logo"></i>
-          CONNECT ON LINKEDIN
-        </a>
-      </div>
-      <p class="contact-subtext">Or book a free 30-minute strategy call below.</p>
-    </div>
-  </section>]]></markup_html>
+	<heading_t><![CDATA[GET IN TOUCH DIRECTLY]]></heading_t>
+	<items_o item-list="true">
+		<item>
+			<icon_s><![CDATA[ph ph-phone]]></icon_s>
+			<label_t><![CDATA[PHONE]]></label_t>
+			<value_t><![CDATA[617.921.3657]]></value_t>
+			<url_s><![CDATA[tel:6179213657]]></url_s>
+		</item>
+		<item>
+			<icon_s><![CDATA[ph ph-envelope]]></icon_s>
+			<label_t><![CDATA[EMAIL]]></label_t>
+			<value_t><![CDATA[bill@cloudzoom.dev]]></value_t>
+			<url_s><![CDATA[mailto:bill@cloudzoom.dev]]></url_s>
+		</item>
+	</items_o>
+	<linkedinLabel_t><![CDATA[CONNECT ON LINKEDIN]]></linkedinLabel_t>
+	<linkedinUrl_s><![CDATA[#]]></linkedinUrl_s>
+	<note_t><![CDATA[Or book a free 30-minute strategy call below.]]></note_t>
 </component>

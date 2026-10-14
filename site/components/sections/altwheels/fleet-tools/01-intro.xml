@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/resource-intro</content-type>
+	<display-template>/templates/web/components/resource-intro.ftl</display-template>
+	<no-template-required></no-template-required>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>c66b</objectGroupId>
+	<objectId>c66b7f74-172f-5810-892b-3b202810a8c5</objectId>
+	<file-name>altwheels/fleet-tools/01-intro.xml</file-name>
+	<folder-name></folder-name>
+	<internal-name><![CDATA[Fleet-tool directory]]></internal-name>
+	<createdDate>2026-10-14T17:00:00.000Z</createdDate>
+	<createdDate_dt>2026-10-14T17:00:00.000Z</createdDate_dt>
+	<lastModifiedDate>2026-10-14T17:00:00.000Z</lastModifiedDate>
+	<lastModifiedDate_dt>2026-10-14T17:00:00.000Z</lastModifiedDate_dt>
+	<backLabel_t><![CDATA[← Back to AltWheels resources]]></backLabel_t>
+	<backUrl_s><![CDATA[/altwheels]]></backUrl_s>
+	<eyebrow_t><![CDATA[A starting point for your own evaluation]]></eyebrow_t>
+	<title_t><![CDATA[Fleet-tool directory]]></title_t>
+	<lead_t><![CDATA[Find official resources for planning, maintenance and connected operations. Start with a specific question and compare the tools against the work your fleet actually needs to do.]]></lead_t>
+	<buttonLabel_t><![CDATA[Download the directory ↓]]></buttonLabel_t>
+	<buttonUrl_s><![CDATA[/static-assets/altwheels/downloads/Fleet_Tool_Directory.md]]></buttonUrl_s>
+	<download_s><![CDATA[true]]></download_s>
+	<note_t><![CDATA[Official source pages checked October 5, 2026. This is a selection of examples, not a ranking or endorsement. Capabilities and terms can change.]]></note_t>
+</component>

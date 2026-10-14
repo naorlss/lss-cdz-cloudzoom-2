@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/aw-templates</content-type>
+	<display-template>/templates/web/components/aw-templates.ftl</display-template>
+	<no-template-required></no-template-required>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>3d48</objectGroupId>
+	<objectId>3d485692-e4f7-5e7d-a07a-b643ec99007e</objectId>
+	<file-name>altwheels/06-templates.xml</file-name>
+	<folder-name></folder-name>
+	<internal-name><![CDATA[Summarize. Review. Save. Reload.]]></internal-name>
+	<createdDate>2026-10-14T17:00:00.000Z</createdDate>
+	<createdDate_dt>2026-10-14T17:00:00.000Z</createdDate_dt>
+	<lastModifiedDate>2026-10-14T17:00:00.000Z</lastModifiedDate>
+	<lastModifiedDate_dt>2026-10-14T17:00:00.000Z</lastModifiedDate_dt>
+	<eyebrow_t><![CDATA[Keep the context that matters]]></eyebrow_t>
+	<heading_t><![CDATA[Summarize. Review. Save. Reload.]]></heading_t>
+	<intro_t><![CDATA[Use a small, dated set of documents to keep approved context between sessions. Recheck changing operational facts at their source.]]></intro_t>
+	<templates_o item-list="true">
+		<item>
+			<title_t><![CDATA[Fleet Brief]]></title_t>
+			<text_t><![CDATA[Capture the task, fleet context, approved sources, constraints and success measures.]]></text_t>
+			<linkLabel_t><![CDATA[Download Fleet Brief ↓]]></linkLabel_t>
+			<linkUrl_s><![CDATA[/static-assets/altwheels/templates/Fleet_Brief.md]]></linkUrl_s>
+			<download_s><![CDATA[true]]></download_s>
+		</item>
+		<item>
+			<title_t><![CDATA[Session Handoff]]></title_t>
+			<text_t><![CDATA[Keep verified facts, decisions, open questions and the next actions in a reviewable record.]]></text_t>
+			<linkLabel_t><![CDATA[Download Session Handoff ↓]]></linkLabel_t>
+			<linkUrl_s><![CDATA[/static-assets/altwheels/templates/Session_Handoff.md]]></linkUrl_s>
+			<download_s><![CDATA[true]]></download_s>
+		</item>
+		<item>
+			<title_t><![CDATA[Fleet Data Guide]]></title_t>
+			<text_t><![CDATA[Define identifiers, units, reporting periods, formulas and rules for missing information.]]></text_t>
+			<linkLabel_t><![CDATA[Download Data Guide ↓]]></linkLabel_t>
+			<linkUrl_s><![CDATA[/static-assets/altwheels/templates/Fleet_Data_Guide.md]]></linkUrl_s>
+			<download_s><![CDATA[true]]></download_s>
+		</item>
+	</templates_o>
+	<skillTitle_t><![CDATA[See what a reusable skill looks like]]></skillTitle_t>
+	<skillText_t><![CDATA[The weekly fleet-briefing example packages instructions and checks for a recurring task. It contains no executable code.]]></skillText_t>
+	<skillLabel_t><![CDATA[Download example skill ↓]]></skillLabel_t>
+	<skillUrl_s><![CDATA[/static-assets/altwheels/skills/fleet-weekly-briefing/SKILL.md]]></skillUrl_s>
+	<skillDownload_s><![CDATA[true]]></skillDownload_s>
+</component>

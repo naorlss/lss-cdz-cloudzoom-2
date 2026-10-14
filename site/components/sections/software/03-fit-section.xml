@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component>
-	<content-type>/component/section</content-type>
-	<display-template>/templates/web/components/section.ftl</display-template>
+	<content-type>/component/fit-panels</content-type>
+	<display-template>/templates/web/components/fit-panels.ftl</display-template>
 	<no-template-required></no-template-required>
 	<merge-strategy>inherit-levels</merge-strategy>
 	<objectGroupId>2096</objectGroupId>
@@ -13,32 +13,42 @@
 	<createdDate_dt>2026-10-05T14:01:03.000Z</createdDate_dt>
 	<lastModifiedDate>2026-10-05T14:01:03.000Z</lastModifiedDate>
 	<lastModifiedDate_dt>2026-10-05T14:01:03.000Z</lastModifiedDate_dt>
-	<layout_s><![CDATA[html]]></layout_s>
-	<title_t><![CDATA[Good Fit]]></title_t>
-	<subtitle_t><![CDATA[]]></subtitle_t>
-	<linkLabel_t><![CDATA[]]></linkLabel_t>
-	<linkUrl_s><![CDATA[]]></linkUrl_s>
-	<markup_html><![CDATA[<section class="fit-section">
-    <div class="fit-inner">
-      <div class="fit-panel">
-        <h2>Good Fit</h2>
-        <ul class="fit-list">
-          <li><i class="ph ph-check-circle"></i><span>Your current tools almost work, but manual workarounds are slowing the team down.</span></li>
-          <li><i class="ph ph-check-circle"></i><span>You need software that connects several systems into one reliable workflow.</span></li>
-          <li><i class="ph ph-check-circle"></i><span>You have device, operational, or customer data that should drive decisions automatically.</span></li>
-          <li><i class="ph ph-check-circle"></i><span>You are shipping software and need better QA coverage before customers find problems.</span></li>
-        </ul>
-      </div>
-
-      <div class="fit-panel">
-        <h2>Usually Not a Fit</h2>
-        <ul class="fit-list">
-          <li><i class="ph ph-x-circle"></i><span>A basic marketing website where a simple template would do the job.</span></li>
-          <li><i class="ph ph-x-circle"></i><span>A generic app idea without a clear user, workflow, or business outcome.</span></li>
-          <li><i class="ph ph-x-circle"></i><span>Replacing a proven off-the-shelf tool just because custom sounds more exciting.</span></li>
-          <li><i class="ph ph-x-circle"></i><span>AI features where rules, forms, or straightforward automation would be safer and cheaper.</span></li>
-        </ul>
-      </div>
-    </div>
-  </section>]]></markup_html>
+	<panels_o item-list="true">
+		<item>
+			<title_t><![CDATA[Good Fit]]></title_t>
+			<icon_s><![CDATA[ph ph-check-circle]]></icon_s>
+			<items_o item-list="true">
+				<item>
+					<text_t><![CDATA[Your current tools almost work, but manual workarounds are slowing the team down.]]></text_t>
+				</item>
+				<item>
+					<text_t><![CDATA[You need software that connects several systems into one reliable workflow.]]></text_t>
+				</item>
+				<item>
+					<text_t><![CDATA[You have device, operational, or customer data that should drive decisions automatically.]]></text_t>
+				</item>
+				<item>
+					<text_t><![CDATA[You are shipping software and need better QA coverage before customers find problems.]]></text_t>
+				</item>
+			</items_o>
+		</item>
+		<item>
+			<title_t><![CDATA[Usually Not a Fit]]></title_t>
+			<icon_s><![CDATA[ph ph-x-circle]]></icon_s>
+			<items_o item-list="true">
+				<item>
+					<text_t><![CDATA[A basic marketing website where a simple template would do the job.]]></text_t>
+				</item>
+				<item>
+					<text_t><![CDATA[A generic app idea without a clear user, workflow, or business outcome.]]></text_t>
+				</item>
+				<item>
+					<text_t><![CDATA[Replacing a proven off-the-shelf tool just because custom sounds more exciting.]]></text_t>
+				</item>
+				<item>
+					<text_t><![CDATA[AI features where rules, forms, or straightforward automation would be safer and cheaper.]]></text_t>
+				</item>
+			</items_o>
+		</item>
+	</panels_o>
 </component>

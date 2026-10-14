@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component>
-	<content-type>/component/section</content-type>
-	<display-template>/templates/web/components/section.ftl</display-template>
+	<content-type>/component/final-cta</content-type>
+	<display-template>/templates/web/components/final-cta.ftl</display-template>
 	<no-template-required></no-template-required>
 	<merge-strategy>inherit-levels</merge-strategy>
 	<objectGroupId>0f94</objectGroupId>
@@ -13,21 +13,13 @@
 	<createdDate_dt>2026-10-05T14:01:03.000Z</createdDate_dt>
 	<lastModifiedDate>2026-10-05T14:01:03.000Z</lastModifiedDate>
 	<lastModifiedDate_dt>2026-10-05T14:01:03.000Z</lastModifiedDate_dt>
-	<layout_s><![CDATA[html]]></layout_s>
-	<title_t><![CDATA[Ready to Build or Test Something Important?]]></title_t>
-	<subtitle_t><![CDATA[]]></subtitle_t>
-	<linkLabel_t><![CDATA[]]></linkLabel_t>
-	<linkUrl_s><![CDATA[]]></linkUrl_s>
-	<markup_html><![CDATA[<section class="final-cta">
-    <div class="final-cta-inner">
-      <h2 class="final-cta-heading">Ready to Build or Test Something Important?</h2>
-      <p class="final-cta-subtext">Book a free 30-minute strategy call. We can talk through a custom software idea, an AI QA pilot, or the release risks keeping you up at night.</p>
-      
-      <a href="/contact" class="cta-button" style="font-size: 1.125rem; padding: 1rem 2rem;">SCHEDULE YOUR STRATEGY CALL <i class="ph ph-arrow-right"></i></a>
-      
-      <div class="final-cta-contact">
-        <a href="tel:6179213657">617.921.3657</a> | <a href="mailto:bill@cloudzoom.dev">bill@cloudzoom.dev</a>
-      </div>
-    </div>
-  </section>]]></markup_html>
+	<variant_s><![CDATA[home]]></variant_s>
+	<heading_t><![CDATA[Ready to Build or Test Something Important?]]></heading_t>
+	<subtext_t><![CDATA[Book a free 30-minute strategy call. We can talk through a custom software idea, an AI QA pilot, or the release risks keeping you up at night.]]></subtext_t>
+	<ctaLabel_t><![CDATA[SCHEDULE YOUR STRATEGY CALL]]></ctaLabel_t>
+	<ctaUrl_s><![CDATA[/contact]]></ctaUrl_s>
+	<phoneLabel_t><![CDATA[617.921.3657]]></phoneLabel_t>
+	<phoneUrl_s><![CDATA[tel:6179213657]]></phoneUrl_s>
+	<emailLabel_t><![CDATA[bill@cloudzoom.dev]]></emailLabel_t>
+	<emailUrl_s><![CDATA[mailto:bill@cloudzoom.dev]]></emailUrl_s>
 </component>

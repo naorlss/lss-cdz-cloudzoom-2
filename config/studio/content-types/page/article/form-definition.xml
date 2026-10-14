@@ -181,25 +181,6 @@
 					</constraints>
 				</field>
 				<field>
-					<type>textarea</type>
-					<id>headLinks_html</id>
-					<iceId></iceId>
-					<title>Head Links</title>
-					<description></description>
-					<defaultValue></defaultValue>
-					<help></help>
-					<properties>
-						<property><name>cols</name><value>80</value><type>int</type></property>
-						<property><name>rows</name><value>6</value><type>int</type></property>
-						<property><name>maxlength</name><value>8000</value><type>int</type></property>
-						<property><name>readonly</name><value></value><type>boolean</type></property>
-						<property><name>tokenize</name><value>false</value><type>boolean</type></property>
-					</properties>
-					<constraints>
-						<constraint><name>required</name><value><![CDATA[]]></value><type>boolean</type></constraint>
-					</constraints>
-				</field>
-				<field>
 					<type>input</type>
 					<id>author_t</id>
 					<iceId></iceId>
@@ -591,26 +572,28 @@
 						<constraint><name>required</name><value><![CDATA[]]></value><type>boolean</type></constraint>
 					</constraints>
 				</field>
+				
 				<field>
-					<type>textarea</type>
+					<type>rte</type>
 					<id>body_html</id>
 					<iceId></iceId>
-					<title>Article Body HTML</title>
+					<title>Article Body</title>
 					<description></description>
 					<defaultValue></defaultValue>
 					<help></help>
 					<properties>
-						<property><name>cols</name><value>80</value><type>int</type></property>
-						<property><name>rows</name><value>20</value><type>int</type></property>
-						<property><name>maxlength</name><value>500000</value><type>int</type></property>
-						<property><name>readonly</name><value></value><type>boolean</type></property>
-						<property><name>tokenize</name><value>false</value><type>boolean</type></property>
+						<property><name>height</name><value>400</value><type>int</type></property>
+						<property><name>forceRootBlockPTag</name><value>false</value><type>boolean</type></property>
+						<property><name>forcePTags</name><value>false</value><type>boolean</type></property>
+						<property><name>forceBRTags</name><value>false</value><type>boolean</type></property>
+						<property><name>rteConfiguration</name><value>generic</value><type>string</type></property>
+						<property><name>imageManager</name><value>uploadImages,existingImages</value><type>datasource:image</type></property>
 					</properties>
 					<constraints>
 						<constraint><name>required</name><value><![CDATA[]]></value><type>boolean</type></constraint>
 					</constraints>
 				</field>
-				<field>
+<field>
 					<type>node-selector</type>
 					<id>header_o</id>
 					<iceId></iceId>
@@ -685,6 +668,25 @@
 				<property><name>enableCreateNew</name><value>true</value><type>boolean</type></property>
 				<property><name>enableBrowseExisting</name><value>true</value><type>boolean</type></property>
 				<property><name>enableSearchExisting</name><value>true</value><type>boolean</type></property>
+			</properties>
+		</datasource>
+
+		<datasource>
+			<type>img-repository-upload</type>
+			<id>existingImages</id>
+			<title>Existing Images</title>
+			<interface>image</interface>
+			<properties>
+				<property><name>repoPath</name><value>/static-assets/</value><type>string</type></property>
+			</properties>
+		</datasource>
+		<datasource>
+			<type>img-desktop-upload</type>
+			<id>uploadImages</id>
+			<title>Upload Images</title>
+			<interface>image</interface>
+			<properties>
+				<property><name>repoPath</name><value>/static-assets/images/</value><type>string</type></property>
 			</properties>
 		</datasource>
 	</datasources>

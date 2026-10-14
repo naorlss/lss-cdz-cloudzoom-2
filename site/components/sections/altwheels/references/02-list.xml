@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/reference-list</content-type>
+	<display-template>/templates/web/components/reference-list.ftl</display-template>
+	<no-template-required></no-template-required>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>4832</objectGroupId>
+	<objectId>4832c503-e4bc-52f8-a0aa-6056032884b0</objectId>
+	<file-name>altwheels/references/02-list.xml</file-name>
+	<folder-name></folder-name>
+	<internal-name><![CDATA[reference-list]]></internal-name>
+	<createdDate>2026-10-14T17:00:00.000Z</createdDate>
+	<createdDate_dt>2026-10-14T17:00:00.000Z</createdDate_dt>
+	<lastModifiedDate>2026-10-14T17:00:00.000Z</lastModifiedDate>
+	<lastModifiedDate_dt>2026-10-14T17:00:00.000Z</lastModifiedDate_dt>
+	<intro_t><![CDATA[The prompts and fleet examples are proposed working aids. The four Explore, Build, Automate and Guide labels are the handout’s teaching framework.]]></intro_t>
+	<groups_o item-list="true">
+		<item>
+			<title_t><![CDATA[[1] Four use patterns and workflows versus agents]]></title_t>
+			<links_o item-list="true">
+				<item>
+					<label_t><![CDATA[Anthropic — Building effective agents]]></label_t>
+					<url_s><![CDATA[https://www.anthropic.com/engineering/building-effective-agents]]></url_s>
+					<note_t><![CDATA[— Explains predefined workflows versus agents that select steps. The four Explore/Build/Automate/Guide labels are this handout’s teaching framework, not an industry standard.]]></note_t>
+				</item>
+			</links_o>
+		</item>
+		<item>
+			<title_t><![CDATA[[2] Hosted service examples]]></title_t>
+			<links_o item-list="true">
+				<item>
+					<label_t><![CDATA[OpenAI — ChatGPT Plus]]></label_t>
+					<url_s><![CDATA[https://help.openai.com/en/articles/6950777-what-is-chatgpt-plus]]></url_s>
+					<note_t><![CDATA[— Application features, limits and separate API billing.]]></note_t>
+				</item>
+				<item>
+					<label_t><![CDATA[Anthropic — Claude plans]]></label_t>
+					<url_s><![CDATA[https://claude.com/pricing]]></url_s>
+					<note_t><![CDATA[— Application capabilities, plans and feature availability.]]></note_t>
+				</item>
+				<item>
+					<label_t><![CDATA[Google — Gemini overview]]></label_t>
+					<url_s><![CDATA[https://gemini.google/overview/]]></url_s>
+					<note_t><![CDATA[— Examples of Gemini assistant capabilities.]]></note_t>
+				</item>
+				<item>
+					<label_t><![CDATA[Microsoft — Copilot for business plans]]></label_t>
+					<url_s><![CDATA[https://www.microsoft.com/en-us/copilot/pricing/business]]></url_s>
+					<note_t><![CDATA[— Work-app integration and plan distinctions.]]></note_t>
+				</item>
+				<item>
+					<label_t><![CDATA[Grok — product overview]]></label_t>
+					<url_s><![CDATA[https://x.ai/grok]]></url_s>
+					<note_t><![CDATA[— Examples of Grok capabilities.]]></note_t>
+				</item>
+			</links_o>
+		</item>
+		<item>
+			<title_t><![CDATA[[3] Tokens, subscriptions and API costs]]></title_t>
+			<links_o item-list="true">
+				<item>
+					<label_t><![CDATA[OpenAI — Understanding and counting tokens]]></label_t>
+					<url_s><![CDATA[https://help.openai.com/en/articles/4936856-understanding-and-counting-tokens]]></url_s>
+					<note_t><![CDATA[— Input, output and reasoning-token concepts.]]></note_t>
+				</item>
+				<item>
+					<label_t><![CDATA[OpenAI — ChatGPT Plus]]></label_t>
+					<url_s><![CDATA[https://help.openai.com/en/articles/6950777-what-is-chatgpt-plus]]></url_s>
+					<note_t><![CDATA[— API usage is separately billed; subscriptions have limits.]]></note_t>
+				</item>
+				<item>
+					<label_t><![CDATA[LM Studio — Offline operation]]></label_t>
+					<url_s><![CDATA[https://lmstudio.ai/docs/app/offline]]></url_s>
+					<note_t><![CDATA[— Local model use is a separate deployment choice. The handout recommends starting with an approved hosted app, not buying hardware.]]></note_t>
+				</item>
+			</links_o>
+		</item>
+		<item>
+			<title_t><![CDATA[[4] Persistent instructions and better prompts]]></title_t>
+			<links_o item-list="true">
+				<item>
+					<label_t><![CDATA[OpenAI — Custom instructions]]></label_t>
+					<url_s><![CDATA[https://help.openai.com/en/articles/8096356-chatgpt-custom-instructions]]></url_s>
+					<note_t><![CDATA[— Where user standing instructions are configured.]]></note_t>
+				</item>
+				<item>
+					<label_t><![CDATA[OpenAI — Projects in ChatGPT]]></label_t>
+					<url_s><![CDATA[https://help.openai.com/en/articles/10169521-projects-in-chatgpt]]></url_s>
+					<note_t><![CDATA[— Project instructions, files, sharing and project-scoped context.]]></note_t>
+				</item>
+				<item>
+					<label_t><![CDATA[OpenAI — Prompt engineering]]></label_t>
+					<url_s><![CDATA[https://developers.openai.com/api/docs/guides/prompt-engineering]]></url_s>
+					<note_t><![CDATA[— Clear instructions, examples and relevant context; developer-oriented reference, not an API prerequisite.]]></note_t>
+				</item>
+			</links_o>
+		</item>
+		<item>
+			<title_t><![CDATA[[5] Session memory and safe retention]]></title_t>
+			<links_o item-list="true">
+				<item>
+					<label_t><![CDATA[OpenAI — Memory in ChatGPT]]></label_t>
+					<url_s><![CDATA[https://help.openai.com/en/articles/8590148-memory-in-chatgpt]]></url_s>
+					<note_t><![CDATA[— Product memory controls and limitations.]]></note_t>
+				</item>
+				<item>
+					<label_t><![CDATA[Microsoft — Manage AI memory safety]]></label_t>
+					<url_s><![CDATA[https://learn.microsoft.com/en-us/security/zero-trust/sfi/manage-agentic-memory-safety]]></url_s>
+					<note_t><![CDATA[— Memory validation, access boundaries, freshness and poisoned-memory risks.]]></note_t>
+				</item>
+				<item>
+					<label_t><![CDATA[Anthropic — Effective context engineering]]></label_t>
+					<url_s><![CDATA[https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents]]></url_s>
+					<note_t><![CDATA[— Curating relevant context and durable notes.]]></note_t>
+				</item>
+			</links_o>
+		</item>
+		<item>
+			<title_t><![CDATA[[6] Company knowledge and retrieval]]></title_t>
+			<links_o item-list="true">
+				<item>
+					<label_t><![CDATA[Microsoft — Retrieval-augmented generation]]></label_t>
+					<url_s><![CDATA[https://learn.microsoft.com/en-us/azure/search/retrieval-augmented-generation-overview]]></url_s>
+					<note_t><![CDATA[— Retrieval, grounding, document preparation and access control. Data-guide templates here are proposed working aids, not automatic data validation.]]></note_t>
+				</item>
+			</links_o>
+		</item>
+		<item>
+			<title_t><![CDATA[[7] Useful starting tools]]></title_t>
+			<links_o item-list="true">
+				<item>
+					<label_t><![CDATA[OpenAI — Data analysis with ChatGPT]]></label_t>
+					<url_s><![CDATA[https://help.openai.com/en/articles/8437071-data-analysis-with-chatgpt]]></url_s>
+					<note_t><![CDATA[— File analysis, calculation/code capabilities and supported workflows.]]></note_t>
+				</item>
+				<item>
+					<label_t><![CDATA[Anthropic — Writing tools for agents]]></label_t>
+					<url_s><![CDATA[https://www.anthropic.com/engineering/writing-tools-for-agents]]></url_s>
+					<note_t><![CDATA[— Tool design and evaluation; tools expose specific operations.]]></note_t>
+				</item>
+			</links_o>
+		</item>
+		<item>
+			<title_t><![CDATA[[8] Tools versus skills]]></title_t>
+			<links_o item-list="true">
+				<item>
+					<label_t><![CDATA[Anthropic — Agent Skills overview]]></label_t>
+					<url_s><![CDATA[https://platform.claude.com/docs/en/agents-and-tools/agent-skills/overview]]></url_s>
+					<note_t><![CDATA[— Skills package reusable instructions and resources.]]></note_t>
+				</item>
+				<item>
+					<label_t><![CDATA[Anthropic — Equipping agents with skills]]></label_t>
+					<url_s><![CDATA[https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills]]></url_s>
+					<note_t><![CDATA[— Skills can contain instructions, scripts and supporting materials; review their contents before enabling them.]]></note_t>
+				</item>
+			</links_o>
+		</item>
+		<item>
+			<title_t><![CDATA[[9] Verification and evaluation]]></title_t>
+			<links_o item-list="true">
+				<item>
+					<label_t><![CDATA[OpenAI — Evaluation best practices]]></label_t>
+					<url_s><![CDATA[https://developers.openai.com/api/docs/guides/evaluation-best-practices]]></url_s>
+					<note_t><![CDATA[— Representative tests, objectives, evaluation criteria and iteration.]]></note_t>
+				</item>
+			</links_o>
+		</item>
+		<item>
+			<title_t><![CDATA[[10] Security and unreliable output]]></title_t>
+			<links_o item-list="true">
+				<item>
+					<label_t><![CDATA[OWASP — Prompt injection]]></label_t>
+					<url_s><![CDATA[https://genai.owasp.org/llmrisk/llm01-prompt-injection/]]></url_s>
+					<note_t><![CDATA[— Untrusted content can redirect model behavior; retrieval does not remove the risk.]]></note_t>
+				</item>
+				<item>
+					<label_t><![CDATA[OWASP — Excessive agency]]></label_t>
+					<url_s><![CDATA[https://genai.owasp.org/llmrisk/llm062025-excessive-agency/]]></url_s>
+					<note_t><![CDATA[— Limit permissions and capabilities; retain approval for consequential actions.]]></note_t>
+				</item>
+				<item>
+					<label_t><![CDATA[OWASP — Misinformation]]></label_t>
+					<url_s><![CDATA[https://genai.owasp.org/llmrisk/llm092025-misinformation/]]></url_s>
+					<note_t><![CDATA[— Incorrect output and overreliance risks.]]></note_t>
+				</item>
+			</links_o>
+		</item>
+	</groups_o>
+	<closingBefore_t><![CDATA[For fleet planning and operating products, see the]]></closingBefore_t>
+	<closingLabel_t><![CDATA[fleet-tool directory]]></closingLabel_t>
+	<closingUrl_s><![CDATA[/altwheels/fleet-tools]]></closingUrl_s>
+	<closingAfter_t><![CDATA[.]]></closingAfter_t>
+</component>

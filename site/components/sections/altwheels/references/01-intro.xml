@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/resource-intro</content-type>
+	<display-template>/templates/web/components/resource-intro.ftl</display-template>
+	<no-template-required></no-template-required>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>9b41</objectGroupId>
+	<objectId>9b41f979-27ac-5c06-88d3-43272351428d</objectId>
+	<file-name>altwheels/references/01-intro.xml</file-name>
+	<folder-name></folder-name>
+	<internal-name><![CDATA[References and further reading]]></internal-name>
+	<createdDate>2026-10-14T17:00:00.000Z</createdDate>
+	<createdDate_dt>2026-10-14T17:00:00.000Z</createdDate_dt>
+	<lastModifiedDate>2026-10-14T17:00:00.000Z</lastModifiedDate>
+	<lastModifiedDate_dt>2026-10-14T17:00:00.000Z</lastModifiedDate_dt>
+	<backLabel_t><![CDATA[← Back to AltWheels resources]]></backLabel_t>
+	<backUrl_s><![CDATA[/altwheels]]></backUrl_s>
+	<eyebrow_t><![CDATA[Sources from the talk]]></eyebrow_t>
+	<title_t><![CDATA[References and further reading]]></title_t>
+	<lead_t><![CDATA[The source guide behind the action plan and prompt pack. Original references checked September 30, 2026; consult current documentation for settings and availability.]]></lead_t>
+	<buttonLabel_t><![CDATA[Download reference guide ↓]]></buttonLabel_t>
+	<buttonUrl_s><![CDATA[/static-assets/altwheels/REFERENCE_GUIDE.md]]></buttonUrl_s>
+	<download_s><![CDATA[true]]></download_s>
+	<note_t><![CDATA[]]></note_t>
+</component>

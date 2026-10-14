@@ -21,10 +21,6 @@
 	<seoDescription_t><![CDATA[Explore CloudZoom’s AltWheels Fleet Day talk and download the fleet AI action plan, reusable prompts, templates and fleet-tool directory.]]></seoDescription_t>
 	<navKey_s><![CDATA[blog]]></navKey_s>
 	<stylesheet_s><![CDATA[/static-assets/app/css/article-altwheels-fleet-day-2026-ai-resources.css]]></stylesheet_s>
-	<headLinks_html><![CDATA[<link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/regular/style.css">]]></headLinks_html>
 	<author_t><![CDATA[Bill Scott · CloudZoom Solutions]]></author_t>
 	<dateLabel_t><![CDATA[]]></dateLabel_t>
 	<readTime_t><![CDATA[4 min read]]></readTime_t>
@@ -56,8 +52,7 @@
 		</item>
 	</listTags_o>
 	<listDate_t><![CDATA[October 5, 2026]]></listDate_t>
-	<body_html><![CDATA[<article class="article-body">
-    <p><a href="https://www.altwheels.org/2026fleetday">AltWheels Fleet Day 2026</a> brings fleet managers, transportation leaders and technology providers together on Monday, October 5, at the Four Points by Sheraton in Norwood, Massachusetts. The event combines expert discussions, vehicle displays and Ride &amp; Drive opportunities around cleaner, more efficient transportation.</p>
+	<body_html><![CDATA[    <p><a href="https://www.altwheels.org/2026fleetday">AltWheels Fleet Day 2026</a> brings fleet managers, transportation leaders and technology providers together on Monday, October 5, at the Four Points by Sheraton in Norwood, Massachusetts. The event combines expert discussions, vehicle displays and Ride &amp; Drive opportunities around cleaner, more efficient transportation.</p>
     <p>Visit <a href="https://www.altwheels.org/">www.altwheels.org</a> for the event’s agenda, organizers and other clean transportation resources.</p>
     <p>For the event’s Lunch With Experts program, CloudZoom’s <strong>“What can AI do for your fleet?”</strong> resources focus on a practical question: how can a fleet team use AI to make everyday work more useful, repeatable and easier to check?</p>
     <div class="callout"><p><strong>Get the materials:</strong> The <a href="/altwheels">AltWheels resource library</a> includes the printable action plan, nine reusable prompts, three working templates, an example skill and a fleet-tool directory. The QR code on the handout leads to that same page.</p></div>
@@ -95,7 +90,7 @@
     </ul>
     <p>Bring one useful question, a source you can check and a clear definition of a good result. That is enough to begin a practical experiment.</p>
     <div class="article-cta"><h3>Explore the AltWheels resource library</h3><p>AI, Data, Software, IoT<br>Smarter systems. Brighter possibilities.</p><a href="/altwheels">GET THE ACTION PLAN AND RESOURCES →</a></div>
-  </article>]]></body_html>
+  ]]></body_html>
 	<footer_o item-list="true">
 		<item>
 			<key>/site/components/footers/article-footer.xml</key>

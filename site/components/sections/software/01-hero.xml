@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component>
-	<content-type>/component/section</content-type>
-	<display-template>/templates/web/components/section.ftl</display-template>
+	<content-type>/component/eyebrow-hero</content-type>
+	<display-template>/templates/web/components/eyebrow-hero.ftl</display-template>
 	<no-template-required></no-template-required>
 	<merge-strategy>inherit-levels</merge-strategy>
 	<objectGroupId>d72f</objectGroupId>
@@ -13,16 +13,7 @@
 	<createdDate_dt>2026-10-05T14:01:03.000Z</createdDate_dt>
 	<lastModifiedDate>2026-10-05T14:01:03.000Z</lastModifiedDate>
 	<lastModifiedDate_dt>2026-10-05T14:01:03.000Z</lastModifiedDate_dt>
-	<layout_s><![CDATA[html]]></layout_s>
+	<eyebrow_t><![CDATA[What Kind of Software?]]></eyebrow_t>
 	<title_t><![CDATA[The concrete systems behind custom software.]]></title_t>
-	<subtitle_t><![CDATA[]]></subtitle_t>
-	<linkLabel_t><![CDATA[]]></linkLabel_t>
-	<linkUrl_s><![CDATA[]]></linkUrl_s>
-	<markup_html><![CDATA[<section class="hero">
-    <div class="hero-inner">
-      <span class="hero-eyebrow">What Kind of Software?</span>
-      <h1 class="hero-heading">The concrete systems behind custom software.</h1>
-      <p class="hero-subtitle">Custom software can sound vague. In practice, it usually means a focused system that connects data, people, devices, workflows, and decisions in a way off-the-shelf tools cannot. These are the kinds of software we build, enhance, and test.</p>
-    </div>
-  </section>]]></markup_html>
+	<subtitle_t><![CDATA[Custom software can sound vague. In practice, it usually means a focused system that connects data, people, devices, workflows, and decisions in a way off-the-shelf tools cannot. These are the kinds of software we build, enhance, and test.]]></subtitle_t>
 </component>

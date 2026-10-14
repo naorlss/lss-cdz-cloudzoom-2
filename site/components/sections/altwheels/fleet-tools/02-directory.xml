@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/tool-directory</content-type>
+	<display-template>/templates/web/components/tool-directory.ftl</display-template>
+	<no-template-required></no-template-required>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>f1db</objectGroupId>
+	<objectId>f1db5904-c0bb-582a-b767-3cad7fe3e1dd</objectId>
+	<file-name>altwheels/fleet-tools/02-directory.xml</file-name>
+	<folder-name></folder-name>
+	<internal-name><![CDATA[tool-directory]]></internal-name>
+	<createdDate>2026-10-14T17:00:00.000Z</createdDate>
+	<createdDate_dt>2026-10-14T17:00:00.000Z</createdDate_dt>
+	<lastModifiedDate>2026-10-14T17:00:00.000Z</lastModifiedDate>
+	<lastModifiedDate_dt>2026-10-14T17:00:00.000Z</lastModifiedDate_dt>
+	<groups_o item-list="true">
+		<item>
+			<title_t><![CDATA[Planning and public data]]></title_t>
+			<tools_o item-list="true">
+				<item>
+					<type_t><![CDATA[Public resource]]></type_t>
+					<title_t><![CDATA[AFDC tool library ↗]]></title_t>
+					<url_s><![CDATA[https://afdc.energy.gov/tools]]></url_s>
+					<text_t><![CDATA[Browse calculators, maps and data searches for alternative fuels and energy-efficient vehicles.]]></text_t>
+					<promptLabel_t><![CDATA[Before you choose:]]></promptLabel_t>
+					<prompt_t><![CDATA[Which assumptions and vehicle classes match your fleet?]]></prompt_t>
+				</item>
+				<item>
+					<type_t><![CDATA[Public resource]]></type_t>
+					<title_t><![CDATA[Alternative Fueling Station Locator ↗]]></title_t>
+					<url_s><![CDATA[https://afdc.energy.gov/stations]]></url_s>
+					<text_t><![CDATA[Find alternative fueling and charging locations.]]></text_t>
+					<promptLabel_t><![CDATA[Before you choose:]]></promptLabel_t>
+					<prompt_t><![CDATA[Confirm connector type, access, availability and vehicle clearance before planning a trip.]]></prompt_t>
+				</item>
+				<item>
+					<type_t><![CDATA[Public calculator]]></type_t>
+					<title_t><![CDATA[Vehicle Cost Calculator ↗]]></title_t>
+					<url_s><![CDATA[https://afdc.energy.gov/calc/]]></url_s>
+					<text_t><![CDATA[Compare vehicle ownership costs using driving and fuel assumptions.]]></text_t>
+					<promptLabel_t><![CDATA[Before you choose:]]></promptLabel_t>
+					<prompt_t><![CDATA[Use your duty cycle and local costs; check what the calculation includes.]]></prompt_t>
+				</item>
+				<item>
+					<type_t><![CDATA[Argonne National Laboratory]]></type_t>
+					<title_t><![CDATA[AFLEET ↗]]></title_t>
+					<url_s><![CDATA[https://afleet.esia.anl.gov/home/]]></url_s>
+					<text_t><![CDATA[Explore fleet petroleum use, ownership costs and emissions scenarios.]]></text_t>
+					<promptLabel_t><![CDATA[Before you choose:]]></promptLabel_t>
+					<prompt_t><![CDATA[Document the selected model, assumptions and limitations before comparing scenarios.]]></prompt_t>
+				</item>
+				<item>
+					<type_t><![CDATA[Public modeling resources]]></type_t>
+					<title_t><![CDATA[EVI-X Toolbox ↗]]></title_t>
+					<url_s><![CDATA[https://afdc.energy.gov/evi-x-toolbox]]></url_s>
+					<text_t><![CDATA[Explore tools for electric-vehicle charging infrastructure scenarios.]]></text_t>
+					<promptLabel_t><![CDATA[Before you choose:]]></promptLabel_t>
+					<prompt_t><![CDATA[Match the tool to your charging question and confirm the required input data.]]></prompt_t>
+				</item>
+			</tools_o>
+		</item>
+		<item>
+			<title_t><![CDATA[Fleet operations platforms]]></title_t>
+			<tools_o item-list="true">
+				<item>
+					<type_t><![CDATA[Commercial platform]]></type_t>
+					<title_t><![CDATA[Fleetio ↗]]></title_t>
+					<url_s><![CDATA[https://www.fleetio.com/]]></url_s>
+					<text_t><![CDATA[Fleet maintenance, inspections, work orders and parts inventory.]]></text_t>
+					<promptLabel_t><![CDATA[Before you choose:]]></promptLabel_t>
+					<prompt_t><![CDATA[Check integrations with your current telematics, data export and support responsibilities.]]></prompt_t>
+				</item>
+				<item>
+					<type_t><![CDATA[Commercial platform]]></type_t>
+					<title_t><![CDATA[Geotab ↗]]></title_t>
+					<url_s><![CDATA[https://www.geotab.com/]]></url_s>
+					<text_t><![CDATA[Connected-vehicle telematics, fleet reporting and integration tools.]]></text_t>
+					<promptLabel_t><![CDATA[Before you choose:]]></promptLabel_t>
+					<prompt_t><![CDATA[Check vehicle and device compatibility, data access, retention and integration costs.]]></prompt_t>
+				</item>
+				<item>
+					<type_t><![CDATA[Commercial platform]]></type_t>
+					<title_t><![CDATA[Samsara ↗]]></title_t>
+					<url_s><![CDATA[https://www.samsara.com/]]></url_s>
+					<text_t><![CDATA[Fleet telematics, GPS tracking, maintenance and connected operations.]]></text_t>
+					<promptLabel_t><![CDATA[Before you choose:]]></promptLabel_t>
+					<prompt_t><![CDATA[Check hardware needs, implementation effort, permissions and contract terms.]]></prompt_t>
+				</item>
+			</tools_o>
+		</item>
+	</groups_o>
+	<closingTitle_t><![CDATA[Assess fit before adding another subscription]]></closingTitle_t>
+	<closingText_t><![CDATA[Inventory the licenses, features and integrations you already use. Compare retaining, downgrading, consolidating or building a narrow replacement, including migration, support and ongoing costs.]]></closingText_t>
+	<closingLabel_t><![CDATA[Download the SaaS assessment prompt →]]></closingLabel_t>
+	<closingUrl_s><![CDATA[/static-assets/altwheels/prompts/06-saas-usage-and-build-vs-buy.txt]]></closingUrl_s>
+	<closingDownload_s><![CDATA[true]]></closingDownload_s>
+</component>

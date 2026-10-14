@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/aw-patterns</content-type>
+	<display-template>/templates/web/components/aw-patterns.ftl</display-template>
+	<no-template-required></no-template-required>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>b17c</objectGroupId>
+	<objectId>b17c7bf0-a882-58a2-9b70-beaa5fd3ab42</objectId>
+	<file-name>altwheels/03-patterns.xml</file-name>
+	<folder-name></folder-name>
+	<internal-name><![CDATA[aw-patterns]]></internal-name>
+	<createdDate>2026-10-14T17:00:00.000Z</createdDate>
+	<createdDate_dt>2026-10-14T17:00:00.000Z</createdDate_dt>
+	<lastModifiedDate>2026-10-14T17:00:00.000Z</lastModifiedDate>
+	<lastModifiedDate_dt>2026-10-14T17:00:00.000Z</lastModifiedDate_dt>
+	<patterns_o item-list="true">
+		<item>
+			<number_t><![CDATA[01 / THINK WITH ME]]></number_t>
+			<title_t><![CDATA[Explore]]></title_t>
+			<text_t><![CDATA[Ask questions of approved reports. Compare costs, utilization and software usage.]]></text_t>
+		</item>
+		<item>
+			<number_t><![CDATA[02 / BUILD A TOOL]]></number_t>
+			<title_t><![CDATA[Build]]></title_t>
+			<text_t><![CDATA[Define a small, tested solution to a recurring task. It may not need AI at runtime.]]></text_t>
+		</item>
+		<item>
+			<number_t><![CDATA[03 / DO THE WORK]]></number_t>
+			<title_t><![CDATA[Automate]]></title_t>
+			<text_t><![CDATA[Draft routine briefings and follow-ups, with clear permissions and human review.]]></text_t>
+		</item>
+		<item>
+			<number_t><![CDATA[04 / WALK ME THROUGH IT]]></number_t>
+			<title_t><![CDATA[Guide]]></title_t>
+			<text_t><![CDATA[Help people follow an approved procedure and collect the information it requires.]]></text_t>
+		</item>
+	</patterns_o>
+</component>

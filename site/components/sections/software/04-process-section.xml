@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component>
-	<content-type>/component/section</content-type>
-	<display-template>/templates/web/components/section.ftl</display-template>
+	<content-type>/component/process-steps</content-type>
+	<display-template>/templates/web/components/process-steps.ftl</display-template>
 	<no-template-required></no-template-required>
 	<merge-strategy>inherit-levels</merge-strategy>
 	<objectGroupId>339b</objectGroupId>
@@ -13,41 +13,29 @@
 	<createdDate_dt>2026-10-05T14:01:03.000Z</createdDate_dt>
 	<lastModifiedDate>2026-10-05T14:01:03.000Z</lastModifiedDate>
 	<lastModifiedDate_dt>2026-10-05T14:01:03.000Z</lastModifiedDate_dt>
-	<layout_s><![CDATA[html]]></layout_s>
-	<title_t><![CDATA[We start with the workflow, not the buzzwords.]]></title_t>
-	<subtitle_t><![CDATA[]]></subtitle_t>
-	<linkLabel_t><![CDATA[]]></linkLabel_t>
-	<linkUrl_s><![CDATA[]]></linkUrl_s>
-	<markup_html><![CDATA[<section class="process-section">
-    <div class="process-inner">
-      <div class="section-header">
-        <div class="section-kicker">How We Scope It</div>
-        <h2 class="section-heading">We start with the workflow, not the buzzwords.</h2>
-        <p class="section-subtitle">IoT, microservices, ETL, dashboards, and AI are implementation choices. The first question is always what outcome the software has to produce.</p>
-      </div>
-
-      <div class="process-grid">
-        <div class="process-step">
-          <div class="process-step-number">01</div>
-          <h3>Map the Work</h3>
-          <p>We identify who uses the system, what decisions they make, and where the current process breaks down.</p>
-        </div>
-        <div class="process-step">
-          <div class="process-step-number">02</div>
-          <h3>Trace the Data</h3>
-          <p>We find where data starts, where it needs to go, who trusts it, and what needs validation.</p>
-        </div>
-        <div class="process-step">
-          <div class="process-step-number">03</div>
-          <h3>Design the System</h3>
-          <p>We choose the simplest architecture that supports the workflow, scale, integrations, and future change.</p>
-        </div>
-        <div class="process-step">
-          <div class="process-step-number">04</div>
-          <h3>Build and Test</h3>
-          <p>We use AI-assisted development to move faster and AI-agent QA to keep critical flows under watch.</p>
-        </div>
-      </div>
-    </div>
-  </section>]]></markup_html>
+	<kicker_t><![CDATA[How We Scope It]]></kicker_t>
+	<heading_t><![CDATA[We start with the workflow, not the buzzwords.]]></heading_t>
+	<subtitle_t><![CDATA[IoT, microservices, ETL, dashboards, and AI are implementation choices. The first question is always what outcome the software has to produce.]]></subtitle_t>
+	<steps_o item-list="true">
+		<item>
+			<number_t><![CDATA[01]]></number_t>
+			<title_t><![CDATA[Map the Work]]></title_t>
+			<text_t><![CDATA[We identify who uses the system, what decisions they make, and where the current process breaks down.]]></text_t>
+		</item>
+		<item>
+			<number_t><![CDATA[02]]></number_t>
+			<title_t><![CDATA[Trace the Data]]></title_t>
+			<text_t><![CDATA[We find where data starts, where it needs to go, who trusts it, and what needs validation.]]></text_t>
+		</item>
+		<item>
+			<number_t><![CDATA[03]]></number_t>
+			<title_t><![CDATA[Design the System]]></title_t>
+			<text_t><![CDATA[We choose the simplest architecture that supports the workflow, scale, integrations, and future change.]]></text_t>
+		</item>
+		<item>
+			<number_t><![CDATA[04]]></number_t>
+			<title_t><![CDATA[Build and Test]]></title_t>
+			<text_t><![CDATA[We use AI-assisted development to move faster and AI-agent QA to keep critical flows under watch.]]></text_t>
+		</item>
+	</steps_o>
 </component>

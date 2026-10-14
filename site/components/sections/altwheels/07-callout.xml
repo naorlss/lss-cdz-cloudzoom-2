@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/aw-callout</content-type>
+	<display-template>/templates/web/components/aw-callout.ftl</display-template>
+	<no-template-required></no-template-required>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>83a2</objectGroupId>
+	<objectId>83a21c8f-d5a5-581a-96fb-fe90204d9d26</objectId>
+	<file-name>altwheels/07-callout.xml</file-name>
+	<folder-name></folder-name>
+	<internal-name><![CDATA[Fleet-tool directory]]></internal-name>
+	<createdDate>2026-10-14T17:00:00.000Z</createdDate>
+	<createdDate_dt>2026-10-14T17:00:00.000Z</createdDate_dt>
+	<lastModifiedDate>2026-10-14T17:00:00.000Z</lastModifiedDate>
+	<lastModifiedDate_dt>2026-10-14T17:00:00.000Z</lastModifiedDate_dt>
+	<eyebrow_t><![CDATA[Find a tool for the job]]></eyebrow_t>
+	<heading_t><![CDATA[Fleet-tool directory]]></heading_t>
+	<text_t><![CDATA[Official resources for fleet costs, fueling and charging, maintenance and connected operations. Use the questions in the directory to compare fit.]]></text_t>
+	<linkLabel_t><![CDATA[Explore the directory →]]></linkLabel_t>
+	<linkUrl_s><![CDATA[/altwheels/fleet-tools]]></linkUrl_s>
+</component>

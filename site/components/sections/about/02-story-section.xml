@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component>
-	<content-type>/component/section</content-type>
-	<display-template>/templates/web/components/section.ftl</display-template>
+	<content-type>/component/story</content-type>
+	<display-template>/templates/web/components/story.ftl</display-template>
 	<no-template-required></no-template-required>
 	<merge-strategy>inherit-levels</merge-strategy>
 	<objectGroupId>3965</objectGroupId>
@@ -13,33 +13,30 @@
 	<createdDate_dt>2026-10-05T14:01:03.000Z</createdDate_dt>
 	<lastModifiedDate>2026-10-05T14:01:03.000Z</lastModifiedDate>
 	<lastModifiedDate_dt>2026-10-05T14:01:03.000Z</lastModifiedDate_dt>
-	<layout_s><![CDATA[html]]></layout_s>
-	<title_t><![CDATA[OUR MISSION]]></title_t>
-	<subtitle_t><![CDATA[]]></subtitle_t>
-	<linkLabel_t><![CDATA[]]></linkLabel_t>
-	<linkUrl_s><![CDATA[]]></linkUrl_s>
-	<markup_html><![CDATA[<section class="story-section">
-    <div class="story-section-inner">
-      <h2 class="story-heading">OUR MISSION</h2>
-      <div class="story-content">
-        <p>AI is changing how software gets built, but it does not remove the need for careful architecture, clear scope, readable code, and disciplined testing. CloudZoom exists to make that combination practical for real businesses.</p>
-        <p>We focus on two services: custom software development enhanced by AI tools, and automated QA using AI agents that test applications like real users. One helps you ship useful software faster. The other helps you catch problems before customers do.</p>
-        <p>Based in Boston and working with clients across New England, we combine 20+ years of technical experience with a simple belief: AI should support good engineering judgment, not replace it.</p>
-      </div>
-      <div class="stats-block">
-        <div class="stat-item">
-          <div class="stat-value">20+ YEARS</div>
-          <div class="stat-label">BUILDING SOFTWARE</div>
-        </div>
-        <div class="stat-item">
-          <div class="stat-value">AI-ASSISTED</div>
-          <div class="stat-label">DELIVERY</div>
-        </div>
-        <div class="stat-item">
-          <div class="stat-value">AGENT QA</div>
-          <div class="stat-label">RELEASE CONFIDENCE</div>
-        </div>
-      </div>
-    </div>
-  </section>]]></markup_html>
+	<heading_t><![CDATA[OUR MISSION]]></heading_t>
+	<paragraphs_o item-list="true">
+		<item>
+			<text_t><![CDATA[AI is changing how software gets built, but it does not remove the need for careful architecture, clear scope, readable code, and disciplined testing. CloudZoom exists to make that combination practical for real businesses.]]></text_t>
+		</item>
+		<item>
+			<text_t><![CDATA[We focus on two services: custom software development enhanced by AI tools, and automated QA using AI agents that test applications like real users. One helps you ship useful software faster. The other helps you catch problems before customers do.]]></text_t>
+		</item>
+		<item>
+			<text_t><![CDATA[Based in Boston and working with clients across New England, we combine 20+ years of technical experience with a simple belief: AI should support good engineering judgment, not replace it.]]></text_t>
+		</item>
+	</paragraphs_o>
+	<stats_o item-list="true">
+		<item>
+			<value_t><![CDATA[20+ YEARS]]></value_t>
+			<label_t><![CDATA[BUILDING SOFTWARE]]></label_t>
+		</item>
+		<item>
+			<value_t><![CDATA[AI-ASSISTED]]></value_t>
+			<label_t><![CDATA[DELIVERY]]></label_t>
+		</item>
+		<item>
+			<value_t><![CDATA[AGENT QA]]></value_t>
+			<label_t><![CDATA[RELEASE CONFIDENCE]]></label_t>
+		</item>
+	</stats_o>
 </component>

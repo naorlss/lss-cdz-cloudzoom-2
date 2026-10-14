@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component>
-	<content-type>/component/section</content-type>
-	<display-template>/templates/web/components/section.ftl</display-template>
+	<content-type>/component/home-services</content-type>
+	<display-template>/templates/web/components/home-services.ftl</display-template>
 	<no-template-required></no-template-required>
 	<merge-strategy>inherit-levels</merge-strategy>
 	<objectGroupId>9242</objectGroupId>
@@ -13,79 +13,60 @@
 	<createdDate_dt>2026-10-05T14:01:03.000Z</createdDate_dt>
 	<lastModifiedDate>2026-10-05T14:01:03.000Z</lastModifiedDate>
 	<lastModifiedDate_dt>2026-10-05T14:01:03.000Z</lastModifiedDate_dt>
-	<layout_s><![CDATA[html]]></layout_s>
-	<title_t><![CDATA[WHAT WE BUILD]]></title_t>
-	<subtitle_t><![CDATA[]]></subtitle_t>
-	<linkLabel_t><![CDATA[]]></linkLabel_t>
-	<linkUrl_s><![CDATA[]]></linkUrl_s>
-	<markup_html><![CDATA[<section class="services-section">
-    <div class="services-inner">
-      <div class="section-header">
-        <h2 class="section-title">WHAT WE BUILD</h2>
-        <p class="section-subtitle">Two focused services: build the custom software your business needs, then keep it healthy with automated QA agents that test like real users.</p>
-      </div>
-
-      <div class="services-grid">
-        <div class="service-card">
-          <div class="service-header">
-            <i class="service-icon ph ph-code"></i>
-            <span class="service-name">AI-Enhanced Custom Software Development</span>
-          </div>
-          <p class="service-description">We design and build custom web apps, internal tools, customer portals, integrations, and workflow systems using senior engineering plus AI-assisted development. The result is faster delivery without handing quality over to automation.</p>
-        </div>
-
-        <div class="service-card">
-          <div class="service-header">
-            <i class="service-icon ph ph-robot"></i>
-            <span class="service-name">Automated QA with AI Agents</span>
-          </div>
-          <p class="service-description">We deploy AI agents that explore your web app, run critical user journeys, check forms and workflows, capture screenshots, and summarize failures in plain English. Use it before launches, after deployments, or as continuous regression coverage.</p>
-          <a href="/blog/role-based-ai-qa-agents-cleaning-platform" class="service-card-link">Read the OAQA article <i class="ph ph-arrow-right"></i></a>
-        </div>
-
-        <div class="service-card">
-          <div class="service-header">
-            <i class="service-icon ph ph-arrows-merge"></i>
-            <span class="service-name">Integrations &amp; Workflow Systems</span>
-          </div>
-          <p class="service-description">When your CRM, billing system, website, spreadsheets, and operations tools do not talk to each other, we build the connective tissue: APIs, sync jobs, admin screens, and dashboards that match how your team works.</p>
-        </div>
-
-        <div class="service-card">
-          <div class="service-header">
-            <i class="service-icon ph ph-list-checks"></i>
-            <span class="service-name">Regression Test Suites</span>
-          </div>
-          <p class="service-description">We turn your most important workflows into repeatable AI-assisted test runs: login, checkout, booking, quote acceptance, admin updates, email triggers, and other paths that cannot break quietly.</p>
-        </div>
-
-        <div class="service-card">
-          <div class="service-header">
-            <i class="service-icon ph ph-git-branch"></i>
-            <span class="service-name">Modernization &amp; Feature Delivery</span>
-          </div>
-          <p class="service-description">If your existing system is slow to change, we can add features, refactor fragile areas, improve developer velocity, and introduce AI-supported testing without forcing a risky rewrite.</p>
-        </div>
-
-        <div class="service-card">
-          <div class="service-header">
-            <i class="service-icon ph ph-chart-bar"></i>
-            <span class="service-name">Quality Reports &amp; Release Checks</span>
-          </div>
-          <p class="service-description">QA agents produce practical output: what passed, what failed, where it failed, screenshots, reproduction notes, and recommended fixes. Your team gets signal instead of a pile of brittle test logs.</p>
-        </div>
-      </div>
-
-      <div class="services-link">
-        <a href="/services" class="ghost-link">
-          See All Services
-          <i class="ph ph-arrow-right"></i>
-        </a>
-        <a href="/software" class="ghost-link">
-          What Kind of Software?
-          <i class="ph ph-arrow-right"></i>
-        </a>
-      </div>
-    </div>
-  </section>]]></markup_html>
+	<heading_t><![CDATA[WHAT WE BUILD]]></heading_t>
+	<subtitle_t><![CDATA[Two focused services: build the custom software your business needs, then keep it healthy with automated QA agents that test like real users.]]></subtitle_t>
+	<cards_o item-list="true">
+		<item>
+			<icon_s><![CDATA[service-icon ph ph-code]]></icon_s>
+			<title_t><![CDATA[AI-Enhanced Custom Software Development]]></title_t>
+			<text_t><![CDATA[We design and build custom web apps, internal tools, customer portals, integrations, and workflow systems using senior engineering plus AI-assisted development. The result is faster delivery without handing quality over to automation.]]></text_t>
+			<linkLabel_t><![CDATA[]]></linkLabel_t>
+			<linkUrl_s><![CDATA[]]></linkUrl_s>
+		</item>
+		<item>
+			<icon_s><![CDATA[service-icon ph ph-robot]]></icon_s>
+			<title_t><![CDATA[Automated QA with AI Agents]]></title_t>
+			<text_t><![CDATA[We deploy AI agents that explore your web app, run critical user journeys, check forms and workflows, capture screenshots, and summarize failures in plain English. Use it before launches, after deployments, or as continuous regression coverage.]]></text_t>
+			<linkLabel_t><![CDATA[Read the OAQA article]]></linkLabel_t>
+			<linkUrl_s><![CDATA[/blog/role-based-ai-qa-agents-cleaning-platform]]></linkUrl_s>
+		</item>
+		<item>
+			<icon_s><![CDATA[service-icon ph ph-arrows-merge]]></icon_s>
+			<title_t><![CDATA[Integrations & Workflow Systems]]></title_t>
+			<text_t><![CDATA[When your CRM, billing system, website, spreadsheets, and operations tools do not talk to each other, we build the connective tissue: APIs, sync jobs, admin screens, and dashboards that match how your team works.]]></text_t>
+			<linkLabel_t><![CDATA[]]></linkLabel_t>
+			<linkUrl_s><![CDATA[]]></linkUrl_s>
+		</item>
+		<item>
+			<icon_s><![CDATA[service-icon ph ph-list-checks]]></icon_s>
+			<title_t><![CDATA[Regression Test Suites]]></title_t>
+			<text_t><![CDATA[We turn your most important workflows into repeatable AI-assisted test runs: login, checkout, booking, quote acceptance, admin updates, email triggers, and other paths that cannot break quietly.]]></text_t>
+			<linkLabel_t><![CDATA[]]></linkLabel_t>
+			<linkUrl_s><![CDATA[]]></linkUrl_s>
+		</item>
+		<item>
+			<icon_s><![CDATA[service-icon ph ph-git-branch]]></icon_s>
+			<title_t><![CDATA[Modernization & Feature Delivery]]></title_t>
+			<text_t><![CDATA[If your existing system is slow to change, we can add features, refactor fragile areas, improve developer velocity, and introduce AI-supported testing without forcing a risky rewrite.]]></text_t>
+			<linkLabel_t><![CDATA[]]></linkLabel_t>
+			<linkUrl_s><![CDATA[]]></linkUrl_s>
+		</item>
+		<item>
+			<icon_s><![CDATA[service-icon ph ph-chart-bar]]></icon_s>
+			<title_t><![CDATA[Quality Reports & Release Checks]]></title_t>
+			<text_t><![CDATA[QA agents produce practical output: what passed, what failed, where it failed, screenshots, reproduction notes, and recommended fixes. Your team gets signal instead of a pile of brittle test logs.]]></text_t>
+			<linkLabel_t><![CDATA[]]></linkLabel_t>
+			<linkUrl_s><![CDATA[]]></linkUrl_s>
+		</item>
+	</cards_o>
+	<links_o item-list="true">
+		<item>
+			<label_t><![CDATA[See All Services]]></label_t>
+			<url_s><![CDATA[/services]]></url_s>
+		</item>
+		<item>
+			<label_t><![CDATA[What Kind of Software?]]></label_t>
+			<url_s><![CDATA[/software]]></url_s>
+		</item>
+	</links_o>
 </component>

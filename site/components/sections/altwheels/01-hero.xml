@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/aw-hero</content-type>
+	<display-template>/templates/web/components/aw-hero.ftl</display-template>
+	<no-template-required></no-template-required>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>6950</objectGroupId>
+	<objectId>6950b270-0dc5-50c6-87fa-819da61b3e50</objectId>
+	<file-name>altwheels/01-hero.xml</file-name>
+	<folder-name></folder-name>
+	<internal-name><![CDATA[AltWheels · Lunch with Experts]]></internal-name>
+	<createdDate>2026-10-14T17:00:00.000Z</createdDate>
+	<createdDate_dt>2026-10-14T17:00:00.000Z</createdDate_dt>
+	<lastModifiedDate>2026-10-14T17:00:00.000Z</lastModifiedDate>
+	<lastModifiedDate_dt>2026-10-14T17:00:00.000Z</lastModifiedDate_dt>
+	<eyebrow_t><![CDATA[AltWheels · Lunch with Experts]]></eyebrow_t>
+	<brandStrong_t><![CDATA[AI, Data, Software, IoT]]></brandStrong_t>
+	<brandRest_t><![CDATA[Smarter systems. Brighter possibilities.]]></brandRest_t>
+	<titleLine1_t><![CDATA[What can AI do]]></titleLine1_t>
+	<titleLine2_t><![CDATA[for your fleet?]]></titleLine2_t>
+	<lead_t><![CDATA[Start small. Give it context. Check the result. Practical resources to turn a useful question into a repeatable way of working.]]></lead_t>
+	<primaryLabel_t><![CDATA[Download the action plan ↓]]></primaryLabel_t>
+	<primaryUrl_s><![CDATA[/static-assets/altwheels/downloads/Fleet_AI_Action_Plan.pdf]]></primaryUrl_s>
+	<primaryDownload_s><![CDATA[true]]></primaryDownload_s>
+	<secondaryLabel_t><![CDATA[Get the complete toolkit]]></secondaryLabel_t>
+	<secondaryUrl_s><![CDATA[#downloads]]></secondaryUrl_s>
+	<meta_t><![CDATA[Bill Scott · CloudZoom Solutions · AltWheels Fleet Day · October 5, 2026]]></meta_t>
+	<image_s><![CDATA[/static-assets/altwheels/assets/action-plan-preview.png]]></image_s>
+	<imageAlt_t><![CDATA[Preview of the Fleet AI Action Plan, covering four ways to use AI, prompts and session memory]]></imageAlt_t>
+	<imageWidth_s><![CDATA[1082]]></imageWidth_s>
+	<imageHeight_s><![CDATA[1400]]></imageHeight_s>
+	<imageUrl_s><![CDATA[/static-assets/altwheels/downloads/Fleet_AI_Action_Plan.pdf]]></imageUrl_s>
+	<imageAria_t><![CDATA[Open the two-page Fleet AI Action Plan]]></imageAria_t>
+	<caption_t><![CDATA[Your two-page guide to getting started]]></caption_t>
+</component>

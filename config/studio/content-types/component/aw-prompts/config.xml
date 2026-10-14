@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<content-type name="/component/aw-prompts" is-wcm-type="true">
+	<label>AltWheels Prompts</label>
+	<form>/component/aw-prompts</form>
+	<form-path>simple</form-path>
+	<model-instance-path>NOT-USED-BY-SIMPLE-FORM-ENGINE</model-instance-path>
+	<file-extension>xml</file-extension>
+	<content-as-folder>false</content-as-folder>
+	<previewable>false</previewable>
+	<quickCreate>false</quickCreate>
+	<quickCreatePath></quickCreatePath>
+	<noThumbnail>true</noThumbnail>
+	<image-thumbnail></image-thumbnail>
+	<description>Copy-ready prompt list.</description>
+	<paths>
+		<excludes>
+			<pattern>^/site/website.*</pattern>
+		</excludes>
+	</paths>
+</content-type>

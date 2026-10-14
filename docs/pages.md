@@ -11,6 +11,8 @@ Blog article.
 - Datasources:
   - headerComponents (shared-content) repoPath=/site/components/headers/
   - footerComponents (shared-content) repoPath=/site/components/footers/
+  - existingImages (img-repository-upload) repoPath=/static-assets/
+  - uploadImages (img-desktop-upload) repoPath=/static-assets/images/
 
 | Name | Type | Description | Required | Constraints | Notes |
 |------|------|-------------|----------|-------------|-------|
@@ -22,7 +24,6 @@ Blog article.
 | seoDescription_t | textarea | SEO Description | false | maxlength=4000; tokenize=false |  |
 | navKey_s | input | Active Nav Key | false | maxlength=500; tokenize=false |  |
 | stylesheet_s | input | Stylesheet | false | maxlength=500; tokenize=false |  |
-| headLinks_html | textarea | Head Links | false | maxlength=8000; tokenize=false |  |
 | author_t | input | Author | false | maxlength=500; tokenize=false |  |
 | dateLabel_t | input | Date | false | maxlength=500; tokenize=false |  |
 | readTime_t | input | Read Time | false | maxlength=500; tokenize=false |  |
@@ -45,7 +46,7 @@ Blog article.
 | listTags_o | repeat | Blog Index Tags | false | minOccurs=0; maxOccurs=* | Repeatable group. Nested fields below. |
 | listTags_o.label_t | input | Tag | true | maxlength=500; tokenize=false |  |
 | listDate_t | input | Blog Index Date | false | maxlength=500; tokenize=false |  |
-| body_html | textarea | Article Body HTML | false | maxlength=500000; tokenize=false |  |
+| body_html | rte | Article Body | false | rteConfiguration=generic; forceRootBlockPTag=false | Author HTML inside `article-body`. Stored in CDATA. |
 | header_o | node-selector | Header Override | false | maxSize=1; itemManager=headerComponents; contentTypes=/component/header | List. Allowed: /component/header. itemManager=headerComponents. |
 | footer_o | node-selector | Footer Override | false | maxSize=1; itemManager=footerComponents; contentTypes=/component/footer | List. Allowed: /component/footer. itemManager=footerComponents. |
 
@@ -69,14 +70,13 @@ Page composed of sections.
 | seoDescription_t | textarea | SEO Description | false | maxlength=4000; tokenize=false |  |
 | navKey_s | input | Active Nav Key | false | maxlength=40; tokenize=false |  |
 | stylesheet_s | input | Stylesheet | false | maxlength=500; tokenize=false |  |
-| headLinks_html | textarea | Head Links | false | maxlength=8000; tokenize=false |  |
 | footerMode_s | input | Footer Mode (inherit, marketing, blog, article) | false | maxlength=500; tokenize=false |  |
 | footerTagline_t | textarea | Footer Tagline Override | false | maxlength=800; tokenize=false |  |
 | footerLinkedIn_s | input | Footer LinkedIn Override (true/false) | false | maxlength=500; tokenize=false |  |
 | footerLegal_s | input | Footer Copyright Override (true/false) | false | maxlength=500; tokenize=false |  |
 | header_o | node-selector | Header Override | false | maxSize=1; itemManager=headerComponents; contentTypes=/component/header | List. Allowed: /component/header. itemManager=headerComponents. |
 | footer_o | node-selector | Footer Override | false | maxSize=1; itemManager=footerComponents; contentTypes=/component/footer | List. Allowed: /component/footer. itemManager=footerComponents. |
-| sections_o | node-selector | Sections | false | itemManager=sectionComponents; contentTypes=/component/section | List. Allowed: /component/section. itemManager=sectionComponents. |
+| sections_o | node-selector | Sections | false | itemManager=sectionComponents | Landing region components. See `components.md`. |
 
 ## `/page/resource` — Resource Page
 
@@ -87,6 +87,7 @@ AltWheels resource page.
 - Datasources:
   - headerComponents (shared-content) repoPath=/site/components/headers/
   - footerComponents (shared-content) repoPath=/site/components/footers/
+  - sectionComponents (shared-content) repoPath=/site/components/sections/
 
 | Name | Type | Description | Required | Constraints | Notes |
 |------|------|-------------|----------|-------------|-------|
@@ -96,8 +97,7 @@ AltWheels resource page.
 | title_t | input | Title | true | maxlength=500; tokenize=false |  |
 | seoDescription_t | textarea | SEO Description | false | maxlength=4000; tokenize=false |  |
 | stylesheet_s | input | Stylesheet | false | maxlength=500; tokenize=false |  |
-| headLinks_html | textarea | Head Links | false | maxlength=8000; tokenize=false |  |
 | script_s | input | Script | false | maxlength=500; tokenize=false |  |
-| main_html | textarea | Main HTML | false | maxlength=500000; tokenize=false |  |
+| sections_o | node-selector | Sections | false | itemManager=sectionComponents | AltWheels region components. |
 | header_o | node-selector | Header Override | false | maxSize=1; itemManager=headerComponents; contentTypes=/component/header | List. Allowed: /component/header. itemManager=headerComponents. |
 | footer_o | node-selector | Footer Override | false | maxSize=1; itemManager=footerComponents; contentTypes=/component/footer | List. Allowed: /component/footer. itemManager=footerComponents. |

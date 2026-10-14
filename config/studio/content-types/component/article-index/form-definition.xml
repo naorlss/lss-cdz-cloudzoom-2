@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form>
+	<title>Article Index</title>
+	<description>Blog index built from article pages.</description>
+	<objectType>component</objectType>
+	<content-type>/component/article-index</content-type>
+	<imageThumbnail></imageThumbnail>
+	<quickCreate>false</quickCreate>
+	<quickCreatePath></quickCreatePath>
+	<properties>
+		<property>
+			<name>display-template</name>
+			<label>Display Template</label>
+			<value>/templates/web/components/article-index.ftl</value>
+			<type>template</type>
+		</property>
+		<property>
+			<name>no-template-required</name>
+			<label>No Template Required</label>
+			<value></value>
+			<type>boolean</type>
+		</property>
+		<property>
+			<name>merge-strategy</name>
+			<label>Merge Strategy</label>
+			<value>inherit-levels</value>
+			<type>string</type>
+		</property>
+	</properties>
+	<sections>
+		<section>
+			<title>Article Index</title>
+			<description></description>
+			<defaultOpen>true</defaultOpen>
+			<fields>
+
+				<field>
+					<type>input</type>
+					<id>file-name</id>
+					<iceId></iceId>
+					<title>File Name</title>
+					<description></description>
+					<defaultValue></defaultValue>
+					<help></help>
+					<properties>
+						<property><name>size</name><value>50</value><type>int</type></property>
+						<property><name>maxlength</name><value>50</value><type>int</type></property>
+						<property><name>readonly</name><value></value><type>boolean</type></property>
+						<property><name>tokenize</name><value>false</value><type>boolean</type></property>
+					</properties>
+					<constraints>
+						<constraint><name>required</name><value><![CDATA[true]]></value><type>boolean</type></constraint>
+					</constraints>
+				</field>
+				<field>
+					<type>input</type>
+					<id>internal-name</id>
+					<iceId></iceId>
+					<title>Internal Name</title>
+					<description></description>
+					<defaultValue></defaultValue>
+					<help></help>
+					<properties>
+						<property><name>size</name><value>50</value><type>int</type></property>
+						<property><name>maxlength</name><value>120</value><type>int</type></property>
+						<property><name>readonly</name><value></value><type>boolean</type></property>
+						<property><name>tokenize</name><value>false</value><type>boolean</type></property>
+					</properties>
+					<constraints>
+						<constraint><name>required</name><value><![CDATA[true]]></value><type>boolean</type></constraint>
+					</constraints>
+				</field>
+			</fields>
+		</section>
+	</sections>
+	<datasources>
+
+	</datasources>
+</form>

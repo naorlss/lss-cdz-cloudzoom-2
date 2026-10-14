@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/aw-steps</content-type>
+	<display-template>/templates/web/components/aw-steps.ftl</display-template>
+	<no-template-required></no-template-required>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>43cf</objectGroupId>
+	<objectId>43cfc4f3-5a6e-58cf-aadf-661bcd7ef2a5</objectId>
+	<file-name>altwheels/08-steps.xml</file-name>
+	<folder-name></folder-name>
+	<internal-name><![CDATA[Choose one useful question.]]></internal-name>
+	<createdDate>2026-10-14T17:00:00.000Z</createdDate>
+	<createdDate_dt>2026-10-14T17:00:00.000Z</createdDate_dt>
+	<lastModifiedDate>2026-10-14T17:00:00.000Z</lastModifiedDate>
+	<lastModifiedDate_dt>2026-10-14T17:00:00.000Z</lastModifiedDate_dt>
+	<eyebrow_t><![CDATA[Your first session]]></eyebrow_t>
+	<heading_t><![CDATA[Choose one useful question.]]></heading_t>
+	<steps_o item-list="true">
+		<item>
+			<title_t><![CDATA[Prepare a small workspace]]></title_t>
+			<text_t><![CDATA[Add standing instructions, a Fleet Brief, a Data Guide and one approved sample report.]]></text_t>
+		</item>
+		<item>
+			<title_t><![CDATA[Try a bounded task]]></title_t>
+			<text_t><![CDATA[Draft a utilization briefing, review software subscriptions or define a simple importer. Treat these as pilot ideas.]]></text_t>
+		</item>
+		<item>
+			<title_t><![CDATA[Check and keep the result]]></title_t>
+			<text_t><![CDATA[Verify the source records and calculations. Review a short handoff, save it and use it next time.]]></text_t>
+		</item>
+	</steps_o>
+	<noteStrong_t><![CDATA[Keep control.]]></noteStrong_t>
+	<note_t><![CDATA[Use authorized information, start read-only and review consequential actions. Prompts do not create access controls, durable memory or scheduled jobs. Keep safety-critical decisions with qualified people.]]></note_t>
+	<qrUrl_s><![CDATA[/altwheels]]></qrUrl_s>
+	<qrAria_t><![CDATA[Open the permanent AltWheels resource page]]></qrAria_t>
+	<qrImage_s><![CDATA[/static-assets/altwheels/assets/altwheels-qr.svg]]></qrImage_s>
+	<qrAlt_t><![CDATA[QR code for https://www.cloudzoom.dev/altwheels/]]></qrAlt_t>
+	<qrWidth_s><![CDATA[112]]></qrWidth_s>
+	<qrHeight_s><![CDATA[112]]></qrHeight_s>
+	<shareTitle_t><![CDATA[Keep the resource library handy]]></shareTitle_t>
+	<siteLabel_t><![CDATA[www.cloudzoom.dev/altwheels/]]></siteLabel_t>
+	<siteUrl_s><![CDATA[/altwheels]]></siteUrl_s>
+	<qrFileLabel_t><![CDATA[Download QR code]]></qrFileLabel_t>
+	<qrFileUrl_s><![CDATA[/static-assets/altwheels/assets/altwheels-qr.svg]]></qrFileUrl_s>
+	<qrFileDownload_s><![CDATA[true]]></qrFileDownload_s>
+	<referencesLabel_t><![CDATA[Read the official references]]></referencesLabel_t>
+	<referencesUrl_s><![CDATA[/altwheels/references]]></referencesUrl_s>
+	<guideLabel_t><![CDATA[Download source guide]]></guideLabel_t>
+	<guideUrl_s><![CDATA[/static-assets/altwheels/REFERENCE_GUIDE.md]]></guideUrl_s>
+	<guideDownload_s><![CDATA[true]]></guideDownload_s>
+</component>

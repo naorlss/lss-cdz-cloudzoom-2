@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component>
-	<content-type>/component/section</content-type>
-	<display-template>/templates/web/components/section.ftl</display-template>
+	<content-type>/component/eyebrow-hero</content-type>
+	<display-template>/templates/web/components/eyebrow-hero.ftl</display-template>
 	<no-template-required></no-template-required>
 	<merge-strategy>inherit-levels</merge-strategy>
 	<objectGroupId>a050</objectGroupId>
@@ -13,16 +13,7 @@
 	<createdDate_dt>2026-10-05T14:01:03.000Z</createdDate_dt>
 	<lastModifiedDate>2026-10-05T14:01:03.000Z</lastModifiedDate>
 	<lastModifiedDate_dt>2026-10-05T14:01:03.000Z</lastModifiedDate_dt>
-	<layout_s><![CDATA[html]]></layout_s>
+	<eyebrow_t><![CDATA[GET IN TOUCH]]></eyebrow_t>
 	<title_t><![CDATA[Let's Build or Test Something Important.]]></title_t>
-	<subtitle_t><![CDATA[]]></subtitle_t>
-	<linkLabel_t><![CDATA[]]></linkLabel_t>
-	<linkUrl_s><![CDATA[]]></linkUrl_s>
-	<markup_html><![CDATA[<section class="hero">
-    <div class="hero-inner">
-      <span class="hero-eyebrow">GET IN TOUCH</span>
-      <h1 class="hero-heading">Let's Build or Test Something Important.</h1>
-      <p class="hero-subtitle">Tell us about the custom software you want to build, the release you need to de-risk, or the QA coverage you wish you had. We will help you identify a practical first step.</p>
-    </div>
-  </section>]]></markup_html>
+	<subtitle_t><![CDATA[Tell us about the custom software you want to build, the release you need to de-risk, or the QA coverage you wish you had. We will help you identify a practical first step.]]></subtitle_t>
 </component>

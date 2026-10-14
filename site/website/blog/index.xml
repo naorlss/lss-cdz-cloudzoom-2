@@ -20,11 +20,6 @@
 	<seoDescription_t><![CDATA[Practical articles on AI-enhanced software development, AI agents, automated QA, and building reliable custom software.]]></seoDescription_t>
 	<navKey_s><![CDATA[blog]]></navKey_s>
 	<stylesheet_s><![CDATA[/static-assets/app/css/blog.css]]></stylesheet_s>
-	<headLinks_html><![CDATA[<link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/regular/style.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/bold/style.css">]]></headLinks_html>
 	<footerMode_s><![CDATA[blog]]></footerMode_s>
 	<footerTagline_t><![CDATA[]]></footerTagline_t>
 	<footerLinkedIn_s><![CDATA[]]></footerLinkedIn_s>

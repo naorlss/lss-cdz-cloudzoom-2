@@ -21,10 +21,6 @@
 	<seoDescription_t><![CDATA[Real project numbers: what it costs to connect a small fleet, warehouse, or school bus route with IoT sensors — and what the ROI looks like 12 months in.]]></seoDescription_t>
 	<navKey_s><![CDATA[blog]]></navKey_s>
 	<stylesheet_s><![CDATA[/static-assets/app/css/article-iot-for-small-business-costs-and-roi.css]]></stylesheet_s>
-	<headLinks_html><![CDATA[<link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/regular/style.css">]]></headLinks_html>
 	<author_t><![CDATA[Bill Scott]]></author_t>
 	<dateLabel_t><![CDATA[February 2026]]></dateLabel_t>
 	<readTime_t><![CDATA[· 6 min read]]></readTime_t>
@@ -56,9 +52,7 @@
 		</item>
 	</listTags_o>
 	<listDate_t><![CDATA[February 2026]]></listDate_t>
-	<body_html><![CDATA[<article class="article-body">
-
-    <p>Connected sensors, real-time dashboards, automated alerts &mdash; IoT sounds like an enterprise technology that requires an enterprise budget. Five years ago, that was mostly true. Today, the cost of hardware, connectivity, and cloud pipelines has dropped to a point where a 10-person operation can realistically deploy a production IoT system for what they used to spend on a part-time admin.</p>
+	<body_html><![CDATA[    <p>Connected sensors, real-time dashboards, automated alerts &mdash; IoT sounds like an enterprise technology that requires an enterprise budget. Five years ago, that was mostly true. Today, the cost of hardware, connectivity, and cloud pipelines has dropped to a point where a 10-person operation can realistically deploy a production IoT system for what they used to spend on a part-time admin.</p>
 
     <p>This article breaks down real numbers from projects we&rsquo;ve built, and a practical framework for deciding whether IoT is the right investment for your situation.</p>
 
@@ -120,7 +114,7 @@
       <a href="/contact">TALK THROUGH YOUR PROJECT <i class="ph ph-arrow-right"></i></a>
     </div>
 
-  </article>]]></body_html>
+  ]]></body_html>
 	<footer_o item-list="true">
 		<item>
 			<key>/site/components/footers/article-footer.xml</key>

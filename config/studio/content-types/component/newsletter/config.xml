@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<content-type name="/component/section" is-wcm-type="true">
-	<label>Section</label>
-	<form>/component/section</form>
+<content-type name="/component/newsletter" is-wcm-type="true">
+	<label>Newsletter</label>
+	<form>/component/newsletter</form>
 	<form-path>simple</form-path>
 	<model-instance-path>NOT-USED-BY-SIMPLE-FORM-ENGINE</model-instance-path>
 	<file-extension>xml</file-extension>
@@ -11,5 +11,10 @@
 	<quickCreatePath></quickCreatePath>
 	<noThumbnail>true</noThumbnail>
 	<image-thumbnail></image-thumbnail>
-	<description>A page section. HTML sections keep the imported markup. Blog sections list articles.</description>
+	<description>Blog closing call to action.</description>
+	<paths>
+		<excludes>
+			<pattern>^/site/website.*</pattern>
+		</excludes>
+	</paths>
 </content-type>

@@ -21,10 +21,6 @@
 	<seoDescription_t><![CDATA[AI capabilities are not growing linearly — they're compounding. Here's what that trajectory actually means for software development, business operations, and the companies that build technology for a living.]]></seoDescription_t>
 	<navKey_s><![CDATA[blog]]></navKey_s>
 	<stylesheet_s><![CDATA[/static-assets/app/css/article-exponential-growth-of-ai-software-industry.css]]></stylesheet_s>
-	<headLinks_html><![CDATA[<link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/regular/style.css">]]></headLinks_html>
 	<author_t><![CDATA[Bill Scott]]></author_t>
 	<dateLabel_t><![CDATA[April 2026]]></dateLabel_t>
 	<readTime_t><![CDATA[· 9 min read]]></readTime_t>
@@ -62,9 +58,7 @@
 		</item>
 	</listTags_o>
 	<listDate_t><![CDATA[April 2026]]></listDate_t>
-	<body_html><![CDATA[<article class="article-body">
-
-    <p>In 2020, the most capable AI models could write a coherent paragraph, summarize a document, and answer basic factual questions. By 2022, they could pass the bar exam. By 2024, they were writing production-grade code, catching security vulnerabilities, and reasoning through multi-step engineering problems that stumped junior developers. By 2026, AI systems are autonomously completing software projects from spec to deployment &mdash; with a human reviewing the output, not writing it.</p>
+	<body_html><![CDATA[    <p>In 2020, the most capable AI models could write a coherent paragraph, summarize a document, and answer basic factual questions. By 2022, they could pass the bar exam. By 2024, they were writing production-grade code, catching security vulnerabilities, and reasoning through multi-step engineering problems that stumped junior developers. By 2026, AI systems are autonomously completing software projects from spec to deployment &mdash; with a human reviewing the output, not writing it.</p>
 
     <p>That is not a linear progression. That is compounding. And it has implications for every business that builds, buys, or depends on software &mdash; which in 2026 means every business.</p>
 
@@ -191,7 +185,7 @@
       <a href="/contact">BOOK A FREE 30-MIN CONVERSATION <i class="ph ph-arrow-right"></i></a>
     </div>
 
-  </article>]]></body_html>
+  ]]></body_html>
 	<footer_o item-list="true">
 		<item>
 			<key>/site/components/footers/article-footer.xml</key>

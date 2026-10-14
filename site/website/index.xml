@@ -20,8 +20,6 @@
 	<seoDescription_t><![CDATA[CloudZoom builds custom software faster with AI-assisted development and deploys AI QA agents that continuously test web apps, workflows, and releases.]]></seoDescription_t>
 	<navKey_s><![CDATA[home]]></navKey_s>
 	<stylesheet_s><![CDATA[/static-assets/app/css/home.css]]></stylesheet_s>
-	<headLinks_html><![CDATA[<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Manrope:wght@400;500;600;700&display=swap">
-  <link rel="stylesheet" href="https://unpkg.com/@phosphor-icons/web/src/regular/style.css">]]></headLinks_html>
 	<footerMode_s><![CDATA[marketing]]></footerMode_s>
 	<footerTagline_t><![CDATA[Boston-based. Senior-led. AI-enhanced software and QA.]]></footerTagline_t>
 	<footerLinkedIn_s><![CDATA[true]]></footerLinkedIn_s>

@@ -163,25 +163,6 @@
 					</constraints>
 				</field>
 				<field>
-					<type>textarea</type>
-					<id>headLinks_html</id>
-					<iceId></iceId>
-					<title>Head Links</title>
-					<description></description>
-					<defaultValue></defaultValue>
-					<help></help>
-					<properties>
-						<property><name>cols</name><value>80</value><type>int</type></property>
-						<property><name>rows</name><value>6</value><type>int</type></property>
-						<property><name>maxlength</name><value>8000</value><type>int</type></property>
-						<property><name>readonly</name><value></value><type>boolean</type></property>
-						<property><name>tokenize</name><value>false</value><type>boolean</type></property>
-					</properties>
-					<constraints>
-						<constraint><name>required</name><value><![CDATA[]]></value><type>boolean</type></constraint>
-					</constraints>
-				</field>
-				<field>
 					<type>input</type>
 					<id>footerMode_s</id>
 					<iceId></iceId>
@@ -313,7 +294,7 @@
 						<property><name>readonly</name><value></value><type>boolean</type></property>
 						<property><name>disableFlattening</name><value></value><type>boolean</type></property>
 						<property><name>useSingleValueFilename</name><value></value><type>boolean</type></property>
-						<property><name>contentTypes</name><value>/component/section</value><type>contentTypes</type></property>
+						<property><name>contentTypes</name><value>/component/home-hero,/component/eyebrow-hero,/component/services-hero,/component/blog-hero,/component/work-hero,/component/value-props,/component/why-section,/component/home-services,/component/social-proof,/component/blog-preview,/component/article-index,/component/final-cta,/component/cta-band,/component/newsletter,/component/story,/component/expertise,/component/contact-card,/component/contact-panel,/component/service-catalog,/component/ai-banner,/component/software-catalog,/component/fit-panels,/component/process-steps,/component/case-studies</value><type>contentTypes</type></property>
 						<property><name>tags</name><value></value><type>string</type></property>
 					</properties>
 					<constraints>

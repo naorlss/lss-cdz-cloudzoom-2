@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component>
-	<content-type>/component/section</content-type>
-	<display-template>/templates/web/components/section.ftl</display-template>
+	<content-type>/component/case-studies</content-type>
+	<display-template>/templates/web/components/case-studies.ftl</display-template>
 	<no-template-required></no-template-required>
 	<merge-strategy>inherit-levels</merge-strategy>
 	<objectGroupId>990e</objectGroupId>
@@ -13,150 +13,191 @@
 	<createdDate_dt>2026-10-05T14:01:03.000Z</createdDate_dt>
 	<lastModifiedDate>2026-10-05T14:01:03.000Z</lastModifiedDate>
 	<lastModifiedDate_dt>2026-10-05T14:01:03.000Z</lastModifiedDate_dt>
-	<layout_s><![CDATA[html]]></layout_s>
-	<title_t><![CDATA[Constellation Hail Scan System]]></title_t>
-	<subtitle_t><![CDATA[]]></subtitle_t>
-	<linkLabel_t><![CDATA[]]></linkLabel_t>
-	<linkUrl_s><![CDATA[]]></linkUrl_s>
-	<markup_html><![CDATA[<section class="case-studies-content">
-    <div class="case-studies-content-inner">
-      <div class="case-studies-stack">
-
-        <!-- Featured Case Study -->
-        <div class="case-featured">
-          <div class="case-featured-content">
-            <div class="featured-label">FEATURED</div>
-            <h2 class="case-title">Constellation Hail Scan System</h2>
-            <div class="case-badge">Computer Vision + ML</div>
-            
-            <a href="https://investors.dovercorporation.com/news-releases/news-release-details/chief-collision-technology-introduces-first-mobile-3d-hail" target="_blank" class="case-external-link">
-              Press Release
-              <i class="ph ph-arrow-square-out"></i>
-            </a>
-            
-            <div class="case-stat">
-              <span class="stat-before">60 min</span>
-              <span class="stat-arrow">&rarr;</span>
-              <span class="stat-after">8 min</span>
-            </div>
-             
-            
-            <p class="case-description">Built a computer vision and machine learning platform that scans vehicles for hail damage using high-resolution imaging. Replaced a 60-minute manual inspection process with a 4-minute automated scan &mdash; with higher accuracy and full audit trail. Each deployed unit is projected to generate $2M+ in annual revenue.</p>
-            
-            <div class="tech-tags">
-              <span class="tech-tag">Python</span>
-              <span class="tech-tag">Azure</span>
-              <span class="tech-tag">ML</span>
-              <span class="tech-tag">Computer Vision</span>
-              <span class="tech-tag">IoT</span>
-            </div>
-          </div>
-        </div>
-
-        <!-- Case Study 2 -->
-        <div class="case-card">
-          <h2 class="case-title">Pacer ADAS Calibration Platform</h2>
-          <div class="case-badge">Ascential Technologies</div>
-          
-          <a href="https://testandmeasure.ascentialtech.com/transportation/adas/" target="_blank" class="case-external-link">
-            testandmeasure.ascentialtech.com
-            <i class="ph ph-arrow-square-out"></i>
-          </a>
-          
-          <div class="case-stat-single">200&ndash;500% throughput increase</div>
-          
-          <p class="case-description">Designed and built the Pacer platform for automotive ADAS (Advanced Driver Assistance Systems) calibration shops. Streamlined multi-bay workflow orchestration, technician routing, and hardware integration &mdash; delivering a 2&ndash;5&times; increase in vehicle throughput per shift. Used across enterprise dealership networks.</p>
-          
-          <div class="tech-tags">
-            <span class="tech-tag">.NET</span>
-            <span class="tech-tag">Azure</span>
-            <span class="tech-tag">Event-Driven</span>
-            <span class="tech-tag">Mobile</span>
-            <span class="tech-tag">Hardware Integration</span>
-          </div>
-        </div>
-
-        <!-- Case Study 3 -->
-        <div class="case-card">
-          <h3 class="case-title">Mobile Geo-Fencing Marketing Platform</h3>
-          
-          <div class="case-stat-single">$1M+ in gross revenue generated</div>
-          
-          <p class="case-description">Built a location-aware marketing platform for retail and service brands. Customers receive contextual offers triggered by geo-fences around competitor locations, loyalty zones, and events. Currently generating over $1M in gross revenue.</p>
-          
-          <div class="tech-tags">
-            <span class="tech-tag">React Native</span>
-            <span class="tech-tag">Azure</span>
-            <span class="tech-tag">Geolocation</span>
-            <span class="tech-tag">Push Notifications</span>
-          </div>
-        </div>
-
-        <!-- Case Study 4 -->
-        <div class="case-card">
-          <h3 class="case-title">myParamountCleaning.com</h3>
-          <div class="case-badge">CloudZoom Platform</div>
-          
-          <a href="https://myparamountcleaning.com" target="_blank" class="case-external-link">
-            myparamountcleaning.com
-            <i class="ph ph-arrow-square-out"></i>
-          </a>
-          
-          <p class="case-description">An end-to-end operations and customer platform for commercial cleaning and janitorial services businesses. Job scheduling, crew management, client portal, invoicing, and mobile app &mdash; all purpose-built for the cleaning industry.</p>
-          
-          <div class="tech-tags">
-            <span class="tech-tag">React</span>
-            <span class="tech-tag">.NET</span>
-            <span class="tech-tag">Azure</span>
-            <span class="tech-tag">Mobile</span>
-          </div>
-        </div>
-
-        <!-- Case Study 5 -->
-        <div class="case-card">
-          <h3 class="case-title">triviyolo.com</h3>
-          <div class="case-badge">CloudZoom Platform</div>
-          
-          <a href="https://triviyolo.com" target="_blank" class="case-external-link">
-            triviyolo.com
-            <i class="ph ph-arrow-square-out"></i>
-          </a>
-          
-          <p class="case-description">A trivia and social engagement platform combining real-time multiplayer trivia, leaderboards, and live event support. Built rapidly with AI-accelerated development as a showcase of CloudZoom's modern full-stack capabilities.</p>
-          
-          <div class="tech-tags">
-            <span class="tech-tag">React</span>
-            <span class="tech-tag">SignalR</span>
-            <span class="tech-tag">Azure</span>
-            <span class="tech-tag">Real-Time</span>
-          </div>
-        </div>
-
-        <!-- Case Study 6 -->
-        <div class="case-card">
-          <h3 class="case-title">Internal AI Marketing Team</h3>
-          <div class="case-badge">Built &amp; Used In-House</div>
-          
-          <div class="case-stat-single">24/7 monitoring across all client accounts</div>
-          
-          <p class="case-description">We built our own AI-powered marketing team and run it continuously across CloudZoom client accounts. It's a coordinated set of AI agents &mdash; one tracks search rankings and SEO health, one monitors online reviews and brand mentions, one analyzes competitor positioning. They report into a unified dashboard and generate weekly strategy briefs automatically, surfacing issues and opportunities without anyone having to manually check. We use our own OpenClaw platform to orchestrate the agents. It's the same system we offer to clients.</p>
-          
-          <div class="tech-tags">
-            <span class="tech-tag">OpenClaw</span>
-            <span class="tech-tag">AI Agents</span>
-            <span class="tech-tag">SEO Monitoring</span>
-            <span class="tech-tag">Reputation Tracking</span>
-            <span class="tech-tag">Marketing Automation</span>
-          </div>
-        </div>
-
-        <!-- AI Acceleration Banner -->
-        <div class="ai-acceleration-banner">
-          <div class="ai-banner-title">Every engagement benefits from AI-accelerated development.</div>
-          <p class="ai-banner-text">We use Claude, Windsurf, and GitHub Copilot throughout the development process &mdash; not to replace good engineering judgment, but to move faster without sacrificing architecture, testing, or security.</p>
-        </div>
-
-      </div>
-    </div>
-  </section>]]></markup_html>
+	<cases_o item-list="true">
+		<item>
+			<style_s><![CDATA[featured]]></style_s>
+			<titleTag_s><![CDATA[h2]]></titleTag_s>
+			<kicker_t><![CDATA[FEATURED]]></kicker_t>
+			<title_t><![CDATA[Constellation Hail Scan System]]></title_t>
+			<badge_t><![CDATA[Computer Vision + ML]]></badge_t>
+			<linkLabel_t><![CDATA[Press Release]]></linkLabel_t>
+			<linkUrl_s><![CDATA[https://investors.dovercorporation.com/news-releases/news-release-details/chief-collision-technology-introduces-first-mobile-3d-hail]]></linkUrl_s>
+			<linkTarget_s><![CDATA[_blank]]></linkTarget_s>
+			<statBefore_t><![CDATA[60 min]]></statBefore_t>
+			<statArrow_t><![CDATA[→]]></statArrow_t>
+			<statAfter_t><![CDATA[8 min]]></statAfter_t>
+			<stat_t><![CDATA[]]></stat_t>
+			<text_t><![CDATA[Built a computer vision and machine learning platform that scans vehicles for hail damage using high-resolution imaging. Replaced a 60-minute manual inspection process with a 4-minute automated scan — with higher accuracy and full audit trail. Each deployed unit is projected to generate $2M+ in annual revenue.]]></text_t>
+			<tags_o item-list="true">
+				<item>
+					<label_t><![CDATA[Python]]></label_t>
+				</item>
+				<item>
+					<label_t><![CDATA[Azure]]></label_t>
+				</item>
+				<item>
+					<label_t><![CDATA[ML]]></label_t>
+				</item>
+				<item>
+					<label_t><![CDATA[Computer Vision]]></label_t>
+				</item>
+				<item>
+					<label_t><![CDATA[IoT]]></label_t>
+				</item>
+			</tags_o>
+		</item>
+		<item>
+			<style_s><![CDATA[card]]></style_s>
+			<titleTag_s><![CDATA[h2]]></titleTag_s>
+			<kicker_t><![CDATA[]]></kicker_t>
+			<title_t><![CDATA[Pacer ADAS Calibration Platform]]></title_t>
+			<badge_t><![CDATA[Ascential Technologies]]></badge_t>
+			<linkLabel_t><![CDATA[testandmeasure.ascentialtech.com]]></linkLabel_t>
+			<linkUrl_s><![CDATA[https://testandmeasure.ascentialtech.com/transportation/adas/]]></linkUrl_s>
+			<linkTarget_s><![CDATA[_blank]]></linkTarget_s>
+			<statBefore_t><![CDATA[]]></statBefore_t>
+			<statArrow_t><![CDATA[]]></statArrow_t>
+			<statAfter_t><![CDATA[]]></statAfter_t>
+			<stat_t><![CDATA[200–500% throughput increase]]></stat_t>
+			<text_t><![CDATA[Designed and built the Pacer platform for automotive ADAS (Advanced Driver Assistance Systems) calibration shops. Streamlined multi-bay workflow orchestration, technician routing, and hardware integration — delivering a 2–5× increase in vehicle throughput per shift. Used across enterprise dealership networks.]]></text_t>
+			<tags_o item-list="true">
+				<item>
+					<label_t><![CDATA[.NET]]></label_t>
+				</item>
+				<item>
+					<label_t><![CDATA[Azure]]></label_t>
+				</item>
+				<item>
+					<label_t><![CDATA[Event-Driven]]></label_t>
+				</item>
+				<item>
+					<label_t><![CDATA[Mobile]]></label_t>
+				</item>
+				<item>
+					<label_t><![CDATA[Hardware Integration]]></label_t>
+				</item>
+			</tags_o>
+		</item>
+		<item>
+			<style_s><![CDATA[card]]></style_s>
+			<titleTag_s><![CDATA[h3]]></titleTag_s>
+			<kicker_t><![CDATA[]]></kicker_t>
+			<title_t><![CDATA[Mobile Geo-Fencing Marketing Platform]]></title_t>
+			<badge_t><![CDATA[]]></badge_t>
+			<linkLabel_t><![CDATA[]]></linkLabel_t>
+			<linkUrl_s><![CDATA[]]></linkUrl_s>
+			<linkTarget_s><![CDATA[]]></linkTarget_s>
+			<statBefore_t><![CDATA[]]></statBefore_t>
+			<statArrow_t><![CDATA[]]></statArrow_t>
+			<statAfter_t><![CDATA[]]></statAfter_t>
+			<stat_t><![CDATA[$1M+ in gross revenue generated]]></stat_t>
+			<text_t><![CDATA[Built a location-aware marketing platform for retail and service brands. Customers receive contextual offers triggered by geo-fences around competitor locations, loyalty zones, and events. Currently generating over $1M in gross revenue.]]></text_t>
+			<tags_o item-list="true">
+				<item>
+					<label_t><![CDATA[React Native]]></label_t>
+				</item>
+				<item>
+					<label_t><![CDATA[Azure]]></label_t>
+				</item>
+				<item>
+					<label_t><![CDATA[Geolocation]]></label_t>
+				</item>
+				<item>
+					<label_t><![CDATA[Push Notifications]]></label_t>
+				</item>
+			</tags_o>
+		</item>
+		<item>
+			<style_s><![CDATA[card]]></style_s>
+			<titleTag_s><![CDATA[h3]]></titleTag_s>
+			<kicker_t><![CDATA[]]></kicker_t>
+			<title_t><![CDATA[myParamountCleaning.com]]></title_t>
+			<badge_t><![CDATA[CloudZoom Platform]]></badge_t>
+			<linkLabel_t><![CDATA[myparamountcleaning.com]]></linkLabel_t>
+			<linkUrl_s><![CDATA[https://myparamountcleaning.com]]></linkUrl_s>
+			<linkTarget_s><![CDATA[_blank]]></linkTarget_s>
+			<statBefore_t><![CDATA[]]></statBefore_t>
+			<statArrow_t><![CDATA[]]></statArrow_t>
+			<statAfter_t><![CDATA[]]></statAfter_t>
+			<stat_t><![CDATA[]]></stat_t>
+			<text_t><![CDATA[An end-to-end operations and customer platform for commercial cleaning and janitorial services businesses. Job scheduling, crew management, client portal, invoicing, and mobile app — all purpose-built for the cleaning industry.]]></text_t>
+			<tags_o item-list="true">
+				<item>
+					<label_t><![CDATA[React]]></label_t>
+				</item>
+				<item>
+					<label_t><![CDATA[.NET]]></label_t>
+				</item>
+				<item>
+					<label_t><![CDATA[Azure]]></label_t>
+				</item>
+				<item>
+					<label_t><![CDATA[Mobile]]></label_t>
+				</item>
+			</tags_o>
+		</item>
+		<item>
+			<style_s><![CDATA[card]]></style_s>
+			<titleTag_s><![CDATA[h3]]></titleTag_s>
+			<kicker_t><![CDATA[]]></kicker_t>
+			<title_t><![CDATA[triviyolo.com]]></title_t>
+			<badge_t><![CDATA[CloudZoom Platform]]></badge_t>
+			<linkLabel_t><![CDATA[triviyolo.com]]></linkLabel_t>
+			<linkUrl_s><![CDATA[https://triviyolo.com]]></linkUrl_s>
+			<linkTarget_s><![CDATA[_blank]]></linkTarget_s>
+			<statBefore_t><![CDATA[]]></statBefore_t>
+			<statArrow_t><![CDATA[]]></statArrow_t>
+			<statAfter_t><![CDATA[]]></statAfter_t>
+			<stat_t><![CDATA[]]></stat_t>
+			<text_t><![CDATA[A trivia and social engagement platform combining real-time multiplayer trivia, leaderboards, and live event support. Built rapidly with AI-accelerated development as a showcase of CloudZoom's modern full-stack capabilities.]]></text_t>
+			<tags_o item-list="true">
+				<item>
+					<label_t><![CDATA[React]]></label_t>
+				</item>
+				<item>
+					<label_t><![CDATA[SignalR]]></label_t>
+				</item>
+				<item>
+					<label_t><![CDATA[Azure]]></label_t>
+				</item>
+				<item>
+					<label_t><![CDATA[Real-Time]]></label_t>
+				</item>
+			</tags_o>
+		</item>
+		<item>
+			<style_s><![CDATA[card]]></style_s>
+			<titleTag_s><![CDATA[h3]]></titleTag_s>
+			<kicker_t><![CDATA[]]></kicker_t>
+			<title_t><![CDATA[Internal AI Marketing Team]]></title_t>
+			<badge_t><![CDATA[Built & Used In-House]]></badge_t>
+			<linkLabel_t><![CDATA[]]></linkLabel_t>
+			<linkUrl_s><![CDATA[]]></linkUrl_s>
+			<linkTarget_s><![CDATA[]]></linkTarget_s>
+			<statBefore_t><![CDATA[]]></statBefore_t>
+			<statArrow_t><![CDATA[]]></statArrow_t>
+			<statAfter_t><![CDATA[]]></statAfter_t>
+			<stat_t><![CDATA[24/7 monitoring across all client accounts]]></stat_t>
+			<text_t><![CDATA[We built our own AI-powered marketing team and run it continuously across CloudZoom client accounts. It's a coordinated set of AI agents — one tracks search rankings and SEO health, one monitors online reviews and brand mentions, one analyzes competitor positioning. They report into a unified dashboard and generate weekly strategy briefs automatically, surfacing issues and opportunities without anyone having to manually check. We use our own OpenClaw platform to orchestrate the agents. It's the same system we offer to clients.]]></text_t>
+			<tags_o item-list="true">
+				<item>
+					<label_t><![CDATA[OpenClaw]]></label_t>
+				</item>
+				<item>
+					<label_t><![CDATA[AI Agents]]></label_t>
+				</item>
+				<item>
+					<label_t><![CDATA[SEO Monitoring]]></label_t>
+				</item>
+				<item>
+					<label_t><![CDATA[Reputation Tracking]]></label_t>
+				</item>
+				<item>
+					<label_t><![CDATA[Marketing Automation]]></label_t>
+				</item>
+			</tags_o>
+		</item>
+	</cases_o>
+	<bannerTitle_t><![CDATA[Every engagement benefits from AI-accelerated development.]]></bannerTitle_t>
+	<bannerText_t><![CDATA[We use Claude, Windsurf, and GitHub Copilot throughout the development process — not to replace good engineering judgment, but to move faster without sacrificing architecture, testing, or security.]]></bannerText_t>
 </component>

@@ -46,10 +46,10 @@ The source has no React, Vue, Angular, or server template. Pages are hand-writte
 The Crafter model follows that shape:
 
 - `/page/landing` for the seven sectioned pages (home, services, software, work, about, contact, blog).
-- `/page/article` for the five posts. Card fields feed the home preview and the blog index.
-- `/page/resource` for the three AltWheels pages. The original `<main>` is stored in `main_html`.
+- `/page/article` for the five posts. Card fields feed the home preview and the blog index. `body_html` is an `rte` field for the article copy; the `article-body` wrapper stays in the template.
+- `/page/resource` for the three AltWheels pages. Each region is a component in `sections_o`.
 - `/component/header` and `/component/footer`, chosen by the level descriptor. AltWheels has its own descriptor.
-- `/component/section` for each top-level region. `layout_s=html` keeps the original markup and class names in `markup_html`. Blog regions use `blog-preview` and `article-index`, which list article content items instead of copying cards.
+- One content type per region (hero, card grid, call to action, AltWheels block, and so on). Headings, links, and list items are fields. Diagrams and font links live in templates.
 
 Per-page marketing CSS is extracted to `/static-assets/app/css/{page}.css`. Image paths move from `/assets/` to `/static-assets/images/`. AltWheels files move under `/static-assets/altwheels/`. Old `.html` URLs redirect to the extensionless Crafter paths.
 
@@ -77,13 +77,13 @@ Titles and H1 text were compared between the mirrored HTML and the content items
 
 Every compared title and H1 matches the source. The article headline stores the em dash as a character; the source HTML uses `&mdash;`.
 
-Section order matches the source on home, services, software, work, about, and contact. The blog index keeps `blog-hero` and `newsletter-section` as stored HTML. The middle region is a `/component/section` with `layout_s=article-index`, and the template renders the source `articles-section` from the article content items. Marketing navigation is Home, Services, Software, Work, Blog, About, Contact. All 52 `/static-assets/` references in content and templates resolve to files in this project.
+Section order matches the source on home, services, software, work, about, and contact. Each region is its own component type. The blog index uses `/component/blog-hero`, `/component/article-index`, and `/component/newsletter`. Marketing navigation is Home, Services, Software, Work, Blog, About, Contact.
 
 Studio project `lss-cdz-cloudzoom-2` serves these pages in preview. All 15 URLs returned HTTP 200 with the source title and H1 and no FreeMarker error. Home, services, software, work, about, contact, and the blog index render `top-nav`, `hero`, and `cta-button`. Each article renders `article-body`.
 
 ## Site map and token analysis
 
-The page map is the information architecture table above. `count_tokens_directory.py` (`gpt-5`, tokenizer `o200k_base`) reports 142 text files, 242,559 tokens, and 10 skipped binary files (7.7 MB). The table below uses the same text rules and also lists binary files, except two `.DS_Store` files, so the file total is 150 and the token total stays 242,559.
+The page map is the information architecture table above. `count_tokens_directory.py` (`gpt-5`, tokenizer `o200k_base`) reports 265 text files and 394,594 tokens. The table below uses the same text rules and also lists binary files, except two `.DS_Store` files, so the file total is 273 and the token total stays 394,594.
 
 ### By directory and file type
 
@@ -94,43 +94,80 @@ The page map is the information architecture table above. `count_tokens_director
 | `config/engine` | `.xml` | 4 | 1,250 |
 | `config/studio` | `.xml` | 7 | 11,798 |
 | `config/studio/administration` | `.xml` | 2 | 4,210 |
+| `config/studio/content-types/component/ai-banner` | `.xml` | 2 | 1,966 |
+| `config/studio/content-types/component/article-index` | `.xml` | 2 | 937 |
+| `config/studio/content-types/component/aw-callout` | `.xml` | 2 | 2,061 |
+| `config/studio/content-types/component/aw-downloads` | `.xml` | 2 | 4,420 |
+| `config/studio/content-types/component/aw-hero` | `.xml` | 2 | 5,315 |
+| `config/studio/content-types/component/aw-nav` | `.xml` | 2 | 1,733 |
+| `config/studio/content-types/component/aw-patterns` | `.xml` | 2 | 1,736 |
+| `config/studio/content-types/component/aw-prompts` | `.xml` | 2 | 4,192 |
+| `config/studio/content-types/component/aw-steps` | `.xml` | 2 | 6,328 |
+| `config/studio/content-types/component/aw-templates` | `.xml` | 2 | 3,972 |
+| `config/studio/content-types/component/blog-hero` | `.xml` | 2 | 1,829 |
+| `config/studio/content-types/component/blog-preview` | `.xml` | 2 | 1,823 |
+| `config/studio/content-types/component/case-studies` | `.xml` | 2 | 4,724 |
+| `config/studio/content-types/component/contact-card` | `.xml` | 2 | 2,822 |
+| `config/studio/content-types/component/contact-panel` | `.xml` | 2 | 5,386 |
+| `config/studio/content-types/component/cta-band` | `.xml` | 2 | 2,055 |
+| `config/studio/content-types/component/expertise` | `.xml` | 2 | 1,719 |
+| `config/studio/content-types/component/eyebrow-hero` | `.xml` | 2 | 1,639 |
+| `config/studio/content-types/component/final-cta` | `.xml` | 2 | 2,919 |
+| `config/studio/content-types/component/fit-panels` | `.xml` | 2 | 1,878 |
 | `config/studio/content-types/component/footer` | `.xml` | 2 | 4,464 |
 | `config/studio/content-types/component/header` | `.xml` | 2 | 2,797 |
+| `config/studio/content-types/component/home-hero` | `.xml` | 2 | 2,845 |
+| `config/studio/content-types/component/home-services` | `.xml` | 2 | 3,209 |
 | `config/studio/content-types/component/level-descriptor` | `.groovy` | 2 | 458 |
 | `config/studio/content-types/component/level-descriptor` | `.xml` | 2 | 3,262 |
-| `config/studio/content-types/component/section` | `.xml` | 2 | 2,255 |
-| `config/studio/content-types/page/article` | `.xml` | 2 | 8,465 |
-| `config/studio/content-types/page/landing` | `.xml` | 2 | 4,790 |
-| `config/studio/content-types/page/resource` | `.xml` | 2 | 3,568 |
+| `config/studio/content-types/component/newsletter` | `.xml` | 2 | 2,060 |
+| `config/studio/content-types/component/process-steps` | `.xml` | 2 | 2,419 |
+| `config/studio/content-types/component/reference-list` | `.xml` | 2 | 3,233 |
+| `config/studio/content-types/component/resource-intro` | `.xml` | 2 | 2,941 |
+| `config/studio/content-types/component/service-catalog` | `.xml` | 2 | 2,323 |
+| `config/studio/content-types/component/services-hero` | `.xml` | 2 | 2,293 |
+| `config/studio/content-types/component/social-proof` | `.xml` | 2 | 2,174 |
+| `config/studio/content-types/component/software-catalog` | `.xml` | 2 | 2,776 |
+| `config/studio/content-types/component/story` | `.xml` | 2 | 2,102 |
+| `config/studio/content-types/component/tool-directory` | `.xml` | 2 | 3,887 |
+| `config/studio/content-types/component/value-props` | `.xml` | 2 | 1,724 |
+| `config/studio/content-types/component/why-section` | `.xml` | 2 | 1,992 |
+| `config/studio/content-types/component/work-hero` | `.xml` | 2 | 1,607 |
+| `config/studio/content-types/page/article` | `.xml` | 2 | 8,444 |
+| `config/studio/content-types/page/landing` | `.xml` | 2 | 4,660 |
+| `config/studio/content-types/page/resource` | `.xml` | 2 | 3,683 |
 | `config/studio/dependency` | `.xml` | 1 | 3,406 |
 | `config/studio/targeting` | `.xml` | 1 | 462 |
 | `config/studio/workflow` | `.xml` | 1 | 2,240 |
-| `docs` | `.md` | 6 | 7,335 |
+| `docs` | `.md` | 6 | 18,937 |
 | `scripts/controllers/plugins/org/craftercms/plugin/sitemap` | `.groovy` | 1 | 599 |
 | `site/components/footers` | `.xml` | 4 | 2,550 |
 | `site/components/headers` | `.xml` | 2 | 1,395 |
-| `site/components/sections/about` | `.xml` | 5 | 2,875 |
-| `site/components/sections/blog` | `.xml` | 3 | 1,336 |
-| `site/components/sections/contact` | `.xml` | 2 | 1,625 |
-| `site/components/sections/home` | `.xml` | 7 | 10,241 |
-| `site/components/sections/services` | `.xml` | 4 | 7,042 |
-| `site/components/sections/software` | `.xml` | 5 | 4,215 |
-| `site/components/sections/work` | `.xml` | 3 | 2,984 |
-| `site/website` | `.xml` | 2 | 1,507 |
-| `site/website/about` | `.xml` | 1 | 935 |
-| `site/website/altwheels` | `.xml` | 2 | 6,267 |
-| `site/website/altwheels/fleet-tools` | `.xml` | 1 | 1,506 |
-| `site/website/altwheels/references` | `.xml` | 1 | 2,019 |
-| `site/website/blog` | `.xml` | 1 | 931 |
-| `site/website/blog/ai-agents-replacing-manual-workflows` | `.xml` | 1 | 2,377 |
-| `site/website/blog/altwheels-fleet-day-2026-ai-resources` | `.xml` | 1 | 2,265 |
-| `site/website/blog/exponential-growth-of-ai-software-industry` | `.xml` | 1 | 3,967 |
-| `site/website/blog/iot-for-small-business-costs-and-roi` | `.xml` | 1 | 2,626 |
-| `site/website/blog/role-based-ai-qa-agents-cleaning-platform` | `.xml` | 1 | 5,018 |
-| `site/website/contact` | `.xml` | 1 | 701 |
-| `site/website/services` | `.xml` | 1 | 878 |
-| `site/website/software` | `.xml` | 1 | 963 |
-| `site/website/work` | `.xml` | 1 | 793 |
+| `site/components/sections/about` | `.xml` | 5 | 2,507 |
+| `site/components/sections/altwheels` | `.xml` | 8 | 8,776 |
+| `site/components/sections/altwheels/fleet-tools` | `.xml` | 2 | 2,047 |
+| `site/components/sections/altwheels/references` | `.xml` | 2 | 3,279 |
+| `site/components/sections/blog` | `.xml` | 3 | 1,009 |
+| `site/components/sections/contact` | `.xml` | 2 | 1,432 |
+| `site/components/sections/home` | `.xml` | 7 | 4,259 |
+| `site/components/sections/services` | `.xml` | 4 | 3,577 |
+| `site/components/sections/software` | `.xml` | 5 | 4,237 |
+| `site/components/sections/work` | `.xml` | 3 | 3,529 |
+| `site/website` | `.xml` | 2 | 1,414 |
+| `site/website/about` | `.xml` | 1 | 842 |
+| `site/website/altwheels` | `.xml` | 2 | 1,486 |
+| `site/website/altwheels/fleet-tools` | `.xml` | 1 | 559 |
+| `site/website/altwheels/references` | `.xml` | 1 | 558 |
+| `site/website/blog` | `.xml` | 1 | 769 |
+| `site/website/blog/ai-agents-replacing-manual-workflows` | `.xml` | 1 | 2,226 |
+| `site/website/blog/altwheels-fleet-day-2026-ai-resources` | `.xml` | 1 | 2,114 |
+| `site/website/blog/exponential-growth-of-ai-software-industry` | `.xml` | 1 | 3,816 |
+| `site/website/blog/iot-for-small-business-costs-and-roi` | `.xml` | 1 | 2,475 |
+| `site/website/blog/role-based-ai-qa-agents-cleaning-platform` | `.xml` | 1 | 4,867 |
+| `site/website/contact` | `.xml` | 1 | 608 |
+| `site/website/services` | `.xml` | 1 | 785 |
+| `site/website/software` | `.xml` | 1 | 870 |
+| `site/website/work` | `.xml` | 1 | 700 |
 | `static-assets/altwheels` | `.md` | 1 | 1,456 |
 | `static-assets/altwheels/assets` | `.css` | 1 | 3,427 |
 | `static-assets/altwheels/assets` | `.js` | 1 | 137 |
@@ -145,22 +182,23 @@ The page map is the information architecture table above. `count_tokens_director
 | `static-assets/app/css` | `.css` | 12 | 42,825 |
 | `static-assets/images` | `.png` | 5 | 0 |
 | `static-assets/images` | `.svg` | 1 | 1,991 |
-| `templates/web/components` | `.ftl` | 3 | 2,543 |
+| `templates/web/components` | `.ftl` | 37 | 15,200 |
 | `templates/web/errors` | `.ftl` | 7 | 456 |
-| `templates/web/fragments` | `.ftl` | 2 | 504 |
-| `templates/web/pages` | `.ftl` | 3 | 1,065 |
-| `tools` | `.py` | 1 | 12,459 |
+| `templates/web/fragments` | `.ftl` | 6 | 943 |
+| `templates/web/fragments/diagrams` | `.ftl` | 3 | 8,837 |
+| `templates/web/pages` | `.ftl` | 3 | 1,162 |
+| `tools` | `.py` | 3 | 40,444 |
 
 ### Entire site
 
 | File type | Files | Tokens |
 |-----------|------:|-------:|
-| `.xml` | 82 | 119,983 |
-| `.md` | 14 | 47,902 |
+| `.xml` | 162 | 210,401 |
+| `.md` | 14 | 59,504 |
 | `.css` | 13 | 46,252 |
-| `.py` | 1 | 12,459 |
+| `.py` | 3 | 40,444 |
+| `.ftl` | 56 | 26,598 |
 | `.svg` | 3 | 7,993 |
-| `.ftl` | 15 | 4,568 |
 | `.txt` | 9 | 2,004 |
 | `.groovy` | 3 | 1,057 |
 | `.yaml` | 1 | 204 |
@@ -168,7 +206,7 @@ The page map is the information architecture table above. `count_tokens_director
 | `.pdf` | 1 | 0 |
 | `.png` | 6 | 0 |
 | `.zip` | 1 | 0 |
-| **Total** | **150** | **242,559** |
+| **Total** | **273** | **394,594** |
 
 Binary files: 8 (7.6 MB), included in the file counts above with 0 tokens.
 

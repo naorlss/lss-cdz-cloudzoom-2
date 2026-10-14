@@ -1,6 +1,6 @@
 # Nested items
 
-This site does not use separate item content types. Repeatable groups inside header, footer, and article content types hold the nested items. Section HTML is stored as one `markup_html` field so the original element tree, classes, and nesting stay intact.
+This site does not use separate item content types. Repeatable groups inside header, footer, article, and region components hold the nested items. Header, footer, and article groups are listed below. Region lists are documented with each component in `components.md`.
 
 ## Header `nav_o`
 

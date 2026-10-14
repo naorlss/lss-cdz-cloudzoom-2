@@ -8,7 +8,7 @@
   <#if contentModel.seoDescription_t?has_content>
     <meta name="description" content="${contentModel.seoDescription_t?html}">
   </#if>
-  ${(contentModel.headLinks_html)!""}
+  <#include "/templates/web/fragments/head-article.ftl">
   <#if contentModel.stylesheet_s?has_content>
     <link rel="stylesheet" href="${contentModel.stylesheet_s}">
   </#if>
@@ -36,7 +36,9 @@
     </div>
   </div>
 </header>
-${(contentModel.body_html)!""}
+<article class="article-body">
+<@crafter.div $field="body_html">${contentModel.body_html!""}</@crafter.div>
+</article>
 <#if contentModel.wrap_s! == "main"></main></#if>
 <@crafter.renderComponentCollection $field="footer_o" />
 <@crafter.body_bottom/>

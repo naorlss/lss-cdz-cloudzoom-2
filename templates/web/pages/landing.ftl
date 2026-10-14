@@ -8,7 +8,11 @@
   <#if contentModel.seoDescription_t?has_content>
     <meta name="description" content="${contentModel.seoDescription_t?html}">
   </#if>
-  ${(contentModel.headLinks_html)!""}
+  <#if (contentModel.stylesheet_s!"")?contains("blog.css")>
+    <#include "/templates/web/fragments/head-blog.ftl">
+  <#else>
+    <#include "/templates/web/fragments/head-marketing.ftl">
+  </#if>
   <#if contentModel.stylesheet_s?has_content>
     <link rel="stylesheet" href="${contentModel.stylesheet_s}">
   </#if>

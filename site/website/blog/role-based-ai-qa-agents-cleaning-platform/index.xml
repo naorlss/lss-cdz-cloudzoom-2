@@ -21,10 +21,6 @@
 	<seoDescription_t><![CDATA[How CloudZoom uses OAQA, Orchestrated Agentic Quality Assurance, to test MyTidyBiz with context continuity, role-based personas, evidence reports, and practical SDLC guardrails.]]></seoDescription_t>
 	<navKey_s><![CDATA[blog]]></navKey_s>
 	<stylesheet_s><![CDATA[/static-assets/app/css/article-role-based-ai-qa-agents-cleaning-platform.css]]></stylesheet_s>
-	<headLinks_html><![CDATA[<link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/regular/style.css">]]></headLinks_html>
 	<author_t><![CDATA[Bill Scott]]></author_t>
 	<dateLabel_t><![CDATA[June 2026]]></dateLabel_t>
 	<readTime_t><![CDATA[· 10 min read]]></readTime_t>
@@ -59,9 +55,7 @@
 		</item>
 	</listTags_o>
 	<listDate_t><![CDATA[June 2026]]></listDate_t>
-	<body_html><![CDATA[<article class="article-body">
-
-    <p>Most QA automation is built around scripts.</p>
+	<body_html><![CDATA[    <p>Most QA automation is built around scripts.</p>
 
     <p>A script logs in, clicks a button, checks for expected text, and reports pass or fail. That is useful. It also misses a lot of the reality inside modern software.</p>
 
@@ -284,7 +278,7 @@
       <a href="/contact">TALK THROUGH YOUR QA WORKFLOWS <i class="ph ph-arrow-right"></i></a>
     </div>
 
-  </article>]]></body_html>
+  ]]></body_html>
 	<footer_o item-list="true">
 		<item>
 			<key>/site/components/footers/article-footer.xml</key>

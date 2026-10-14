@@ -601,6 +601,10 @@ def norm_href(href: str) -> str:
 
 
 def main() -> None:
+    raise SystemExit(
+        "build_site.py stores page regions in markup text areas. "
+        "The content model is structured now; do not regenerate it with this script."
+    )
     if not MIRROR.exists():
         raise SystemExit(f"Missing mirror at {MIRROR}")
 

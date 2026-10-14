@@ -145,25 +145,6 @@
 					</constraints>
 				</field>
 				<field>
-					<type>textarea</type>
-					<id>headLinks_html</id>
-					<iceId></iceId>
-					<title>Head Links</title>
-					<description></description>
-					<defaultValue></defaultValue>
-					<help></help>
-					<properties>
-						<property><name>cols</name><value>80</value><type>int</type></property>
-						<property><name>rows</name><value>6</value><type>int</type></property>
-						<property><name>maxlength</name><value>8000</value><type>int</type></property>
-						<property><name>readonly</name><value></value><type>boolean</type></property>
-						<property><name>tokenize</name><value>false</value><type>boolean</type></property>
-					</properties>
-					<constraints>
-						<constraint><name>required</name><value><![CDATA[]]></value><type>boolean</type></constraint>
-					</constraints>
-				</field>
-				<field>
 					<type>input</type>
 					<id>script_s</id>
 					<iceId></iceId>
@@ -181,23 +162,27 @@
 						<constraint><name>required</name><value><![CDATA[]]></value><type>boolean</type></constraint>
 					</constraints>
 				</field>
+
 				<field>
-					<type>textarea</type>
-					<id>main_html</id>
+					<type>node-selector</type>
+					<id>sections_o</id>
 					<iceId></iceId>
-					<title>Main HTML</title>
+					<title>Sections</title>
 					<description></description>
 					<defaultValue></defaultValue>
 					<help></help>
 					<properties>
-						<property><name>cols</name><value>80</value><type>int</type></property>
-						<property><name>rows</name><value>20</value><type>int</type></property>
-						<property><name>maxlength</name><value>500000</value><type>int</type></property>
+						<property><name>minSize</name><value></value><type>int</type></property>
+						<property><name>maxSize</name><value></value><type>int</type></property>
+						<property><name>itemManager</name><value>sectionComponents</value><type>datasource:item</type></property>
 						<property><name>readonly</name><value></value><type>boolean</type></property>
-						<property><name>tokenize</name><value>false</value><type>boolean</type></property>
+						<property><name>disableFlattening</name><value></value><type>boolean</type></property>
+						<property><name>useSingleValueFilename</name><value></value><type>boolean</type></property>
+						<property><name>contentTypes</name><value>/component/aw-hero,/component/aw-nav,/component/aw-patterns,/component/aw-downloads,/component/aw-prompts,/component/aw-templates,/component/aw-callout,/component/aw-steps,/component/resource-intro,/component/tool-directory,/component/reference-list</value><type>contentTypes</type></property>
+						<property><name>tags</name><value></value><type>string</type></property>
 					</properties>
 					<constraints>
-						<constraint><name>required</name><value><![CDATA[]]></value><type>boolean</type></constraint>
+						<constraint><name>allowDuplicates</name><value><![CDATA[]]></value><type>boolean</type></constraint>
 					</constraints>
 				</field>
 				<field>
@@ -271,6 +256,21 @@
 			<properties>
 				<property><name>repoPath</name><value>/site/components/footers/</value><type>undefined</type></property>
 				<property><name>browsePath</name><value>/site/components/footers/</value><type>undefined</type></property>
+				<property><name>type</name><value></value><type>undefined</type></property>
+				<property><name>enableCreateNew</name><value>true</value><type>boolean</type></property>
+				<property><name>enableBrowseExisting</name><value>true</value><type>boolean</type></property>
+				<property><name>enableSearchExisting</name><value>true</value><type>boolean</type></property>
+			</properties>
+		</datasource>
+
+		<datasource>
+			<type>shared-content</type>
+			<id>sectionComponents</id>
+			<title>Sections</title>
+			<interface>item</interface>
+			<properties>
+				<property><name>repoPath</name><value>/site/components/sections/</value><type>undefined</type></property>
+				<property><name>browsePath</name><value>/site/components/sections/</value><type>undefined</type></property>
 				<property><name>type</name><value></value><type>undefined</type></property>
 				<property><name>enableCreateNew</name><value>true</value><type>boolean</type></property>
 				<property><name>enableBrowseExisting</name><value>true</value><type>boolean</type></property>

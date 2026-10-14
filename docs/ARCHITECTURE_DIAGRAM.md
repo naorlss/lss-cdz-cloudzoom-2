@@ -13,7 +13,8 @@ graph TB
         FTR["/component/footer"]
     end
     subgraph Sections
-        SEC["/component/section"]
+        REG["Region components"]
+        AW["AltWheels components"]
     end
     subgraph RepeatGroups
         NAV["nav_o items"]
@@ -22,7 +23,8 @@ graph TB
     end
     LD -->|header_o| HDR
     LD -->|footer_o| FTR
-    LAND -->|sections_o| SEC
+    LAND -->|sections_o| REG
+    RES -->|sections_o| AW
     LAND -->|header_o footer_o optional| HDR
     LAND -->|header_o footer_o optional| FTR
     ART -->|header_o footer_o optional| HDR
@@ -39,9 +41,9 @@ graph TB
 
 - `/component/level-descriptor` inherits `header_o` and `footer_o` into pages.
 - `/page/landing` renders `header_o`, then `sections_o`, then `footer_o`.
-- `/component/section` is the only section type. `layout_s` is `html`, `blog-preview`, or `article-index`.
-- `/page/article` stores the article body in `body_html` and card fields used by the blog index and home preview.
-- `/page/resource` stores the AltWheels `<main>` in `main_html`.
+- Each region is its own component type, listed in `components.md`.
+- `/page/article` stores author copy in `body_html` (`rte`). Card fields feed the blog index and home preview.
+- `/page/resource` renders AltWheels regions from `sections_o`.
 
 ## Statistics
 
@@ -49,7 +51,7 @@ graph TB
 |----------|------:|
 | Page types | 3 |
 | Global components | 3 (level descriptor, header, footer) |
-| Section components | 1 (`/component/section`) |
+| Section components | 35 types, 41 content items |
 | Item content types | 0 (repeat groups instead) |
 | Landing pages | 7 |
 | Article pages | 5 |

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/aw-nav</content-type>
+	<display-template>/templates/web/components/aw-nav.ftl</display-template>
+	<no-template-required></no-template-required>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>441b</objectGroupId>
+	<objectId>441bdc22-448e-5988-aca7-391cfb951977</objectId>
+	<file-name>altwheels/02-nav.xml</file-name>
+	<folder-name></folder-name>
+	<internal-name><![CDATA[aw-nav]]></internal-name>
+	<createdDate>2026-10-14T17:00:00.000Z</createdDate>
+	<createdDate_dt>2026-10-14T17:00:00.000Z</createdDate_dt>
+	<lastModifiedDate>2026-10-14T17:00:00.000Z</lastModifiedDate>
+	<lastModifiedDate_dt>2026-10-14T17:00:00.000Z</lastModifiedDate_dt>
+	<ariaLabel_t><![CDATA[AltWheels resources]]></ariaLabel_t>
+	<links_o item-list="true">
+		<item>
+			<label_t><![CDATA[Downloads]]></label_t>
+			<url_s><![CDATA[#downloads]]></url_s>
+		</item>
+		<item>
+			<label_t><![CDATA[Prompt pack]]></label_t>
+			<url_s><![CDATA[#prompts]]></url_s>
+		</item>
+		<item>
+			<label_t><![CDATA[Templates]]></label_t>
+			<url_s><![CDATA[#templates]]></url_s>
+		</item>
+		<item>
+			<label_t><![CDATA[Fleet-tool directory]]></label_t>
+			<url_s><![CDATA[/altwheels/fleet-tools]]></url_s>
+		</item>
+		<item>
+			<label_t><![CDATA[References]]></label_t>
+			<url_s><![CDATA[/altwheels/references]]></url_s>
+		</item>
+	</links_o>
+</component>
